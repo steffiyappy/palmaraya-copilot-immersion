@@ -281,6 +281,12 @@ body.ihh-active .view-ihh > section .modulehead { margin-top:8px !important; }
 </style>
 <style id="palm-extra">
 body.ihh-active .hero-ihh{background:linear-gradient(135deg,#14532d 0%,#166534 55%,#3f6212 100%)}
+/* hero: biarkan tinggi mengikuti isinya supaya judul tidak terpotong */
+body.ihh-active .hero-ihh{overflow:visible;height:auto;min-height:0;padding:36px 32px 44px}
+body.ihh-active .hero-ihh::before,body.ihh-active .hero-ihh::after{display:none}
+body.ihh-active .hero-title-ihh{margin-top:24px}
+body.ihh-active .hero-title-ihh h3{font-size:clamp(22px,2.4vw,34px);line-height:1.28;overflow-wrap:break-word;margin:0 0 12px}
+body.ihh-active .hero-title-ihh p{max-width:900px;line-height:1.55}
 body.ihh-active .hero-logo-ihh{color:#14532d;font-size:22px}
 body.ihh-active nav.tabs-ihh .tab .tab-num{background:#bbe3c8;color:#14532d}
 body.ihh-active nav.tabs-ihh .tab.active .tab-num{background:#ca8a04;color:#fff}
@@ -366,7 +372,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div style="margin-top:6px"><span class="pill">9 Latihan</span> <span class="pill">7 Use Case</span></div>
 </div>
 </div>
-<div class="hero-title-ihh"><h3>Oil extraction rate turun 1,59 poin dalam tujuh bulan. Ke mana perginya minyak itu?</h3><p>Satu pertanyaan operasional, enam divisi, sembilan latihan berurutan. Kerjakan tab demi tab sesuai kecepatan Anda sendiri. Semua prompt siap disalin dan ditempel.</p></div>
+<div class="hero-title-ihh"><h3>Oil extraction rate turun 1,59 poin dalam tujuh bulan. Ke mana perginya minyak itu?</h3><p>Satu pertanyaan operasional, tujuh use case dari enam departemen, sembilan latihan berurutan. Ikuti tab demi tab sesuai kecepatan Anda. Semua prompt siap disalin dan ditempel.</p></div>
 </header>
 <header class="hero-ihh" data-lang="en">
 <div class="hero-ihh-inner">
@@ -381,7 +387,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div style="margin-top:6px"><span class="pill">9 Exercises</span> <span class="pill">7 Use Cases</span></div>
 </div>
 </div>
-<div class="hero-title-ihh"><h3>Oil extraction rate fell 1.59 points in seven months. Where did the oil go?</h3><p>One operational question, six departments, nine exercises in sequence. Work through the tabs at your own pace. Every prompt is copy-and-paste ready.</p></div>
+<div class="hero-title-ihh"><h3>Oil extraction rate fell 1.59 points in seven months. Where did the oil go?</h3><p>One operational question, seven use cases across six departments, nine exercises in sequence. Follow the tabs at your own pace. Every prompt is copy-and-paste ready.</p></div>
 </header>
 <div class="lang-wrap" data-lang="id"><nav class="tabs-ihh"><div class="tabs-inner"><button class="tab active" data-view="intro"><span class="tab-num">0</span> Mulai di sini</button>
 <button class="tab" data-view="files"><span class="tab-num">📁</span> File Contoh</button>
@@ -461,19 +467,20 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 </section>
 
 <section id="persona">
-<div class="modulehead"><div class="num">&#128101;</div><h2>Siapa Mengerjakan Apa<small>Use case Palmaraya dipetakan ke latihan di sesi ini</small></h2></div>
+<div class="modulehead"><div class="num">&#128101;</div><h2>Bagian Mana untuk Departemen Mana<small>Use case Palmaraya dan latihan yang menunjukkannya</small></h2></div>
 <div class="card">
+<p class="lead">Setiap latihan dalam sesi ini menggunakan data dan persoalan nyata dari salah satu departemen. Tabel berikut menunjukkan bagian mana yang paling relevan untuk siapa, supaya setiap peserta tahu di titik mana pekerjaannya sendiri akan muncul.</p>
 <table>
-<tr><th>Departemen</th><th>Peserta</th><th>Use case</th><th>Kerjakan latihan</th></tr>
-<tr><td><b>Engineering</b></td><td>Agus Prakoso<br/>Tirta Sanjaya</td><td>Analisis Losses Produksi Mill</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
-<tr><td><b>Agronomy EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Analisis Losses Produksi Estate</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>SQA</b></td><td>Tri Wibisono</td><td>Analisis Kualitas Panen</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
-<tr><td><b>SQA</b></td><td>Yanuar Santika</td><td>Analisis Losses Mill</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
-<tr><td><b>R&amp;D</b></td><td>Sadewa Kusuma Putra</td><td>Rekomendasi Pemupukan</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>Agronomy MDO</b></td><td>Erza Bagas Alkhairi</td><td>Produktivitas dan Kualitas Kerja Pemanen</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
-<tr><td><b>Agronomy ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td>Laporan Kunjungan Lapangan Terpusat</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
+<tr><th>Departemen</th><th>Use case yang dipakai</th><th>Ditunjukkan pada latihan</th></tr>
+<tr><td><b>Engineering</b></td><td>Analisis Losses Produksi Mill</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
+<tr><td><b>Agronomy EPR</b></td><td>Analisis Losses Produksi Estate</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>SQA</b></td><td>Analisis Kualitas Panen</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
+<tr><td><b>SQA</b></td><td>Analisis Losses Mill</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
+<tr><td><b>R&amp;D</b></td><td>Rekomendasi Pemupukan</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy MDO</b></td><td>Produktivitas dan Kualitas Kerja Pemanen</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
+<tr><td><b>Agronomy ADV</b></td><td>Laporan Kunjungan Lapangan Terpusat</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
 </table>
-<div class="callout"><b>Datanya sudah kami siapkan untuk seluruh use case.</b> Untuk Agronomy MDO tersedia data produktivitas dan kualitas kerja dari 970 pemanen. Sementara untuk Agronomy ADV tersedia 10 laporan kunjungan lapangan yang siap dijadikan sumber pengetahuan agent.</div>
+<div class="callout"><b>Datanya sudah kami siapkan untuk seluruh use case.</b> Untuk Agronomy MDO tersedia data produktivitas dan kualitas kerja dari 970 pemanen. Sementara untuk Agronomy ADV tersedia 11 laporan kunjungan lapangan yang siap dijadikan sumber pengetahuan agent.</div>
 </div>
 </section>
 
@@ -572,11 +579,11 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <h3>Bagian A &middot; Awali Hari Kerja Anda</h3>
 <p class="lead">Ini satu-satunya latihan yang menggunakan <b>data kerja Anda yang sebenarnya</b>, bukan data contoh Palmaraya. Karena itu hasilnya akan berbeda untuk setiap peserta di ruangan ini, dan justru di situlah latihan ini terasa nyata.</p>
 <span class="persona">Cocok untuk <b>semua departemen</b></span>
-<span class="persona">Waktu <b>8 menit</b></span>
+<span class="persona">Waktu <b>18 menit</b></span>
 <div class="callout"><b>Tidak memerlukan file sama sekali.</b> Bagian ini bisa langsung dikerjakan sambil menunggu Microsoft Graph selesai mengindeks file contoh yang Anda unggah.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 1.1</span><span class="file">&#128231; Email, kalender, Teams, file Anda</span><span class="time">8 menit</span></div>
+<div class="head"><span class="num">Tugas 1.1</span><span class="file">&#128231; Email, kalender, Teams, file Anda</span><span class="time">12 menit</span></div>
 <h4>Minta daily briefing untuk hari kerja Anda</h4>
 <p>Salin prompt berikut apa adanya. Tidak perlu melampirkan file apa pun.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Susun daily briefing untuk saya berdasarkan email, chat Teams, dokumen, dan jadwal rapat saya, supaya saya siap menjalani hari kerja ini. Kenali sendiri proyek yang sedang saya tangani, topik yang saya ikuti, dan rekan kerja yang paling sering berinteraksi dengan saya, lalu tentukan mana yang benar-benar prioritas.
@@ -595,6 +602,12 @@ Persiapan rapat hari ini. Hanya rapat yang belum berlangsung, dalam bentuk tabel
 
 Ketentuan penulisan: bahasa Indonesia yang lugas dan ringkas. Sebutkan nama orang dan nama file secara spesifik, hindari pernyataan yang terlalu umum. Bila sebuah bagian memang tidak ada isinya, sampaikan bahwa bagian tersebut kosong, jangan mengarang.</div>
 <div class="callout good"><b>Poin yang perlu ditekankan kepada peserta.</b> Tidak ada satu file pun yang dilampirkan. Copilot membaca langsung inbox, kalender, dan chat Anda sendiri, dan hanya Anda yang bisa melihat hasilnya. Inilah yang membedakannya dari AI tools pada umumnya: Copilot memahami konteks pekerjaan Anda dan tetap mengikuti hak akses yang Anda miliki.</div>
+<div class="task-step"><div class="step-label">Lanjutan opsional</div>Masih di conversation yang sama, Anda bisa langsung mendalami salah satu topik yang muncul di briefing tadi. Ganti bagian dalam kurung siku dengan topiknya.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Dari daily briefing tadi, ada satu hal yang ingin saya dalami: [tuliskan topik atau nama proyeknya di sini].
+
+Kumpulkan semua informasi yang kamu temukan mengenai topik tersebut dari email, chat, dokumen, dan rapat saya selama tiga bulan terakhir. Susun sebagai: kronologi singkat yang sudah terjadi, posisi terkini, siapa saja yang terlibat beserta perannya, keputusan yang sudah diambil, serta hal yang masih open tanpa PIC yang jelas.
+
+Cantumkan sumber untuk setiap poin berupa nama file, subjek email, atau nama rapat, supaya saya bisa menelusurinya sendiri. Bila ada dua sumber yang saling bertentangan, tampilkan keduanya dan sebutkan mana yang lebih baru.</div>
 <div class="callout warn"><b>Jangan tampilkan hasil ini di layar proyektor</b> sebelum Anda periksa lebih dulu, karena isinya adalah email dan jadwal Anda yang sebenarnya.</div>
 </div>
 
@@ -618,17 +631,6 @@ Seluruh teks dalam bahasa Indonesia. Jangan menambahkan data contoh atau angka y
 <div class="callout good"><b>Mengapa latihan ini penting.</b> Copilot tidak berhenti pada jawaban, tetapi juga membangun tools sederhana yang bisa Anda pakai kembali besok. Halaman ini sepenuhnya milik Anda: tanpa persetujuan IT, tanpa lisensi tambahan, dan tanpa satu baris kode pun yang Anda tulis sendiri.</div>
 <div class="callout warn"><b>Cara menyimpannya.</b> Buka Notepad, tempel kodenya, lalu pilih <b>Save As</b>. Pada kolom <b>Save as type</b> pilih <b>All Files</b>, isi nama file dengan <code>briefing.html</code>, dan pastikan <b>Encoding</b> disetel ke <b>UTF-8</b> agar karakter Indonesia tidak rusak. Bila file tersimpan sebagai <code>briefing.html.txt</code>, berarti pilihan All Files terlewat.</div>
 </div>
-
-<div class="activity bonus">
-<div class="head"><span class="num">Tugas 1.3</span><span class="file">&#128231; Lanjutan dari Tugas 1.1</span><span class="time">4 menit &middot; opsional</span></div>
-<h4>Dalami satu topik dari daily briefing tadi</h4>
-<p>Tetap di conversation yang sama. Ganti bagian dalam kurung siku dengan satu topik yang muncul di daily briefing Anda.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Dari daily briefing tadi, ada satu hal yang ingin saya dalami: [tuliskan topik atau nama proyeknya di sini].
-
-Kumpulkan semua informasi yang kamu temukan mengenai topik tersebut dari email, chat, dokumen, dan rapat saya selama tiga bulan terakhir. Susun sebagai: kronologi singkat yang sudah terjadi, posisi terkini, siapa saja yang terlibat beserta perannya, keputusan yang sudah diambil, serta hal yang masih open tanpa PIC yang jelas.
-
-Cantumkan sumber untuk setiap poin berupa nama file, subjek email, atau nama rapat, supaya saya bisa menelusurinya sendiri. Bila ada dua sumber yang saling bertentangan, tampilkan keduanya dan sebutkan mana yang lebih baru.</div>
-</div>
 </div>
 
 <div class="card">
@@ -638,7 +640,7 @@ Cantumkan sumber untuk setiap poin berupa nama file, subjek email, atau nama rap
 <span class="persona">Waktu <b>18 menit</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 1.4</span><span class="file">&#128196; 09 Transkrip Rapat Produksi</span><span class="time">7 menit</span></div>
+<div class="head"><span class="num">Tugas 1.3</span><span class="file">&#128196; 09 Transkrip Rapat Produksi</span><span class="time">7 menit</span></div>
 <h4>Ubah transkrip rapat 100 menit menjadi notulen dan daftar action item</h4>
 <p>Lampirkan file <b>09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</b> terlebih dahulu, lalu tempel prompt berikut.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Baca file 09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx, lalu susun notulen resmi rapat produksi bulanan dalam bahasa Indonesia.
@@ -662,7 +664,7 @@ Ketentuan penulisan: bahasa Indonesia yang lugas dengan kalimat pendek, serta gu
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 1.5</span><span class="file">&#128196; Lanjutan dari Tugas 1.4</span><span class="time">10 menit</span></div>
+<div class="head"><span class="num">Tugas 1.4</span><span class="file">&#128196; Lanjutan dari Tugas 1.3</span><span class="time">10 menit</span></div>
 <h4>Minta Copilot membuat tiga file, satu per satu</h4>
 <p>Tetap di conversation yang sama, jangan memulai chat baru. <b>Copilot Chat hanya membuat satu file untuk satu permintaan</b>, jadi jalankan ketiga prompt berikut secara berurutan dan tunggu setiap file selesai sebelum lanjut ke prompt berikutnya. Karena masih dalam conversation yang sama, Copilot tetap mengingat notulen tadi sehingga ketiga file akan konsisten satu sama lain.</p>
 
@@ -969,7 +971,7 @@ Aturan yang berlaku untuk seluruh pekerjaan: bahasa Indonesia lugas dan profesio
 <h3>Bagian A &middot; Membangun Analisis</h3>
 <p class="lead">Ada dua use case yang dikerjakan di bagian ini: kualitas panen untuk SQA dan prioritas pemupukan untuk R&amp;D. Keduanya menghasilkan sheet baru yang bisa langsung dibawa ke rapat, tanpa satu pun rumus yang perlu ditulis manual.</p>
 <span class="persona">Cocok untuk <b>SQA</b> &middot; <b>R&amp;D</b> &middot; <b>Engineering</b> &middot; <b>Agronomy EPR</b></span>
-<span class="persona">Waktu <b>25 menit</b></span>
+<span class="persona">Waktu <b>30 menit</b></span>
 
 <div class="activity">
 <div class="head"><span class="num">Tugas 5.1</span><span class="file">&#128202; 03 Palmaraya_Mutu_Hancak.xlsx</span><span class="file">Sheet: Inspeksi_Mutu_Hancak</span><span class="time">12 menit</span></div>
@@ -1002,7 +1004,7 @@ Aturan: seluruh grafik dibuat asli di Excel dan diberi label data. Beri satu kal
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 5.2</span><span class="file">&#128202; 04 Palmaraya_Rekomendasi_Pupuk.xlsx</span><span class="file">Sheet: Realisasi_Aplikasi</span><span class="time">13 menit</span></div>
+<div class="head"><span class="num">Tugas 5.2</span><span class="file">&#128202; 04 Palmaraya_Rekomendasi_Pupuk.xlsx</span><span class="file">Sheet: Realisasi_Aplikasi</span><span class="time">18 menit</span></div>
 <h4>Susun daftar blok prioritas pemupukan Semester 2</h4>
 <p>Buka <b>04 Palmaraya_Rekomendasi_Pupuk.xlsx</b> dari OneDrive, klik sheet <b>Realisasi_Aplikasi</b>, lalu buka Copilot dalam mode <b>Edit</b>.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Susun daftar prioritas pemupukan Semester 2 dari workbook ini. Tulis hasilnya di sheet baru dan jangan mengubah sheet sumber.
@@ -1027,12 +1029,8 @@ Gunakan bahasa Indonesia untuk seluruh judul kolom baru dan keterangan.</div>
 <div class="callout good"><b>Poin yang perlu ditekankan.</b> Yang dihasilkan bukan sekadar grafik, melainkan daftar kerja. Baris paling atas adalah blok yang harus dipupuk lebih dulu Senin pagi, lengkap dengan alasan dan luasannya.</div>
 </div>
 
-<div class="activity bonus">
-<div class="head"><span class="num">Tugas 5.3</span><span class="file">&#128202; 01 Palmaraya_Losses_Mill.xlsx</span><span class="time">5 menit &middot; opsional</span></div>
-<h4>Mode Chat: tanya tanpa mengubah apa pun</h4>
-<p>Buka file 01, klik sheet <b>Losses_Sampel_PKS</b>, lalu gunakan Copilot mode <b>Chat</b>.</p>
+<div class="task-step"><div class="step-label">Lanjutan opsional &middot; mode Chat</div>Tugas 5.1 dan 5.2 sama-sama mengubah isi workbook. Untuk sekadar bertanya tanpa mengubah apa pun, gunakan mode <b>Chat</b>. Buka file 01, klik sheet <b>Losses_Sampel_PKS</b>, lalu jalankan prompt berikut.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Dari sheet ini, jawab berturut-turut tanpa mengubah isi workbook. Pertama, berapa persen dari seluruh sampel yang berstatus Melebihi Standar. Kedua, pecah angka itu per PKS dan per bulan, lalu sebutkan kombinasi PKS dan bulan yang paling buruk. Ketiga, untuk kombinasi terburuk itu, sebutkan tiga stasiun dengan deviasi terbesar terhadap standar beserta angkanya.</div>
-</div>
 </div>
 
 <div class="card">
@@ -1045,8 +1043,8 @@ Gunakan bahasa Indonesia untuk seluruh judul kolom baru dan keterangan.</div>
 <div class="callout good"><b>Dasar agronominya perlu dipahami terlebih dahulu.</b> Kelapa sawit tidak bereaksi cepat terhadap kondisi cuaca. Inisiasi bunga terjadi sekitar 24 sampai 32 bulan sebelum janjangnya dipanen, sehingga curah hujan pada periode itu menentukan <b>jumlah janjang</b> yang akan ada. Sementara itu, stres air 5 sampai 6 bulan sebelum panen menyebabkan gugur janjang muda dan menurunkan <b>berat janjang</b>. Inilah sebabnya kekeringan hari ini baru terasa di angka produksi dua tahun kemudian, dan inilah yang membuat produksi sawit sebenarnya bisa diprediksi.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 5.4</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="file">Sheet: Iklim_Bulanan_Estate</span><span class="time">12 menit</span></div>
-<h4>Temukan hubungan cuaca dengan produksi, lalu buktikan jeda waktunya</h4>
+<div class="head"><span class="num">Tugas 5.3</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="file">Sheet: Iklim_Bulanan_Estate</span><span class="time">25 menit</span></div>
+<h4>Temukan hubungan cuaca dengan produksi, lalu bangun forecast-nya</h4>
 <p>Buka <b>02 Palmaraya_Losses_Estate.xlsx</b> dari OneDrive. Workbook ini memuat data curah hujan sejak Januari 2021 dan produksi blok sejak Januari 2024. Klik sheet <b>Iklim_Bulanan_Estate</b>, lalu buka Copilot dalam mode <b>Edit</b>.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin tahu seberapa besar cuaca menentukan produksi kebun kami, dan berapa lama jeda waktunya. Kerjakan seluruh langkah berikut, tulis hasilnya di sheet baru, dan jangan mengubah sheet sumber.
 
@@ -1066,10 +1064,7 @@ Tulis seluruh judul dan keterangan dalam bahasa Indonesia.</div>
 <div class="callout"><b>Temuan yang seharusnya muncul.</b> Curah hujan 24 sampai 32 bulan sebelumnya berkorelasi kuat dan positif terhadap produksi. Yang menarik, curah hujan bulan berjalan justru berkorelasi <b>negatif</b>: bulan basah menurunkan produksi bulan itu juga, karena panen dan pengangkutan terganggu, bukan karena janjangnya berkurang. Dua hal yang sama sekali berbeda. Kalau Copilot menyimpulkan bahwa hujan bulan ini menaikkan produksi bulan ini, kesimpulan itu keliru dan patut dibantah. Kekeringan 2023 terlihat jelas di data iklim, dan dampaknya jatuh tepat pada produksi 2026.</div>
 </div>
 
-<div class="activity">
-<div class="head"><span class="num">Tugas 5.5</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="time">13 menit</span></div>
-<h4>Buat forecast produksi sampai akhir 2026 dan proyeksi 2027</h4>
-<p>Tetap di workbook yang sama dan lanjutkan pada conversation Copilot yang sama.</p>
+<div class="task-step"><div class="step-label">Langkah kedua &middot; bangun forecast-nya</div>Tetap di workbook yang sama dan lanjutkan pada conversation Copilot yang sama. Setelah hubungannya terbukti, sekarang kita pakai untuk memperkirakan produksi ke depan.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Sekarang bangun model forecast produksi sederhana dari hubungan yang baru saja kita temukan, lalu pakai untuk memperkirakan produksi ke depan. Tulis hasilnya di sheet baru bernama Ramalan_Produksi.
 
 Langkah 1. Bangun model regresi linear sederhana dengan TonPerHa bulanan grup sebagai variabel terikat dan CurahHujanLag24_32Bulan_mm sebagai variabel bebas, menggunakan data Januari 2024 sampai Juli 2026. Tampilkan konstanta, koefisien, dan nilai R kuadrat. Nyatakan secara terbuka apakah R kuadrat itu cukup kuat untuk dijadikan dasar forecast atau tidak.
@@ -1088,12 +1083,11 @@ Sebutkan sumber sheet untuk setiap angka. Kalau ada bagian yang tidak dapat dihi
 <div class="callout good"><b>Inilah pergeseran yang perlu dirasakan peserta.</b> Latihan sebelumnya menjelaskan apa yang sudah terjadi. Latihan ini menggunakan data yang sama untuk melihat ke depan, dan yang membuatnya mungkin adalah sifat tanaman sawit itu sendiri: curah hujan penentu panen 2027 sudah turun dua tahun lalu, sudah tercatat, dan sudah ada di dalam workbook ini. Anda tidak sedang menebak cuaca, Anda sedang membaca cuaca yang sudah terjadi.</div>
 <div class="callout warn"><b>Perhatikan Langkah 3 dan kolom tingkat keyakinan.</b> Model yang baik akan menyatakan sendiri sampai sejauh mana hasilnya layak dipercaya. Bila Copilot mengisi seluruh kolom tersebut dengan Tinggi tanpa memeriksa rentang datanya, itu pertanda modelnya belum diuji secara jujur dan layak Anda pertanyakan.</div>
 </div>
-</div>
 <div class="card">
 <h3>Part C &middot; Custom Skills<small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">The closing act: stop repeating the same rules in every prompt</small></h3>
 <p class="lead">Look back at the prompts in Task 5.1 and 5.2. Most of what they contain is not the request &mdash; it is the rules that apply every single time: never touch the raw data, rank worst first, pair every percentage with its rupiah value, caption every chart. Rules like that do not belong in a prompt. They belong in a skill.</p>
 <span class="persona">Best for <b>SQA</b> &middot; <b>Engineering</b> &middot; <b>anyone repeating similar work</b></span>
-<span class="persona">Time <b>20 minutes</b></span>
+<span class="persona">Time <b>14 minutes</b></span>
 
 <div class="callout good"><b>Prompt, instructions, skill &mdash; three words, one idea at three levels of permanence.</b> Think of it as asking a new colleague to do something.</div>
 
@@ -1109,7 +1103,7 @@ Sebutkan sumber sheet untuk setiap angka. Kalau ada bagian yang tidak dapat dihi
 <div class="callout warn"><b>When to use which.</b> One-off question &rarr; <b>prompt</b>, do not overthink it. Something that matters &rarr; <b>instructions</b>. Pasting the same instructions a third time &rarr; that is the signal, save it as a <b>skill</b>. Want the whole team working the same way &rarr; a shared skill, or an agent (Exercise 8).</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 5.6</span><span class="file">&#128172; Copilot Chat</span><span class="time">6 minutes</span></div>
+<div class="head"><span class="num">Tugas 5.4</span><span class="file">&#128172; Copilot Chat &middot; Excel</span><span class="time">14 menit</span></div>
 <h4>Get Copilot to write the skill file for you</h4>
 <p>You do not have to write <code>SKILL.md</code> by hand. Open <b>Copilot Chat</b> in a new browser tab and paste the prompt below. Copilot writes the whole file and gives it to you as a download.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in Excel. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
@@ -1130,10 +1124,7 @@ Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout good"><b>Notice what just happened.</b> You described what you wanted in plain language and Copilot produced the file. The person on your team who knows what a good losses analysis looks like can build this, without involving IT.</div>
 </div>
 
-<div class="activity">
-<div class="head"><span class="num">Task 5.7</span><span class="file">&#128193; samples/skills</span><span class="time">8 minutes</span></div>
-<h4>Install the skill in Copilot in Excel</h4>
-<p>Use the file Copilot just wrote for you, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</p>
+<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open any workbook from OneDrive, then open the <b>Copilot</b> pane from the Home tab.</div>
 <div class="task-step"><div class="step-label">Step 2</div>In the Copilot pane, select the <b>Settings</b> menu &mdash; the <b>...</b> in the upper-right corner &mdash; then select <b>Manage skills</b>.</div>
@@ -1148,17 +1139,8 @@ Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <p>Now open <b>01 Palmaraya_Losses_Mill.xlsx</b>, click the <b>Produksi_Harian_PKS</b> sheet, switch Copilot to <b>Edit</b> mode, and run this deliberately short prompt.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@analisis-losses-palmaraya Buatkan dashboard extraction rate dan losses pabrik untuk rapat produksi bulan ini.</div>
 <div class="callout good"><b>What should happen without you asking.</b> The result is written to a new sheet and the raw data is untouched. The ranking starts with the worst mill. Every percentage carries its rupiah value. Every chart has a one-line caption stating a conclusion. Compare that one line against the length of the prompt in Task 5.1 &mdash; the rules did not disappear, they simply moved into the skill.</div>
-</div>
-
-<div class="activity bonus">
-<div class="head"><span class="num">Task 5.8</span><span class="file">&#9997;&#65039; Your own skill</span><span class="time">6 minutes &middot; optional</span></div>
-<h4>Write a skill for your own repeated work</h4>
-<p>Think of one task you do over and over with the same rules: the monthly division report, the weekly FFB grading recap, the standard format for an incident note. Ask Copilot Chat to turn it into a skill.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk pekerjaan rutin saya. Sebelum menuliskan file-nya, tanyakan dulu kepada saya empat hal berikut, satu per satu: pekerjaan apa yang saya ulang, data atau dokumen apa yang biasanya saya pakai, seperti apa bentuk hasil akhir yang saya harapkan, dan aturan apa yang tidak boleh dilanggar.
-
-Setelah saya menjawab keempatnya, tuliskan file SKILL.md lengkap dengan frontmatter berisi name dan description, lalu instruksi dalam bahasa Indonesia. Buat description-nya jelas menyebutkan kapan skill ini dipakai, bukan sekadar apa isinya. Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout warn"><b>If you cannot see a skills option.</b> Custom skills are still rolling out and may not be enabled for your account yet. Nothing else in this session depends on it. The instructions Copilot wrote still work perfectly well pasted straight into the Copilot pane as an ordinary prompt &mdash; which is all a skill really is.</div>
-</div>
+<div class="callout"><b>Afterwards, try it on your own work.</b> Think of one task you repeat with the same rules &mdash; the monthly division report, the weekly FFB grading recap, the standard format for an incident note. Ask Copilot Chat: <i>"Saya ingin membuat Custom Skill untuk pekerjaan rutin saya. Tanyakan dulu kepada saya: pekerjaan apa yang saya ulang, data apa yang saya pakai, seperti apa hasil akhir yang saya harapkan, dan aturan apa yang tidak boleh dilanggar. Setelah itu tuliskan file SKILL.md lengkap dan berikan sebagai file yang bisa saya unduh."</i></div>
 </div>
 </section>
 <div class="lab-nav-ihh"><button class="secondary" data-go="ex4">&larr; Cowork</button><button data-go="ex6">Copilot in PowerPoint &rarr;</button></div></div><div class="view-ihh" id="view-id-ex6" data-view-id="ex6"><section id="ex6">
@@ -1286,7 +1268,7 @@ Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya 
 <div class="card">
 <p class="lead">SOP kualitas panen terakhir direvisi pada Januari. Data tujuh bulan terakhir menunjukkan ada satu hal yang belum diatur di dalamnya: apa yang harus terjadi ketika separuh pemanen di sebuah afdeling bermasa kerja di bawah enam bulan. Latihan ini menulis revisinya, lalu menerjemahkan memo direksi ke bahasa yang dimengerti mandor.</p>
 <span class="persona">Cocok untuk <b>SQA</b> &middot; <b>Agronomy EPR</b> &middot; <b>Agronomy ADV</b></span>
-<span class="persona">Waktu <b>22 menit</b></span>
+<span class="persona">Waktu <b>26 menit</b></span>
 
 <div class="activity">
 <div class="head"><span class="num">Tugas 7.1</span><span class="file">&#128196; 05 SOP Panen dan Kualitas Panen</span><span class="file">&#128202; 03 Kualitas Panen</span><span class="time">12 menit</span></div>
@@ -1487,7 +1469,7 @@ Selalu tutup jawaban dengan satu kalimat tindakan praktis yang bisa dikerjakan p
 <h4>Langkah 3 &middot; Unggah dokumennya</h4>
 <div class="task-step"><div class="step-label">3.1</div>Di dalam library <b>Operations Documents</b>, klik <b>+ New &rarr; Folder</b>. Buat dua folder: <b>SOP</b> dan <b>Field Visit Reports</b>.</div>
 <div class="task-step"><div class="step-label">3.2</div>Buka folder <b>SOP</b>, klik <b>Upload &rarr; Files</b>, lalu unggah file <b>05</b>, <b>06</b>, <b>07</b>, dan <b>08</b>.</div>
-<div class="task-step"><div class="step-label">3.3</div>Buka folder <b>Field Visit Reports</b>, lalu unggah kesepuluh file dari folder <b>Laporan Kunjungan Kebun</b>. Jangan mengunggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b> dulu, karena file itu akan kita pakai untuk pengujian di Tugas 9.4.</div>
+<div class="task-step"><div class="step-label">3.3</div>Buka folder <b>Field Visit Reports</b>, lalu unggah kesepuluh file dari folder <b>Laporan Kunjungan Kebun</b>. Jangan mengunggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b> dulu, karena file itu akan kita pakai untuk pengujian di Tugas 9.3.</div>
 <div class="task-step"><div class="step-label">3.4</div>Tunggu sekitar 2 menit sampai Microsoft Graph selesai mengindeks seluruh dokumen.</div>
 <div class="callout good"><b>Sudah siap.</b> Anda kini punya satu situs, satu library, dan empat belas dokumen operasional. Inilah kondisi yang mirip dengan cara perusahaan menyimpan dokumen sehari-hari, dan itulah yang membuat sisa latihan ini terasa nyata.</div>
 </div>
@@ -1496,7 +1478,7 @@ Selalu tutup jawaban dengan satu kalimat tindakan praktis yang bisa dikerjakan p
 <h3>Bagian A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Sepuluh laporan kunjungan berubah menjadi satu tabel yang bisa difilter</small></h3>
 <p class="lead">Sepuluh laporan kunjungan kebun tersimpan sebagai dokumen Word. Untuk mengetahui estate mana yang temuannya paling mendesak, seseorang harus membuka kesepuluh dokumen tersebut satu per satu. Autofill columns membaca isi setiap dokumen dan menuliskan hasilnya ke kolom library, sehingga daftar dokumen berubah menjadi tabel yang bisa difilter dan diurutkan.</p>
 <span class="persona">Cocok untuk <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Waktu <b>15 menit</b></span>
+<span class="persona">Waktu <b>23 menit</b></span>
 
 <div class="callout warn"><b>Perlu dikonfirmasi sebelum sesi.</b> Autofill columns merupakan layanan document processing berbayar sesuai pemakaian. Tenant Anda perlu langganan Azure di tenant yang sama dengan pay-as-you-go yang sudah tersambung. Tarifnya USD 0,005 per transaksi, dan satu halaman Word dihitung satu transaksi, sehingga biaya untuk sepuluh laporan pendek ini sangat kecil. Bila belum tersambung, bagian ini cukup dijalankan sebagai demo oleh fasilitator.</div>
 
@@ -1523,7 +1505,7 @@ Setelah keempat kolom dibuat, jalankan pengisian otomatis untuk seluruh dokumen 
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 9.2</span><span class="file">&#128202; Dashboard HTML</span><span class="time">10 menit</span></div>
+<div class="head"><span class="num">Tugas 9.2</span><span class="file">&#128202; Dashboard HTML</span><span class="time">15 menit</span></div>
 <h4>Ubah metadata tadi menjadi dashboard yang bisa diperbarui</h4>
 <p>Kolom yang baru terisi tadi sekarang berfungsi sebagai data. Buka <b>Copilot Chat</b> di tab baru, lalu minta dibuatkan dashboard-nya.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Buatkan saya satu halaman dashboard HTML untuk melihat temuan kunjungan kebun, berdasarkan kolom metadata di document library SharePoint bernama Operations Documents, folder Field Visit Reports.
@@ -1542,16 +1524,8 @@ Untuk tombol Refresh Data, gunakan Microsoft Graph API guna mengambil ulang isi 
 
 Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hijau tua. Seluruh teks dalam bahasa Indonesia. Berikan hasilnya sebagai file HTML yang bisa saya unduh.</div>
 <div class="callout good"><b>Inilah nilai tambahnya bagi manajemen.</b> Yang tadinya sepuluh dokumen Word yang harus dibuka satu per satu, kini menjadi satu halaman yang bisa difilter per estate dan per tingkat urgensi. Tidak ada satu baris kode pun yang Anda tulis.</div>
-</div>
 
-<div class="activity">
-<div class="head"><span class="num">Tugas 9.3</span><span class="file">&#128196; 11 Laporan Kunjungan Kampar Sentosa</span><span class="time">5 menit</span></div>
-<h4>Uji: unggah satu laporan baru dan lihat kolomnya terisi sendiri</h4>
-<p>Inilah bagian yang paling meyakinkan ketika ditunjukkan ke manajemen.</p>
-<div class="task-step"><div class="step-label">Langkah 1</div>Buka folder <b>Field Visit Reports</b>, lalu unggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>.</div>
-<div class="task-step"><div class="step-label">Langkah 2</div>Tunggu satu sampai dua menit, lalu muat ulang halaman library.</div>
-<div class="task-step"><div class="step-label">Langkah 3</div>Perhatikan keempat kolomnya. Estate, Urgency, Key Finding, dan Action Required terisi dengan sendirinya, tanpa ada yang mengetik satu pun.</div>
-<div class="task-step"><div class="step-label">Langkah 4</div>Buka kembali dashboard dari Tugas 9.2, lalu klik <b>Refresh Data</b>. Laporan baru itu muncul di tabel dan kartu ringkasannya ikut berubah.</div>
+<div class="task-step"><div class="step-label">Uji &middot; unggah satu laporan baru</div>Inilah bagian yang paling meyakinkan ketika ditunjukkan ke manajemen. Buka folder <b>Field Visit Reports</b>, lalu unggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Tunggu satu sampai dua menit, muat ulang halaman library, lalu perhatikan keempat kolomnya: Estate, Urgency, Key Finding, dan Action Required terisi dengan sendirinya, tanpa ada yang mengetik satu pun. Terakhir, buka kembali dashboard tadi dan klik <b>Refresh Data</b>. Laporan baru itu muncul di tabel dan kartu ringkasannya ikut berubah.</div>
 <div class="callout good"><b>Yang seharusnya terjadi.</b> Laporan Kampar Sentosa berisi temuan press cone yang sudah melewati batas penggantian, sehingga Urgency terisi <b>Kritis</b> dan Action Required terisi <b>Yes</b>. Tidak ada yang perlu menyortir, tidak ada email yang perlu diteruskan, dan tidak ada yang perlu diingatkan. Dokumennya masuk, tabelnya langsung menyesuaikan.</div>
 </div>
 </div>
@@ -1563,7 +1537,7 @@ Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hij
 <span class="persona">Waktu <b>12 menit</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 9.4</span><span class="file">&#127760; Library Operations Documents</span><span class="time">12 menit</span></div>
+<div class="head"><span class="num">Tugas 9.3</span><span class="file">&#127760; Library Operations Documents</span><span class="time">12 menit</span></div>
 <h4>Buat SharePoint Agent di atas document library</h4>
 
 <div class="task-step"><div class="step-label">Langkah 1</div>Buka library <b>Operations Documents</b> di situs <b>Palmaraya Operations</b>.</div>
@@ -1601,7 +1575,7 @@ Jangan menilai kinerja orang per orang. Bila nama mandor atau asisten muncul dal
 <div class="callout warn"><b>Fitur ini masih berstatus preview dan tampilannya berbeda-beda antar tenant.</b> Bila tombolnya belum tersedia di tenant Anda, gunakan jalur lama <b>+ New &rarr; Page with AI</b>, atau lewati bagian ini.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 9.5</span><span class="file">&#127760; Halaman situs</span><span class="file">&#128196; 08 Memo Strategis</span><span class="time">10 menit</span></div>
+<div class="head"><span class="num">Tugas 9.4</span><span class="file">&#127760; Halaman situs</span><span class="file">&#128196; 08 Memo Strategis</span><span class="time">10 menit</span></div>
 <h4>Susun halaman berita operasi dari memo direksi</h4>
 
 <div class="task-step"><div class="step-label">Langkah 1</div>Buka situs <b>Palmaraya Operations</b>, lalu klik <b>+ New</b> pada bilah perintah.</div>
@@ -1816,19 +1790,20 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 </section>
 
 <section id="persona">
-<div class="modulehead"><div class="num">&#128101;</div><h2>Who does what<small>Palmaraya's use cases mapped to the exercises in this session</small></h2></div>
+<div class="modulehead"><div class="num">&#128101;</div><h2>Which Part Matters to Which Department<small>Palmaraya's use cases and the exercises that demonstrate them</small></h2></div>
 <div class="card">
+<p class="lead">Every exercise in this session runs on real data and a real problem from one of the departments. This table shows which part is most relevant to whom, so everyone knows where their own work shows up.</p>
 <table>
-<tr><th>Department</th><th>Participants</th><th>Use case</th><th>Do these exercises</th></tr>
-<tr><td><b>Engineering</b></td><td>Agus Prakoso<br/>Tirta Sanjaya</td><td>Mill production loss analysis</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
-<tr><td><b>Agronomy EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Estate production loss analysis</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>SQA</b></td><td>Tri Wibisono</td><td>Harvest quality analysis</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
-<tr><td><b>SQA</b></td><td>Yanuar Santika</td><td>Mill loss analysis</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
-<tr><td><b>R&amp;D</b></td><td>Sadewa Kusuma Putra</td><td>Fertiliser recommendation</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>Agronomy MDO</b></td><td>Erza Bagas Alkhairi</td><td>Harvester Productivity and Work Quality</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
-<tr><td><b>Agronomy ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td>Centralised Field Visit Reporting</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
+<tr><th>Department</th><th>Use case used</th><th>Demonstrated in</th></tr>
+<tr><td><b>Engineering</b></td><td>Mill production loss analysis</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
+<tr><td><b>Agronomy EPR</b></td><td>Estate production loss analysis</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>SQA</b></td><td>Harvest quality analysis</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
+<tr><td><b>SQA</b></td><td>Mill loss analysis</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
+<tr><td><b>R&amp;D</b></td><td>Fertiliser recommendation</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy MDO</b></td><td>Harvester Productivity and Work Quality</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
+<tr><td><b>Agronomy ADV</b></td><td>Centralised Field Visit Reporting</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
 </table>
-<div class="callout"><b>Data is ready for every use case.</b> For Agronomy MDO there is productivity and work quality data on 970 harvesters. For Agronomy ADV there are 10 field visit reports ready to become an agent's knowledge source.</div>
+<div class="callout"><b>Data is ready for every use case.</b> For Agronomy MDO there is productivity and work quality data on 970 harvesters. For Agronomy ADV there are 11 field visit reports ready to become an agent's knowledge source.</div>
 </div>
 </section>
 
@@ -1927,11 +1902,11 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <h3>Part A &middot; Start your day</h3>
 <p class="lead">This is the only exercise that runs on <b>your own real working data</b>, not the Palmaraya sample files. That means the result is different for every person in the room, and that is what makes it land.</p>
 <span class="persona">Suits <b>every department</b></span>
-<span class="persona">Time <b>8 minutes</b></span>
+<span class="persona">Time <b>18 minutes</b></span>
 <div class="callout"><b>No files needed.</b> You can run this right now, while your sample file uploads are still being indexed by Microsoft Graph.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 1.1</span><span class="file">&#128231; Your email, calendar, Teams, files</span><span class="time">8 minutes</span></div>
+<div class="head"><span class="num">Task 1.1</span><span class="file">&#128231; Your email, calendar, Teams, files</span><span class="time">12 minutes</span></div>
 <h4>Ask for a daily briefing on your own work</h4>
 <p>Paste this prompt as it is. Nothing needs to be attached.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Create a daily briefing for me from my emails, Teams messages, documents and meetings, so I am ready for today. Work out for yourself which projects I am involved in, which topics I follow, and who I work with most closely, then decide what genuinely matters.
@@ -1950,6 +1925,12 @@ Preparation for today's meetings. Only meetings that have not yet happened, in a
 
 Writing rules: plain, concise English. Name people and files specifically rather than making general statements. If a section has nothing in it, say it is empty rather than inventing something.</div>
 <div class="callout good"><b>The point to land with participants.</b> Not a single file was attached. Copilot read your own inbox, calendar and chats, and only you can see the result. That is the core difference from a general-purpose AI tool: it knows your work, and it respects your access permissions.</div>
+<div class="task-step"><div class="step-label">Optional follow-up</div>Still in the same conversation, you can go straight into any topic that came up in the briefing. Replace the bracketed part with the topic.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Dari daily briefing tadi, ada satu hal yang ingin saya dalami: [tuliskan topik atau nama proyeknya di sini].
+
+Kumpulkan semua informasi yang kamu temukan mengenai topik tersebut dari email, chat, dokumen, dan rapat saya selama tiga bulan terakhir. Susun sebagai: kronologi singkat yang sudah terjadi, posisi terkini, siapa saja yang terlibat beserta perannya, keputusan yang sudah diambil, serta hal yang masih open tanpa PIC yang jelas.
+
+Cantumkan sumber untuk setiap poin berupa nama file, subjek email, atau nama rapat, supaya saya bisa menelusurinya sendiri. Bila ada dua sumber yang saling bertentangan, tampilkan keduanya dan sebutkan mana yang lebih baru.</div>
 <div class="callout warn"><b>Do not put this on the projector</b> without checking it first. The contents are your actual emails and schedule.</div>
 </div>
 
@@ -1973,17 +1954,6 @@ Do not invent sample data or figures that were not in the briefing. If a section
 <div class="callout good"><b>Why this one lands.</b> Copilot does not just answer — it builds you a small tool you can use again tomorrow. The page is yours, needs no IT approval, no extra licence, and you wrote none of the code.</div>
 <div class="callout warn"><b>How to save it.</b> Open Notepad, paste the code, then <b>Save As</b>. Set <b>Save as type</b> to <b>All Files</b>, name it <code>briefing.html</code>, and make sure <b>Encoding</b> is <b>UTF-8</b>. If the file lands as <code>briefing.html.txt</code>, the All Files step was missed.</div>
 </div>
-
-<div class="activity bonus">
-<div class="head"><span class="num">Task 1.3</span><span class="file">&#128231; Continues from Task 1.1</span><span class="time">4 minutes &middot; optional</span></div>
-<h4>Go deeper on one topic from the briefing</h4>
-<p>Stay in the same conversation. Replace the bracketed part with one topic that appeared in your briefing.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>From that briefing, I want to go deeper on one thing: [write the topic or project name here].
-
-Gather everything you can find about it from my emails, chats, documents and meetings over the past three months. Present it as: a short chronology of what has happened, the current position, who is involved and in what role, decisions already taken, and anything still outstanding without a clear owner.
-
-Cite a source for every point, giving the file name, email subject, or meeting title, so I can follow it up myself. If two sources contradict each other, show both and say which is more recent.</div>
-</div>
 </div>
 
 <div class="card">
@@ -1993,7 +1963,7 @@ Cite a source for every point, giving the file name, email subject, or meeting t
 <span class="persona">Time <b>18 minutes</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Task 1.4</span><span class="file">&#128196; 09 Production Meeting Transcript</span><span class="time">7 minutes</span></div>
+<div class="head"><span class="num">Task 1.3</span><span class="file">&#128196; 09 Production Meeting Transcript</span><span class="time">7 minutes</span></div>
 <h4>Turn a 100-minute transcript into minutes and an action list</h4>
 <p>Attach <b>09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</b> first, then paste this prompt.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Read the file 09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx, then write formal minutes of the monthly production meeting.
@@ -2017,7 +1987,7 @@ Writing rules: plain professional English, short sentences. Keep the Indonesian 
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 1.5</span><span class="file">&#128196; Continues from Task 1.4</span><span class="time">10 minutes</span></div>
+<div class="head"><span class="num">Task 1.4</span><span class="file">&#128196; Continues from Task 1.3</span><span class="time">10 minutes</span></div>
 <h4>Ask Copilot for three files, one at a time</h4>
 <p>Stay in the same conversation, do not start a new chat. <b>Copilot Chat creates one file per request</b>, so run the three prompts below in order and wait for each file to finish before moving on. Because the conversation is shared, Copilot still remembers the minutes and all three files stay consistent with each other.</p>
 
@@ -2322,7 +2292,7 @@ Rules across every job: plain professional English, the company's standard opera
 <h3>Part A &middot; Building the analysis</h3>
 <p class="lead">Two use cases run here: harvest quality for SQA, and fertiliser prioritisation for R&amp;D. Both end with a new sheet you could take straight into a meeting, without writing a single formula by hand.</p>
 <span class="persona">Suits <b>SQA</b> &middot; <b>R&amp;D</b> &middot; <b>Engineering</b> &middot; <b>Agronomy EPR</b></span>
-<span class="persona">Time <b>25 minutes</b></span>
+<span class="persona">Time <b>30 minutes</b></span>
 
 <div class="activity">
 <div class="head"><span class="num">Task 5.1</span><span class="file">&#128202; 03 Palmaraya_Mutu_Hancak.xlsx</span><span class="file">Sheet: Inspeksi_Mutu_Hancak</span><span class="time">12 minutes</span></div>
@@ -2355,7 +2325,7 @@ Rules: build every chart natively in Excel with data labels. Put a one-sentence 
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 5.2</span><span class="file">&#128202; 04 Palmaraya_Rekomendasi_Pupuk.xlsx</span><span class="file">Sheet: Realisasi_Aplikasi</span><span class="time">13 minutes</span></div>
+<div class="head"><span class="num">Task 5.2</span><span class="file">&#128202; 04 Palmaraya_Rekomendasi_Pupuk.xlsx</span><span class="file">Sheet: Realisasi_Aplikasi</span><span class="time">18 minutes</span></div>
 <h4>Build the semester 2 fertiliser priority list</h4>
 <p>Open <b>04 Palmaraya_Rekomendasi_Pupuk.xlsx</b> from OneDrive. Click the <b>Realisasi_Aplikasi</b> sheet, then open Copilot in <b>Edit</b> mode.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Build a semester 2 fertiliser priority list from this workbook. Write the result to a new sheet and do not modify the source sheets.
@@ -2378,12 +2348,8 @@ Finally create a new sheet named Ringkasan_Hara containing two charts: a bar cha
 <div class="callout good"><b>The point to land.</b> What comes out is not a chart, it is a work list. The top row is the block that gets fertilised first on Monday morning, with the reason and the hectares attached.</div>
 </div>
 
-<div class="activity bonus">
-<div class="head"><span class="num">Task 5.3</span><span class="file">&#128202; 01 Palmaraya_Losses_Mill.xlsx</span><span class="time">5 minutes &middot; optional</span></div>
-<h4>Chat mode: ask without changing anything</h4>
-<p>Open file 01, sheet <b>Losses_Sampel_PKS</b>, and use Copilot in <b>Chat</b> mode.</p>
+<div class="task-step"><div class="step-label">Optional follow-up &middot; Chat mode</div>Tasks 5.1 and 5.2 both change the workbook. To simply ask a question without changing anything, use <b>Chat</b> mode. Open file 01, click the <b>Losses_Sampel_PKS</b> sheet, and run the prompt below.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>From this sheet, answer in order without changing the workbook. First, what percentage of all samples carry the status Melebihi Standar. Second, break that figure down by mill and by month, and name the worst mill and month combination. Third, for that worst combination, name the three stations with the largest deviation against standard, with their figures.</div>
-</div>
 </div>
 
 <div class="card">
@@ -2396,8 +2362,8 @@ Finally create a new sheet named Ringkasan_Hara containing two charts: a bar cha
 <div class="callout good"><b>The agronomy behind this matters.</b> Oil palm does not react quickly to weather. Flower initiation happens roughly 24 to 32 months before the bunch is harvested, so rainfall in that window sets the <b>number of bunches</b> that will exist. Separately, water stress 5 to 6 months before harvest aborts young bunches and lowers <b>bunch weight</b>. That is why a drought today only shows up in production two years later, and it is exactly what makes palm production genuinely forecastable.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 5.4</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="file">Sheet: Iklim_Bulanan_Estate</span><span class="time">12 minutes</span></div>
-<h4>Find the weather-to-production relationship and prove the lag</h4>
+<div class="head"><span class="num">Task 5.3</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="file">Sheet: Iklim_Bulanan_Estate</span><span class="time">25 minutes</span></div>
+<h4>Find the weather-to-production relationship, then build the forecast</h4>
 <p>Open <b>02 Palmaraya_Losses_Estate.xlsx</b> from OneDrive. It holds rainfall from January 2021 and block production from January 2024. Click the <b>Iklim_Bulanan_Estate</b> sheet, then open Copilot in <b>Edit</b> mode.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>I want to know how much weather drives our estate production, and how long the lag is. Work through every step below, write the results into a new sheet, and do not change the source sheets.
 
@@ -2415,10 +2381,7 @@ Step 6. Close with a summary of no more than six sentences answering one questio
 <div class="callout"><b>What should come out.</b> The 24-to-32-month lagged rainfall correlates strongly and positively with production. The interesting part is that current-month rainfall correlates <b>negatively</b>: a wet month lowers that same month's output, because harvesting and haulage are disrupted, not because there are fewer bunches. Those are two entirely different mechanisms. If Copilot concludes that rain this month raises production this month, that conclusion is wrong and worth pushing back on. The 2023 drought is clearly visible in the climate data, and its impact lands squarely on 2026 production.</div>
 </div>
 
-<div class="activity">
-<div class="head"><span class="num">Task 5.5</span><span class="file">&#128202; 02 Palmaraya_Losses_Estate.xlsx</span><span class="time">13 minutes</span></div>
-<h4>Build the forecast to end-2026 and the outlook for 2027</h4>
-<p>Stay in the same workbook and continue in the same Copilot conversation.</p>
+<div class="task-step"><div class="step-label">Second step &middot; build the forecast</div>Stay in the same workbook and continue in the same Copilot conversation. Now that the relationship is proven, use it to estimate what comes next.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Now build a simple production forecast model from the relationship we just found, and use it to estimate what comes next. Write the results into a new sheet called Ramalan_Produksi.
 
 Step 1. Fit a simple linear regression with monthly group TonPerHa as the dependent variable and CurahHujanLag24_32Bulan_mm as the independent variable, using January 2024 to July 2026. Show the intercept, the coefficient and the R squared. State openly whether that R squared is strong enough to forecast from or not.
@@ -2437,12 +2400,11 @@ Cite the source sheet for every figure. If any part cannot be calculated from th
 <div class="callout good"><b>This is the shift participants should feel.</b> Everything before this explained the past. This uses the same data to look forward, and what makes it possible is the crop itself: the rainfall that decides the 2027 harvest fell two years ago, was recorded, and is already sitting in this workbook. You are not guessing at weather, you are reading weather that has already happened.</div>
 <div class="callout warn"><b>Watch Step 3 and the confidence column.</b> A good model says for itself where it deserves to be trusted. If Copilot marks every row High without checking the data range, the model has not been tested honestly and is worth challenging.</div>
 </div>
-</div>
 <div class="card">
 <h3>Part C &middot; Custom Skills<small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">The closing act: stop repeating the same rules in every prompt</small></h3>
 <p class="lead">Look back at the prompts in Task 5.1 and 5.2. Most of what they contain is not the request &mdash; it is the rules that apply every single time: never touch the raw data, rank worst first, pair every percentage with its rupiah value, caption every chart. Rules like that do not belong in a prompt. They belong in a skill.</p>
 <span class="persona">Best for <b>SQA</b> &middot; <b>Engineering</b> &middot; <b>anyone repeating similar work</b></span>
-<span class="persona">Time <b>20 minutes</b></span>
+<span class="persona">Time <b>14 minutes</b></span>
 
 <div class="callout good"><b>Prompt, instructions, skill &mdash; three words, one idea at three levels of permanence.</b> Think of it as asking a new colleague to do something.</div>
 
@@ -2458,7 +2420,7 @@ Cite the source sheet for every figure. If any part cannot be calculated from th
 <div class="callout warn"><b>When to use which.</b> One-off question &rarr; <b>prompt</b>, do not overthink it. Something that matters &rarr; <b>instructions</b>. Pasting the same instructions a third time &rarr; that is the signal, save it as a <b>skill</b>. Want the whole team working the same way &rarr; a shared skill, or an agent (Exercise 8).</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 5.6</span><span class="file">&#128172; Copilot Chat</span><span class="time">6 minutes</span></div>
+<div class="head"><span class="num">Task 5.4</span><span class="file">&#128172; Copilot Chat &middot; Excel</span><span class="time">14 minutes</span></div>
 <h4>Get Copilot to write the skill file for you</h4>
 <p>You do not have to write <code>SKILL.md</code> by hand. Open <b>Copilot Chat</b> in a new browser tab and paste the prompt below. Copilot writes the whole file and gives it to you as a download.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in Excel. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
@@ -2479,10 +2441,7 @@ Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout good"><b>Notice what just happened.</b> You described what you wanted in plain language and Copilot produced the file. The person on your team who knows what a good losses analysis looks like can build this, without involving IT.</div>
 </div>
 
-<div class="activity">
-<div class="head"><span class="num">Task 5.7</span><span class="file">&#128193; samples/skills</span><span class="time">8 minutes</span></div>
-<h4>Install the skill in Copilot in Excel</h4>
-<p>Use the file Copilot just wrote for you, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</p>
+<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open any workbook from OneDrive, then open the <b>Copilot</b> pane from the Home tab.</div>
 <div class="task-step"><div class="step-label">Step 2</div>In the Copilot pane, select the <b>Settings</b> menu &mdash; the <b>...</b> in the upper-right corner &mdash; then select <b>Manage skills</b>.</div>
@@ -2499,16 +2458,8 @@ Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout good"><b>What should happen without you asking.</b> The result is written to a new sheet and the raw data is untouched. The ranking starts with the worst mill. Every percentage carries its rupiah value. Every chart has a one-line caption stating a conclusion. Compare that one line against the length of the prompt in Task 5.1 &mdash; the rules did not disappear, they simply moved into the skill.</div>
 </div>
 
-<div class="activity bonus">
-<div class="head"><span class="num">Task 5.8</span><span class="file">&#9997;&#65039; Your own skill</span><span class="time">6 minutes &middot; optional</span></div>
-<h4>Write a skill for your own repeated work</h4>
-<p>Think of one task you do over and over with the same rules: the monthly division report, the weekly FFB grading recap, the standard format for an incident note. Ask Copilot Chat to turn it into a skill.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk pekerjaan rutin saya. Sebelum menuliskan file-nya, tanyakan dulu kepada saya empat hal berikut, satu per satu: pekerjaan apa yang saya ulang, data atau dokumen apa yang biasanya saya pakai, seperti apa bentuk hasil akhir yang saya harapkan, dan aturan apa yang tidak boleh dilanggar.
-
-Setelah saya menjawab keempatnya, tuliskan file SKILL.md lengkap dengan frontmatter berisi name dan description, lalu instruksi dalam bahasa Indonesia. Buat description-nya jelas menyebutkan kapan skill ini dipakai, bukan sekadar apa isinya. Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout warn"><b>If you cannot see a skills option.</b> Custom skills are still rolling out and may not be enabled for your account yet. Nothing else in this session depends on it. The instructions Copilot wrote still work perfectly well pasted straight into the Copilot pane as an ordinary prompt &mdash; which is all a skill really is.</div>
-</div>
-</div>
+<div class="callout"><b>Afterwards, try it on your own work.</b> Think of one task you repeat with the same rules &mdash; the monthly division report, the weekly FFB grading recap, the standard format for an incident note. Ask Copilot Chat: <i>"Saya ingin membuat Custom Skill untuk pekerjaan rutin saya. Tanyakan dulu kepada saya: pekerjaan apa yang saya ulang, data apa yang saya pakai, seperti apa hasil akhir yang saya harapkan, dan aturan apa yang tidak boleh dilanggar. Setelah itu tuliskan file SKILL.md lengkap dan berikan sebagai file yang bisa saya unduh."</i></div>
 </section>
 <div class="lab-nav-ihh"><button class="secondary" data-go="ex4">&larr; Cowork</button><button data-go="ex6">Copilot in PowerPoint &rarr;</button></div></div><div class="view-ihh" id="view-en-ex6" data-view-id="ex6"><section id="ex6">
 <div class="modulehead"><div class="num">6</div><h2>Exercise 6 &middot; Copilot in PowerPoint<small>A deck that asks for decisions, not a deck that reports numbers</small></h2></div>
@@ -2633,7 +2584,7 @@ Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya 
 <div class="card">
 <p class="lead">The harvest quality SOP was last revised in January. Seven months of data reveal one thing it does not cover: what should happen when half the harvesters in a division have under six months of tenure. This exercise writes the revision, then translates the board memo into language a foreman will act on.</p>
 <span class="persona">Suits <b>SQA</b> &middot; <b>Agronomy EPR</b> &middot; <b>Agronomy ADV</b></span>
-<span class="persona">Time <b>22 minutes</b></span>
+<span class="persona">Time <b>26 minutes</b></span>
 
 <div class="activity">
 <div class="head"><span class="num">Task 7.1</span><span class="file">&#128196; 05 Harvest SOP</span><span class="file">&#128202; 03 Harvest Quality</span><span class="time">12 minutes</span></div>
@@ -2834,7 +2785,7 @@ Always close with one practical action the user could take that same day, where 
 <h4>Step 3 &middot; Upload the documents</h4>
 <div class="task-step"><div class="step-label">3.1</div>Inside <b>Operations Documents</b>, select <b>+ New &rarr; Folder</b>. Create two folders: <b>SOP</b> and <b>Field Visit Reports</b>.</div>
 <div class="task-step"><div class="step-label">3.2</div>Open the <b>SOP</b> folder, select <b>Upload &rarr; Files</b>, and upload files <b>05</b>, <b>06</b>, <b>07</b> and <b>08</b>.</div>
-<div class="task-step"><div class="step-label">3.3</div>Open <b>Field Visit Reports</b> and upload the ten files from the <b>Laporan Kunjungan Kebun</b> folder. Hold back <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b> &mdash; we use that one for the test in Task 9.4.</div>
+<div class="task-step"><div class="step-label">3.3</div>Open <b>Field Visit Reports</b> and upload the ten files from the <b>Laporan Kunjungan Kebun</b> folder. Hold back <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b> &mdash; we use that one for the test in Task 9.3.</div>
 <div class="task-step"><div class="step-label">3.4</div>Wait about 2 minutes for Microsoft Graph to finish indexing everything.</div>
 <div class="callout good"><b>You are set up.</b> You now have one site, one library and fourteen operational documents &mdash; close to how a real company stores its documents, which is what makes the rest of this exercise land.</div>
 </div>
@@ -2843,7 +2794,7 @@ Always close with one practical action the user could take that same day, where 
 <h3>Part A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Ten field visit reports become one filterable table</small></h3>
 <p class="lead">Ten field visit reports sit there as Word documents. To find out which estate has the most urgent findings, somebody has to open all ten. Autofill columns reads each document and writes the answers into library columns, turning a list of files into a table you can filter and sort.</p>
 <span class="persona">Best for <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Time <b>15 minutes</b></span>
+<span class="persona">Time <b>23 minutes</b></span>
 
 <div class="callout warn"><b>Check this before the session.</b> Autofill columns is a pay-as-you-go document processing service. Your tenant needs an Azure subscription in the same tenant with pay-as-you-go connected. It costs USD 0.005 per transaction and one Word page counts as one transaction, so ten short reports cost very little. If it is not connected, run this part as a facilitator demo.</div>
 
@@ -2870,7 +2821,7 @@ Setelah keempat kolom dibuat, jalankan pengisian otomatis untuk seluruh dokumen 
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 9.2</span><span class="file">&#128202; HTML dashboard</span><span class="time">10 minutes</span></div>
+<div class="head"><span class="num">Task 9.2</span><span class="file">&#128202; HTML dashboard</span><span class="time">15 minutes</span></div>
 <h4>Turn that metadata into a dashboard you can refresh</h4>
 <p>Those newly filled columns are now data. Open <b>Copilot Chat</b> in a new tab and ask for the dashboard.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Buatkan saya satu halaman dashboard HTML untuk melihat temuan kunjungan kebun, berdasarkan kolom metadata di document library SharePoint bernama Operations Documents, folder Field Visit Reports.
@@ -2889,16 +2840,8 @@ Untuk tombol Refresh Data, gunakan Microsoft Graph API guna mengambil ulang isi 
 
 Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hijau tua. Seluruh teks dalam bahasa Indonesia. Berikan hasilnya sebagai file HTML yang bisa saya unduh.</div>
 <div class="callout good"><b>This is what management actually wants.</b> Ten Word documents that had to be opened one at a time are now one page you can filter by estate and by urgency. You wrote no code.</div>
-</div>
 
-<div class="activity">
-<div class="head"><span class="num">Task 9.3</span><span class="file">&#128196; 11 Kampar Sentosa visit report</span><span class="time">5 minutes</span></div>
-<h4>The test: upload one new report and watch the columns fill themselves</h4>
-<p>This is the most convincing thing you can show a management team.</p>
-<div class="task-step"><div class="step-label">Step 1</div>Open the <b>Field Visit Reports</b> folder and upload <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>.</div>
-<div class="task-step"><div class="step-label">Step 2</div>Wait one to two minutes, then reload the library page.</div>
-<div class="task-step"><div class="step-label">Step 3</div>Look at the four columns. Estate, Urgency, Key Finding and Action Required have filled themselves in. Nobody typed them.</div>
-<div class="task-step"><div class="step-label">Step 4</div>Go back to the dashboard from Task 9.2 and select <b>Refresh Data</b>. The new report appears in the table and the summary cards update.</div>
+<div class="task-step"><div class="step-label">Test it &middot; upload one new report</div>This is the most convincing thing you can show a management team. Open the <b>Field Visit Reports</b> folder and upload <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Wait one to two minutes, reload the library page, then look at the four columns: Estate, Urgency, Key Finding and Action Required have filled themselves in. Nobody typed them. Finally, go back to the dashboard and select <b>Refresh Data</b> &mdash; the new report appears in the table and the summary cards update.</div>
 <div class="callout good"><b>What should happen.</b> The Kampar Sentosa report describes a press cone past its replacement threshold, so Urgency comes out as <b>Kritis</b> and Action Required as <b>Yes</b>. Nobody triaged it, nobody forwarded an email, nobody had to be reminded. The document arrived and the table caught up.</div>
 </div>
 </div>
@@ -2910,7 +2853,7 @@ Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hij
 <span class="persona">Time <b>12 minutes</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Task 9.4</span><span class="file">&#127760; Operations Documents library</span><span class="time">12 minutes</span></div>
+<div class="head"><span class="num">Task 9.3</span><span class="file">&#127760; Operations Documents library</span><span class="time">12 minutes</span></div>
 <h4>Create a SharePoint Agent on the document library</h4>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open the <b>Operations Documents</b> library on the <b>Palmaraya Operations</b> site.</div>
@@ -2948,7 +2891,7 @@ Jangan menilai kinerja orang per orang. Bila nama mandor atau asisten muncul dal
 <div class="callout warn"><b>This feature is still in preview and the interface varies by tenant.</b> If the button is not there yet, use the older <b>+ New &rarr; Page with AI</b> route, or skip this part.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 9.5</span><span class="file">&#127760; Site page</span><span class="file">&#128196; 08 Strategic Memo</span><span class="time">10 minutes</span></div>
+<div class="head"><span class="num">Task 9.4</span><span class="file">&#127760; Site page</span><span class="file">&#128196; 08 Strategic Memo</span><span class="time">10 minutes</span></div>
 <h4>Build an operations news page from the board memo</h4>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open the <b>Palmaraya Operations</b> site and select <b>+ New</b> on the command bar.</div>
