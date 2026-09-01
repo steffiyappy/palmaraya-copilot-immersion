@@ -542,7 +542,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <tr><td>08</td><td><a href="samples/08 Palmaraya_Memo_Strategis_Q3_FY2026.docx">08 Palmaraya_Memo_Strategis_Q3_FY2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 6, 7</td><td>Memo Direktur Operasi: empat prioritas Kuartal 3 dan tabel ukuran keberhasilan dengan penanggung jawab.</td></tr>
 <tr><td>09</td><td><a href="samples/09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx">09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 1, 7</td><td>Transkrip lengkap rapat produksi bulanan 4 Agustus 2026 dengan 10 peserta, berisi enam keputusan dengan penanggung jawab dan deadline.</td></tr>
 <tr><td>10</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/Laporan%20Kunjungan%20Kebun" target="_blank">samples/Laporan Kunjungan Kebun/ (11 file)</a></td><td><span class="badge yellow">Word &times;11</span></td><td>Latihan 8, 9</td><td>Sebelas laporan kunjungan kebun dan pabrik dari departemen Agronomy Advisory. Sepuluh laporan Juli 2026, ditambah satu laporan Agustus 2026 yang sengaja disimpan terpisah untuk menguji Autofill columns pada Tugas 9.3. Unggah sebagai satu folder di SharePoint. Dipakai sebagai bahan Autofill columns dan sebagai sumber pengetahuan agent.</td></tr>
-<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folder)</a></td><td><span class="badge green">SKILL.md</span></td><td>Latihan 5 Bagian C</td><td>Dua Custom Skill yang sudah jadi: <code>analisis-losses-palmaraya</code> untuk Copilot in Excel dan <code>dek-keputusan-produksi</code> untuk Copilot in PowerPoint.</td></tr>
+<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folder)</a></td><td><span class="badge green">SKILL.md</span></td><td>Latihan 5 Bagian C</td><td>Dua Custom Skill yang sudah jadi: <code>palmaraya-losses-analysis</code> untuk Copilot in Excel dan <code>palmaraya-decision-deck</code> untuk Copilot in PowerPoint.</td></tr>
 </table>
 
 <div class="callout warn" style="margin-top:14px"><b>Perhatian.</b> File 01 sampai 04 berukuran 1 sampai 3 MB dengan puluhan ribu baris, dan ini memang disengaja. Data berukuran kecil hanya membuat Copilot terlihat mudah, tanpa membuktikan apa pun mengenai skala pekerjaan yang sebenarnya.</div>
@@ -949,7 +949,7 @@ Aturan yang berlaku untuk seluruh pekerjaan: bahasa Indonesia lugas dan profesio
 <h4>Pasang skill di Cowork, lalu bagikan ke tim</h4>
 
 <div class="task-step"><div class="step-label">Langkah 1</div>Buka <b>Cowork</b>, lalu masuk ke <b>Customize &rarr; Skills &rarr; Add &rarr; Upload skill</b>.</div>
-<div class="task-step"><div class="step-label">Langkah 2</div>Unggah file <code>SKILL.md</code> dari folder <code>analisis-losses-palmaraya</code>. Cowork menerima file <code>.md</code>, <code>.zip</code>, dan <code>.skill</code>.</div>
+<div class="task-step"><div class="step-label">Langkah 2</div>Unggah file <code>SKILL.md</code> dari folder <code>palmaraya-losses-analysis</code>. Cowork menerima file <code>.md</code>, <code>.zip</code>, dan <code>.skill</code>.</div>
 <div class="task-step"><div class="step-label">Langkah 3</div>Mulai sesi Cowork baru. Cowork memindai daftar skill setiap awal sesi, dan skill yang terbaca akan muncul di panel samping.</div>
 <div class="task-step"><div class="step-label">Langkah 4</div>Lampirkan keempat workbook, lalu jalankan prompt pendek di bawah ini.</div>
 
@@ -1108,9 +1108,9 @@ Sebutkan sumber sheet untuk setiap angka. Kalau ada bagian yang tidak dapat dihi
 <p>You do not have to write <code>SKILL.md</code> by hand. Open <b>Copilot Chat</b> in a new browser tab and paste the prompt below. Copilot writes the whole file and gives it to you as a download.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in Excel. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
 
-File harus diawali YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: analisis-losses-palmaraya. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, karena kalimat inilah yang dibaca Copilot untuk memutuskan apakah skill ini relevan.
+File harus diawali YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: palmaraya-losses-analysis. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, karena kalimat inilah yang dibaca Copilot untuk memutuskan apakah skill ini relevan.
 
-Setelah frontmatter, tuliskan instruksinya dalam format Markdown dan bahasa Indonesia. Skill ini digunakan untuk menganalisis data operasional perkebunan kelapa sawit, dan setiap hasil analisis wajib mengikuti aturan berikut.
+Setelah frontmatter, tuliskan instruksinya dalam format Markdown dan bahasa Inggris, supaya skill ini bisa dibaca dan dipakai ulang oleh rekan di kantor pusat maupun regional. Skill ini digunakan untuk menganalisis data operasional perkebunan kelapa sawit, dan setiap hasil analisis wajib mengikuti aturan berikut.
 
 Aturan pengerjaan. Jangan pernah mengubah, menimpa, atau mengurutkan ulang sheet sumber; seluruh hasil ditulis di sheet baru. Selalu urutkan dari kondisi terburuk lebih dulu, karena yang dibaca orang pertama kali adalah baris paling atas. Setiap angka persentase wajib disertai nilai rupiahnya bila datanya tersedia. Setiap grafik wajib diberi keterangan satu kalimat di bawahnya yang menyatakan kesimpulan, bukan sekadar menjelaskan isi grafik.
 
@@ -1122,22 +1122,23 @@ Terakhir, setiap hasil analisis wajib ditutup dengan satu bagian berjudul Yang t
 
 Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
 <div class="callout good"><b>Notice what just happened.</b> You described what you wanted in plain language and Copilot produced the file. The person on your team who knows what a good losses analysis looks like can build this, without involving IT.</div>
+<div class="callout"><b>Kenapa isi skill-nya berbahasa Inggris, tetapi hasil kerjanya tetap bahasa Indonesia?</b> Keduanya memang dipisahkan dengan sengaja. Instruksi di dalam skill ditulis dalam bahasa Inggris supaya bisa dibaca dan dipakai ulang lintas kantor, sementara di dalam instruksi itu sendiri ada aturan yang mewajibkan Copilot menulis hasil analisisnya dalam bahasa Indonesia dengan istilah baku perkebunan. Bahasa skill dan bahasa keluarannya adalah dua hal berbeda.</div>
 </div>
 
-<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
+<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>palmaraya-losses-analysis</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open any workbook from OneDrive, then open the <b>Copilot</b> pane from the Home tab.</div>
 <div class="task-step"><div class="step-label">Step 2</div>In the Copilot pane, select the <b>Settings</b> menu &mdash; the <b>...</b> in the upper-right corner &mdash; then select <b>Manage skills</b>.</div>
 <div class="task-step"><div class="step-label">Step 3</div>Select <b>Custom skills</b>, then select <b>Create OneDrive folder</b>. Copilot creates the <code>skills</code> folder in your OneDrive for you.</div>
 <div class="task-step"><div class="step-label">Step 4</div>Select <b>Open skills folder</b>. Your OneDrive opens at the new folder.</div>
-<div class="task-step"><div class="step-label">Step 5</div>Inside it, create a folder named exactly <code>analisis-losses-palmaraya</code> and put the <code>SKILL.md</code> file in it. <b>The folder name must match the <code>name</code> field inside the file exactly.</b> One character different and Copilot silently skips it.</div>
+<div class="task-step"><div class="step-label">Step 5</div>Inside it, create a folder named exactly <code>palmaraya-losses-analysis</code> and put the <code>SKILL.md</code> file in it. <b>The folder name must match the <code>name</code> field inside the file exactly.</b> One character different and Copilot silently skips it.</div>
 <div class="task-step"><div class="step-label">Step 6</div>Back in the <b>Custom skills</b> dialog, select <b>Refresh</b>. Your skill appears in the list.</div>
 <div class="task-step"><div class="step-label">Step 7</div>To use it: select <b>Add work content</b> in the prompt field, then <b>Choose skills</b>. Or just type <b>@</b> followed by the skill name.</div>
 
 <div class="callout"><b>Official reference:</b> <a href="https://support.microsoft.com/en-US/Excel/copilot/copilot-in-excel-skills" target="_blank">Use skills with Copilot in Excel to complete repeatable tasks</a> on Microsoft Support.</div>
 
 <p>Now open <b>01 Palmaraya_Losses_Mill.xlsx</b>, click the <b>Produksi_Harian_PKS</b> sheet, switch Copilot to <b>Edit</b> mode, and run this deliberately short prompt.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@analisis-losses-palmaraya Buatkan dashboard extraction rate dan losses pabrik untuk rapat produksi bulan ini.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@palmaraya-losses-analysis Buatkan dashboard extraction rate dan losses pabrik untuk rapat produksi bulan ini.</div>
 <div class="callout good"><b>What should happen without you asking.</b> The result is written to a new sheet and the raw data is untouched. The ranking starts with the worst mill. Every percentage carries its rupiah value. Every chart has a one-line caption stating a conclusion. Compare that one line against the length of the prompt in Task 5.1 &mdash; the rules did not disappear, they simply moved into the skill.</div>
 <div class="callout warn"><b>If you cannot see a skills option.</b> Custom skills are still rolling out and may not be enabled for your account yet. Nothing else in this session depends on it. The instructions Copilot wrote still work perfectly well pasted straight into the Copilot pane as an ordinary prompt &mdash; which is all a skill really is.</div>
 <div class="callout"><b>Afterwards, try it on your own work.</b> Think of one task you repeat with the same rules &mdash; the monthly division report, the weekly FFB grading recap, the standard format for an incident note. Ask Copilot Chat: <i>"Saya ingin membuat Custom Skill untuk pekerjaan rutin saya. Tanyakan dulu kepada saya: pekerjaan apa yang saya ulang, data apa yang saya pakai, seperti apa hasil akhir yang saya harapkan, dan aturan apa yang tidak boleh dilanggar. Setelah itu tuliskan file SKILL.md lengkap dan berikan sebagai file yang bisa saya unduh."</i></div>
@@ -1209,7 +1210,7 @@ Setelah selesai, laporkan kepada saya dalam bentuk tabel: nomor slide, apa yang 
 <div class="callout good"><b>Poin yang perlu ditekankan.</b> Minta Copilot melaporkan perubahan yang dilakukan per nomor slide. Perubahan yang bisa ditelusuri satu per satu jauh lebih dipercaya daripada deck yang tiba-tiba berubah seluruhnya.</div>
 </div>
 
-<div class="callout warn"><b>Setelah Bagian C pada Latihan 5.</b> Kerjakan ulang Tugas 6.1 setelah memasang Custom Skill <code>dek-keputusan-produksi</code>. Prompt Anda akan jauh lebih pendek karena seluruh aturan di atas sudah tersimpan di dalam skill.</div>
+<div class="callout warn"><b>Setelah Bagian C pada Latihan 5.</b> Kerjakan ulang Tugas 6.1 setelah memasang Custom Skill <code>palmaraya-decision-deck</code>. Prompt Anda akan jauh lebih pendek karena seluruh aturan di atas sudah tersimpan di dalam skill.</div>
 </div>
 <div class="card">
 <h3>Part B &middot; Custom Skill for PowerPoint<small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">The deck rules, saved once, applied every time</small></h3>
@@ -1225,9 +1226,9 @@ Setelah selesai, laporkan kepada saya dalam bentuk tabel: nomor slide, apa yang 
 <p>Open <b>Copilot Chat</b> in a new tab and paste this. Copilot returns a downloadable <code>SKILL.md</code>.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in PowerPoint. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
 
-Awali dengan YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: dek-keputusan-produksi. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, yaitu ketika saya meminta dibuatkan presentasi untuk rapat direksi atau rapat produksi.
+Awali dengan YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: palmaraya-decision-deck. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, yaitu ketika saya meminta dibuatkan presentasi untuk rapat direksi atau rapat produksi.
 
-Setelah frontmatter, tuliskan instruksinya dalam Markdown dan bahasa Indonesia. Skill ini mengatur cara menyusun deck keputusan, dengan ketentuan berikut.
+Setelah frontmatter, tuliskan instruksinya dalam Markdown dan bahasa Inggris, supaya skill ini bisa dibaca dan dipakai ulang oleh rekan di kantor pusat maupun regional. Skill ini mengatur cara menyusun deck keputusan, dengan ketentuan berikut.
 
 Struktur argumen. Deck selalu dimulai dari kesimpulan, bukan dari data. Urutannya: situasi dengan angka, apa yang selama ini diyakini, mengapa keyakinan itu tidak tahan diuji data, apa yang sebenarnya ditunjukkan data, konsekuensinya dalam rupiah, biaya bila tidak berbuat apa-apa, rencana tindakan, lalu keputusan yang diminta.
 
@@ -1255,7 +1256,7 @@ Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya 
 <div class="callout"><b>Official reference:</b> <a href="https://support.microsoft.com/en-us/PowerPoint/copilot/copilot-in-powerpoint-skills" target="_blank">Use custom skills with Copilot in PowerPoint</a> on Microsoft Support. That page also covers the alternative routes: pasting the skill into a form, or copying the folder into OneDrive yourself.</div>
 
 <p>Now start a blank presentation, open Copilot, and run this. Compare its length against Task 6.1.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@dek-keputusan-produksi Buatkan deck keputusan dari file 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx, dengan angka pendukung dari file 01 Palmaraya_Losses_Mill.xlsx.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@palmaraya-decision-deck Buatkan deck keputusan dari file 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx, dengan angka pendukung dari file 01 Palmaraya_Losses_Mill.xlsx.</div>
 <div class="callout good"><b>Read the slide titles first.</b> If the deck came out right, the titles alone should tell the whole argument &mdash; without opening a single slide. That is the rule working, not the model guessing.</div>
 </div>
 </div>
@@ -1865,7 +1866,7 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <tr><td>08</td><td><a href="samples/08 Palmaraya_Memo_Strategis_Q3_FY2026.docx">08 Palmaraya_Memo_Strategis_Q3_FY2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Exercises 6, 7</td><td>Operations Director's memo: four Q3 priorities and a success measures table with named owners.</td></tr>
 <tr><td>09</td><td><a href="samples/09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx">09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Exercises 1, 7</td><td>Full transcript of the monthly production meeting on 4 August 2026 with 10 participants, containing six decisions with owners and deadlines.</td></tr>
 <tr><td>10</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/Laporan%20Kunjungan%20Kebun" target="_blank">samples/Laporan Kunjungan Kebun/ (11 files)</a></td><td><span class="badge yellow">Word &times;11</span></td><td>Exercises 8, 9</td><td>Eleven estate and mill visit reports from the Agronomy Advisory department. Ten from July 2026, plus one August 2026 report deliberately held back to test Autofill columns in Task 9.3. Upload as a single folder to SharePoint. Used both as the input for Autofill columns and as an agent knowledge source.</td></tr>
-<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folders)</a></td><td><span class="badge green">SKILL.md</span></td><td>Exercise 5 Part C</td><td>Two ready-made Custom Skills: <code>analisa-losses-palmaraya</code> for Copilot in Excel and Cowork, and <code>dek-keputusan-produksi</code> for Copilot in PowerPoint.</td></tr>
+<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folders)</a></td><td><span class="badge green">SKILL.md</span></td><td>Exercise 5 Part C</td><td>Two ready-made Custom Skills: <code>palmaraya-losses-analysis</code> for Copilot in Excel and Cowork, and <code>palmaraya-decision-deck</code> for Copilot in PowerPoint.</td></tr>
 </table>
 
 <div class="callout warn" style="margin-top:14px"><b>Note.</b> Files 01 to 04 are 1 to 3 MB with tens of thousands of rows. That is deliberate. Small data makes Copilot look easy and proves nothing about the scale of real work.</div>
@@ -1926,11 +1927,11 @@ Preparation for today's meetings. Only meetings that have not yet happened, in a
 Writing rules: plain, concise English. Name people and files specifically rather than making general statements. If a section has nothing in it, say it is empty rather than inventing something.</div>
 <div class="callout good"><b>The point to land with participants.</b> Not a single file was attached. Copilot read your own inbox, calendar and chats, and only you can see the result. That is the core difference from a general-purpose AI tool: it knows your work, and it respects your access permissions.</div>
 <div class="task-step"><div class="step-label">Optional follow-up</div>Still in the same conversation, you can go straight into any topic that came up in the briefing. Replace the bracketed part with the topic.</div>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Dari daily briefing tadi, ada satu hal yang ingin saya dalami: [tuliskan topik atau nama proyeknya di sini].
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>From that daily briefing, there is one thing I want to dig into: [write the topic or project name here].
 
-Kumpulkan semua informasi yang kamu temukan mengenai topik tersebut dari email, chat, dokumen, dan rapat saya selama tiga bulan terakhir. Susun sebagai: kronologi singkat yang sudah terjadi, posisi terkini, siapa saja yang terlibat beserta perannya, keputusan yang sudah diambil, serta hal yang masih open tanpa PIC yang jelas.
+Gather everything you can find about it from my emails, chats, documents and meetings over the past three months. Present it as: a short chronology of what has happened, the current position, who is involved and in what role, the decisions already taken, and anything still open with no clear owner.
 
-Cantumkan sumber untuk setiap poin berupa nama file, subjek email, atau nama rapat, supaya saya bisa menelusurinya sendiri. Bila ada dua sumber yang saling bertentangan, tampilkan keduanya dan sebutkan mana yang lebih baru.</div>
+Cite a source for every point, giving the file name, email subject, or meeting title, so I can follow it up myself. If two sources contradict each other, show both and say which is more recent.</div>
 <div class="callout warn"><b>Do not put this on the projector</b> without checking it first. The contents are your actual emails and schedule.</div>
 </div>
 
@@ -2270,11 +2271,11 @@ Rules across every job: plain professional English, the company's standard opera
 <h4>Install the skill in Cowork, then share it with the team</h4>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open <b>Cowork</b>, then go to <b>Customize &rarr; Skills &rarr; Add &rarr; Upload skill</b>.</div>
-<div class="task-step"><div class="step-label">Step 2</div>Upload the <code>SKILL.md</code> file from the <code>analisis-losses-palmaraya</code> folder. Cowork accepts <code>.md</code>, <code>.zip</code> and <code>.skill</code> files.</div>
+<div class="task-step"><div class="step-label">Step 2</div>Upload the <code>SKILL.md</code> file from the <code>palmaraya-losses-analysis</code> folder. Cowork accepts <code>.md</code>, <code>.zip</code> and <code>.skill</code> files.</div>
 <div class="task-step"><div class="step-label">Step 3</div>Start a new Cowork session. Cowork scans the skill list at the start of every session, and any skill it reads appears in the side panel.</div>
 <div class="task-step"><div class="step-label">Step 4</div>Attach the four workbooks, then run the short prompt below.</div>
 
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Dari keempat workbook yang saya lampirkan, telusuri penyebab turunnya extraction rate grup sepanjang Januari sampai Juli 2026, lalu susun paket rapat direksi lengkap: dashboard Excel, deck PowerPoint, dan memo Word.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>From the four workbooks I have attached, trace what caused the group extraction rate to fall between January and July 2026, then build the complete board meeting pack: an Excel dashboard, a PowerPoint deck, and a Word memo.</div>
 
 <div class="callout good"><b>Compare that against Task 4.1.</b> The earlier prompt was more than ten times longer, and most of that length was the same set of rules. The rules did not disappear &mdash; they moved into the skill.</div>
 
@@ -2423,38 +2424,39 @@ Cite the source sheet for every figure. If any part cannot be calculated from th
 <div class="head"><span class="num">Task 5.4</span><span class="file">&#128172; Copilot Chat &middot; Excel</span><span class="time">14 minutes</span></div>
 <h4>Get Copilot to write the skill file for you</h4>
 <p>You do not have to write <code>SKILL.md</code> by hand. Open <b>Copilot Chat</b> in a new browser tab and paste the prompt below. Copilot writes the whole file and gives it to you as a download.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in Excel. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>I want to create a Custom Skill for Copilot in Excel. Please write the complete contents of a SKILL.md file for me.
 
-File harus diawali YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: analisis-losses-palmaraya. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, karena kalimat inilah yang dibaca Copilot untuk memutuskan apakah skill ini relevan.
+The file must open with YAML frontmatter between triple dashes, containing exactly two fields: name and description. Set name to: palmaraya-losses-analysis. Write the description as one sentence explaining when this skill should be used, because that sentence is what Copilot reads to decide whether the skill is relevant.
 
-Setelah frontmatter, tuliskan instruksinya dalam format Markdown dan bahasa Indonesia. Skill ini digunakan untuk menganalisis data operasional perkebunan kelapa sawit, dan setiap hasil analisis wajib mengikuti aturan berikut.
+After the frontmatter, write the instructions in Markdown, in English, so the skill can be read and reused by colleagues at head office and across the region. This skill is used to analyse palm oil plantation operational data, and every analysis it produces must follow the rules below.
 
-Aturan pengerjaan. Jangan pernah mengubah, menimpa, atau mengurutkan ulang sheet sumber; seluruh hasil ditulis di sheet baru. Selalu urutkan dari kondisi terburuk lebih dulu, karena yang dibaca orang pertama kali adalah baris paling atas. Setiap angka persentase wajib disertai nilai rupiahnya bila datanya tersedia. Setiap grafik wajib diberi keterangan satu kalimat di bawahnya yang menyatakan kesimpulan, bukan sekadar menjelaskan isi grafik.
+Working rules. Never edit, overwrite, or re-sort the source sheets; write every result to a new sheet. Always rank worst first, because the top row is what people read first. Every percentage must carry its rupiah value where the data allows it. Every chart must have a one-line caption underneath stating the conclusion, not merely describing what the chart contains.
 
-Aturan penulisan. Gunakan bahasa Indonesia yang lugas dan istilah baku perkebunan seperti janjang, rendemen, hancak, restan, brondolan, afdeling, dan losses. Tulis angka dengan pemisah ribuan titik dan desimal koma. Jangan pernah menyebut nama pemanen secara individual; cukup sampai tingkat mandor, afdeling, atau estate.
+Writing rules. Use plain Indonesian and the company's standard plantation terms: janjang, rendemen, hancak, restan, brondolan, afdeling, and losses. Write numbers with a full stop as the thousands separator and a comma as the decimal separator. Never name an individual harvester; go no further than foreman, division, or estate level.
 
-Aturan kejujuran. Bila sebuah angka tidak bisa dihitung dari data yang tersedia, sebutkan angka mana dan data apa yang kurang, jangan mengarang. Bila selisih antar kelompok kecil dan berpotensi hanya noise, katakan terus terang.
+Honesty rules. If a figure cannot be calculated from the available data, say which figure and what data is missing rather than inventing it. If a difference between groups is small and could be noise, say so plainly.
 
-Terakhir, setiap hasil analisis wajib ditutup dengan satu bagian berjudul Yang tidak bisa dijawab data ini, berisi batasan analisisnya.
+Finally, every analysis must close with a section titled Yang tidak bisa dijawab data ini, setting out the limitations of that analysis.
 
-Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
+Give me the finished file as a downloadable SKILL.md file.</div>
 <div class="callout good"><b>Notice what just happened.</b> You described what you wanted in plain language and Copilot produced the file. The person on your team who knows what a good losses analysis looks like can build this, without involving IT.</div>
+<div class="callout"><b>Why is the skill written in English when its output is in Indonesian?</b> That separation is deliberate. The instructions inside the skill are in English so it can be read and reused across offices, while those same instructions contain a rule requiring Copilot to write its analysis in Indonesian using the standard plantation terms. The language of the skill and the language of its output are two different things.</div>
 </div>
 
-<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>analisis-losses-palmaraya</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
+<div class="task-step"><div class="step-label">Now install it</div>Use the file Copilot just wrote, or the ready-made <code>palmaraya-losses-analysis</code> folder from the sample files. Follow these steps exactly &mdash; the folder name is the part people get wrong.</div>
 
 <div class="task-step"><div class="step-label">Step 1</div>Open any workbook from OneDrive, then open the <b>Copilot</b> pane from the Home tab.</div>
 <div class="task-step"><div class="step-label">Step 2</div>In the Copilot pane, select the <b>Settings</b> menu &mdash; the <b>...</b> in the upper-right corner &mdash; then select <b>Manage skills</b>.</div>
 <div class="task-step"><div class="step-label">Step 3</div>Select <b>Custom skills</b>, then select <b>Create OneDrive folder</b>. Copilot creates the <code>skills</code> folder in your OneDrive for you.</div>
 <div class="task-step"><div class="step-label">Step 4</div>Select <b>Open skills folder</b>. Your OneDrive opens at the new folder.</div>
-<div class="task-step"><div class="step-label">Step 5</div>Inside it, create a folder named exactly <code>analisis-losses-palmaraya</code> and put the <code>SKILL.md</code> file in it. <b>The folder name must match the <code>name</code> field inside the file exactly.</b> One character different and Copilot silently skips it.</div>
+<div class="task-step"><div class="step-label">Step 5</div>Inside it, create a folder named exactly <code>palmaraya-losses-analysis</code> and put the <code>SKILL.md</code> file in it. <b>The folder name must match the <code>name</code> field inside the file exactly.</b> One character different and Copilot silently skips it.</div>
 <div class="task-step"><div class="step-label">Step 6</div>Back in the <b>Custom skills</b> dialog, select <b>Refresh</b>. Your skill appears in the list.</div>
 <div class="task-step"><div class="step-label">Step 7</div>To use it: select <b>Add work content</b> in the prompt field, then <b>Choose skills</b>. Or just type <b>@</b> followed by the skill name.</div>
 
 <div class="callout"><b>Official reference:</b> <a href="https://support.microsoft.com/en-US/Excel/copilot/copilot-in-excel-skills" target="_blank">Use skills with Copilot in Excel to complete repeatable tasks</a> on Microsoft Support.</div>
 
 <p>Now open <b>01 Palmaraya_Losses_Mill.xlsx</b>, click the <b>Produksi_Harian_PKS</b> sheet, switch Copilot to <b>Edit</b> mode, and run this deliberately short prompt.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@analisis-losses-palmaraya Buatkan dashboard extraction rate dan losses pabrik untuk rapat produksi bulan ini.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>@palmaraya-losses-analysis Build the extraction rate and mill losses dashboard for this month's production meeting.</div>
 <div class="callout good"><b>What should happen without you asking.</b> The result is written to a new sheet and the raw data is untouched. The ranking starts with the worst mill. Every percentage carries its rupiah value. Every chart has a one-line caption stating a conclusion. Compare that one line against the length of the prompt in Task 5.1 &mdash; the rules did not disappear, they simply moved into the skill.</div>
 </div>
 
@@ -2525,7 +2527,7 @@ When you are finished, report back as a table: slide number, what you changed, a
 <div class="callout good"><b>The point to land.</b> Ask Copilot to report changes by slide number. Changes you can review one at a time are trusted far more than a deck that silently transforms all at once.</div>
 </div>
 
-<div class="callout warn"><b>After Part C of Exercise 5.</b> Run Task 6.1 again once you have installed the <code>dek-keputusan-produksi</code> Custom Skill. Your prompt will be far shorter, because every rule above will already live inside the skill.</div>
+<div class="callout warn"><b>After Part C of Exercise 5.</b> Run Task 6.1 again once you have installed the <code>palmaraya-decision-deck</code> Custom Skill. Your prompt will be far shorter, because every rule above will already live inside the skill.</div>
 </div>
 <div class="card">
 <h3>Part B &middot; Custom Skill for PowerPoint<small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">The deck rules, saved once, applied every time</small></h3>
@@ -2539,23 +2541,23 @@ When you are finished, report back as a table: slide number, what you changed, a
 <div class="head"><span class="num">Task 6.3</span><span class="file">&#128172; Copilot Chat</span><span class="time">5 minutes</span></div>
 <h4>Ask Copilot Chat to write the deck skill</h4>
 <p>Open <b>Copilot Chat</b> in a new tab and paste this. Copilot returns a downloadable <code>SKILL.md</code>.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Saya ingin membuat Custom Skill untuk Copilot in PowerPoint. Tolong tuliskan isi lengkap file SKILL.md untuk saya.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>I want to create a Custom Skill for Copilot in PowerPoint. Please write the complete contents of a SKILL.md file for me.
 
-Awali dengan YAML frontmatter di antara tiga tanda hubung, berisi tepat dua field: name dan description. Isi name dengan: dek-keputusan-produksi. Tulis description dalam satu kalimat yang menjelaskan kapan skill ini dipakai, yaitu ketika saya meminta dibuatkan presentasi untuk rapat direksi atau rapat produksi.
+Open with YAML frontmatter between triple dashes, containing exactly two fields: name and description. Set name to: palmaraya-decision-deck. Write the description as one sentence explaining when this skill applies, namely whenever I ask for a presentation for a board meeting or a production meeting.
 
-Setelah frontmatter, tuliskan instruksinya dalam Markdown dan bahasa Indonesia. Skill ini mengatur cara menyusun deck keputusan, dengan ketentuan berikut.
+After the frontmatter, write the instructions in Markdown, in English, so the skill can be read and reused by colleagues at head office and across the region. This skill governs how a decision deck is built, according to the rules below.
 
-Struktur argumen. Deck selalu dimulai dari kesimpulan, bukan dari data. Urutannya: situasi dengan angka, apa yang selama ini diyakini, mengapa keyakinan itu tidak tahan diuji data, apa yang sebenarnya ditunjukkan data, konsekuensinya dalam rupiah, biaya bila tidak berbuat apa-apa, rencana tindakan, lalu keputusan yang diminta.
+Argument structure. The deck always opens with the conclusion, never with the data. The order is: the situation with figures, what has been believed about it, why that belief does not survive the data, what the data actually shows, the consequence in rupiah, the cost of doing nothing, the action plan, then the decisions being asked for.
 
-Aturan judul slide. Setiap judul wajib berupa kalimat yang menyatakan kesimpulan dan mengandung kata kerja, sehingga bisa dinilai benar atau salah. Judul berupa frasa benda seperti Kinerja Extraction Rate atau Losses Pabrik tidak diterima dan harus ditulis ulang menjadi pernyataan temuan.
+Slide title rules. Every title must be a sentence that states a conclusion and contains a verb, so it can be judged true or false. Noun-phrase titles such as Kinerja Extraction Rate or Losses Pabrik are not acceptable and must be rewritten as statements of finding.
 
-Aturan isi. Maksimal empat butir per slide, satu baris per butir. Bila tidak muat, pindahkan ke catatan penyaji. Seluruh grafik dibuat asli di PowerPoint dan diberi label data, bukan gambar tempelan.
+Content rules. Four bullets per slide maximum, one line per bullet. If it does not fit, move it into the speaker notes. Build every chart natively in PowerPoint with data labels, never as a pasted image.
 
-Aturan catatan penyaji. Setiap slide wajib memiliki catatan penyaji berisi dua bagian: dua kalimat yang perlu diucapkan saat slide tampil, lalu satu pertanyaan yang paling mungkin diajukan direksi beserta jawaban satu baris.
+Speaker note rules. Every slide must carry speaker notes in two parts: two sentences to say while the slide is on screen, then the single question the board is most likely to ask, with a one-line answer.
 
-Aturan bahasa. Gunakan bahasa Indonesia dan istilah baku perkebunan seperti janjang, rendemen, hancak, restan, brondolan, afdeling, dan losses. Jangan pernah menggunakan kata memantau, meninjau kembali, terus mengawasi, atau akan dikaji lebih lanjut, karena keempatnya bukan tindakan. Ganti dengan tindakan yang punya penanggung jawab dan tanggal.
+Language rules. Write in Indonesian using the company's standard plantation terms: janjang, rendemen, hancak, restan, brondolan, afdeling, and losses. Never use the words memantau, meninjau kembali, terus mengawasi, or akan dikaji lebih lanjut, because none of those are actions. Replace them with an action that has an owner and a date.
 
-Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya sebagai file SKILL.md yang bisa saya unduh.</div>
+The final slide must ask for a decision rather than summarise again. Give me the finished file as a downloadable SKILL.md file.</div>
 </div>
 
 <div class="activity">
@@ -2571,7 +2573,7 @@ Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya 
 <div class="callout"><b>Official reference:</b> <a href="https://support.microsoft.com/en-us/PowerPoint/copilot/copilot-in-powerpoint-skills" target="_blank">Use custom skills with Copilot in PowerPoint</a> on Microsoft Support. That page also covers the alternative routes: pasting the skill into a form, or copying the folder into OneDrive yourself.</div>
 
 <p>Now start a blank presentation, open Copilot, and run this. Compare its length against Task 6.1.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>@dek-keputusan-produksi Buatkan deck keputusan dari file 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx, dengan angka pendukung dari file 01 Palmaraya_Losses_Mill.xlsx.</div>
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>@palmaraya-decision-deck Build a decision deck from 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx, using the supporting figures in 01 Palmaraya_Losses_Mill.xlsx.</div>
 <div class="callout good"><b>Read the slide titles first.</b> If the deck came out right, the titles alone should tell the whole argument &mdash; without opening a single slide. That is the rule working, not the model guessing.</div>
 </div>
 </div>
@@ -2665,17 +2667,17 @@ Four, does this document say anything about what an operator should do when the 
 <div class="task-step"><div class="step-label">Step 2</div>In the left navigation pane, under <b>Agents</b>, select <b>New Agent</b>.</div>
 <div class="task-step"><div class="step-label">Step 3</div>You will see a box asking you to describe the agent. Paste the prompt below, then select <b>Send</b>.</div>
 
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Buatkan agent bernama Harvest Quality Assistant Palmaraya untuk tim SQA dan Agronomy di grup perkebunan kelapa sawit kami.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Build an agent called Harvest Quality Assistant Palmaraya for the SQA and Agronomy teams at our palm oil group.
 
-Tugas agent ini menjawab pertanyaan seputar SOP panen, standar kualitas panen, standar losses pabrik, serta temuan dari laporan kunjungan kebun.
+Its job is to answer questions about harvest SOPs, harvest quality standards, mill loss standards, and the findings in our field visit reports.
 
-Cara agent menjawab. Jawab ringkas dan langsung ke inti, maksimal tiga paragraf pendek. Setiap angka standar, ambang batas, denda, atau tenggat wajib disertai sumbernya berupa nomor dokumen dan nama bagian, supaya bisa ditelusuri. Untuk pertanyaan tentang kondisi lapangan, sebutkan nama estate, afdeling, tanggal kunjungan, dan nama pemeriksa.
+How it should answer. Keep answers short and to the point, three short paragraphs at most. Every standard figure, threshold, penalty, or deadline must carry its source as a document number and section name, so it can be traced. For questions about field conditions, name the estate, the division, the visit date, and the inspector.
 
-Batasan yang tidak boleh dilanggar. Agent hanya boleh menjawab berdasarkan dokumen yang saya lampirkan sebagai sumber pengetahuan. Bila jawabannya tidak ada di dokumen tersebut, katakan terus terang bahwa informasinya tidak tersedia, sebutkan departemen mana yang sebaiknya ditanya, dan jangan mengarang. Jangan pernah menyebut nama pemanen secara individual; cukup sampai tingkat mandor, afdeling, atau estate.
+Limits that must not be crossed. The agent may only answer from the documents I attach as knowledge sources. If the answer is not in those documents, say plainly that the information is not available, name which department to ask instead, and do not invent anything. Never name an individual harvester; go no further than foreman, division, or estate level.
 
-Gunakan bahasa Indonesia dan istilah baku perkebunan seperti janjang, rendemen, hancak, restan, brondolan, afdeling, dan losses.
+Write in Indonesian using the standard plantation terms: janjang, rendemen, hancak, restan, brondolan, afdeling, and losses.
 
-Buatkan juga empat pertanyaan pembuka yang mencerminkan pertanyaan paling sering diajukan mandor dan asisten kebun.</div>
+Also generate four starter prompts reflecting the questions foremen and field assistants ask most often.</div>
 
 <div class="callout good"><b>Notice what just happened.</b> You did not fill in a single field. Agent Builder read that description and populated the name, description, instructions and starter prompts itself. That is the difference between building an agent today and building one two years ago.</div>
 
@@ -2802,19 +2804,19 @@ Always close with one practical action the user could take that same day, where 
 <div class="head"><span class="num">Task 9.1</span><span class="file">&#128193; Field Visit Reports folder</span><span class="time">8 minutes</span></div>
 <h4>Ask Copilot to build every column at once</h4>
 <p>You do not need to create the columns one by one. Open the <b>Field Visit Reports</b> folder, select <b>Copilot</b> on the command bar, and paste the prompt below.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Library ini berisi laporan kunjungan kebun dan pabrik dalam format Word. Saya ingin isinya bisa dibaca sebagai tabel tanpa harus membuka setiap dokumen.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>This library holds estate and mill visit reports as Word documents. I want their contents readable as a table without having to open every document.
 
-Buatkan empat kolom berikut di library ini, lalu isi nilainya secara otomatis untuk seluruh dokumen yang sudah ada berdasarkan isi masing-masing dokumen.
+Create the four columns below in this library, then populate them automatically for all existing documents based on what each document contains.
 
-Kolom pertama, Estate. Jenis Choice. Isi dengan nama estate atau pabrik yang dikunjungi, dipilih dari daftar berikut: Bukit Sekawan, Tanjung Lestari, Muara Alam, Sungai Rangkat, Landak Permai, Rokan Jaya, Kampar Sentosa, PKS.
+First column, Estate. Type Choice. Fill it with the estate or mill visited, chosen from this list: Bukit Sekawan, Tanjung Lestari, Muara Alam, Sungai Rangkat, Landak Permai, Rokan Jaya, Kampar Sentosa, PKS.
 
-Kolom kedua, Urgency. Jenis Choice dengan pilihan Kritis, Perhatian, dan Normal. Isi Kritis bila laporan menyebutkan penyimpangan lebih dari dua kali standar, atau komponen yang sudah melewati batas penggantian, atau kondisi yang berpotensi menghentikan operasi. Isi Perhatian bila ada penyimpangan terhadap standar tetapi masih di bawah dua kali lipat. Isi Normal bila seluruh temuan masih dalam batas standar.
+Second column, Urgency. Type Choice, with the options Kritis, Perhatian, and Normal. Set Kritis when the report describes a deviation more than twice the standard, or a component past its replacement threshold, or a condition that could halt operations. Set Perhatian when there is a deviation against standard but under twice the limit. Set Normal when all findings sit within standard.
 
-Kolom ketiga, Key Finding. Jenis Multiple lines of text. Isi dengan ringkasan temuan utama dalam dua kalimat bahasa Indonesia. Kalimat pertama menyebutkan temuannya beserta angkanya, kalimat kedua menyebutkan dampaknya terhadap produksi atau extraction rate.
+Third column, Key Finding. Type Multiple lines of text. Summarise the main finding in two sentences in Indonesian. The first sentence states the finding with its figure, the second states its impact on production or extraction rate.
 
-Kolom keempat, Action Required. Jenis Yes/No. Isi Yes bila laporan memuat rekomendasi dengan tenggat kurang dari satu bulan sejak tanggal kunjungan, atau bila ada temuan berkategori Kritis. Selain itu isi No.
+Fourth column, Action Required. Type Yes/No. Set Yes when the report contains a recommendation due less than one month from the visit date, or when there is a Kritis finding. Otherwise set No.
 
-Setelah keempat kolom dibuat, jalankan pengisian otomatis untuk seluruh dokumen yang sudah ada di library ini.</div>
+Once all four columns exist, run the automatic fill across every document already in this library.</div>
 <div class="callout good"><b>Look at the second and fourth columns.</b> What you wrote there is a grading rule, not just a column name. The thresholds come from the company SOP, so the classification stays consistent across all ten reports instead of depending on whoever happens to read them.</div>
 <div class="callout warn"><b>If Copilot cannot create the columns in one go.</b> Create them manually via <b>+ Add column</b>, pick the column type, then under <b>Autofill</b> select <b>Set up</b> and paste each column's instruction from the prompt above. Same end result, just more steps.</div>
 <div class="callout"><b>Existing documents need one manual run.</b> Select all the documents, then <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Anything uploaded after this is processed automatically. Microsoft recommends a maximum of 10 Autofill columns per library and documents of no more than 65 pages.</div>
@@ -2824,21 +2826,21 @@ Setelah keempat kolom dibuat, jalankan pengisian otomatis untuk seluruh dokumen 
 <div class="head"><span class="num">Task 9.2</span><span class="file">&#128202; HTML dashboard</span><span class="time">15 minutes</span></div>
 <h4>Turn that metadata into a dashboard you can refresh</h4>
 <p>Those newly filled columns are now data. Open <b>Copilot Chat</b> in a new tab and ask for the dashboard.</p>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Buatkan saya satu halaman dashboard HTML untuk melihat temuan kunjungan kebun, berdasarkan kolom metadata di document library SharePoint bernama Operations Documents, folder Field Visit Reports.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Build me a single HTML dashboard page for reviewing field visit findings, based on the metadata columns in the SharePoint document library called Operations Documents, folder Field Visit Reports.
 
-Kolom yang tersedia: Estate, Urgency, Key Finding, Action Required, beserta nama file dan tanggal modifikasi.
+The available columns are: Estate, Urgency, Key Finding, Action Required, plus file name and modified date.
 
-Tulis seluruh kodenya dalam satu kotak kode sebagai satu file HTML utuh, tanpa file CSS atau JavaScript terpisah.
+Write all the code in one code block as a single complete HTML file, with no separate CSS or JavaScript files.
 
-Susunan halamannya sebagai berikut. Bagian header memuat judul Laporan Kunjungan Kebun Palmaraya, tanggal pembaruan terakhir, dan tombol Refresh Data di sisi kanan. Di bawahnya empat kartu ringkasan: jumlah laporan seluruhnya, jumlah berstatus Kritis, jumlah berstatus Perhatian, dan jumlah yang memerlukan tindak lanjut.
+Lay the page out as follows. The header carries the title Laporan Kunjungan Kebun Palmaraya, the last-updated date, and a Refresh Data button on the right. Below it, four summary cards: total reports, how many are Kritis, how many are Perhatian, and how many require follow-up.
 
-Setelah itu satu tabel berisi seluruh laporan dengan kolom Estate, Urgency, Key Finding, Action Required, dan tanggal. Beri warna latar pada kolom Urgency: merah muda untuk Kritis, kuning muda untuk Perhatian, hijau muda untuk Normal. Urutkan dari Kritis lebih dulu.
+Then one table listing every report with the columns Estate, Urgency, Key Finding, Action Required, and date. Colour the Urgency cell background: light red for Kritis, light amber for Perhatian, light green for Normal. Sort Kritis first.
 
-Tambahkan filter di atas tabel: satu dropdown untuk memilih Estate, satu dropdown untuk memilih Urgency, dan satu kotak pencarian untuk mencari kata di dalam Key Finding. Ketiganya bekerja langsung tanpa memuat ulang halaman.
+Add filters above the table: one dropdown for Estate, one dropdown for Urgency, and a search box that searches within Key Finding. All three work instantly without reloading the page.
 
-Untuk tombol Refresh Data, gunakan Microsoft Graph API guna mengambil ulang isi kolom library, lalu perbarui kartu ringkasan dan tabelnya. Tuliskan endpoint Graph yang diperlukan sebagai komentar di dalam kode, dan sertakan penjelasan singkat di bagian bawah halaman mengenai izin apa yang dibutuhkan. Bila autentikasi Graph belum tersedia, sediakan data contoh di dalam file supaya halamannya tetap bisa dibuka dan tombol Refresh tetap memperbarui tampilan dari data tersebut.
+For the Refresh Data button, use the Microsoft Graph API to re-read the library column values, then update the summary cards and the table. Write the required Graph endpoint as a comment in the code, and add a short note at the bottom of the page explaining which permissions are needed. If Graph authentication is not available, include sample data in the file so the page still opens and the Refresh button still updates the view from that data.
 
-Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hijau tua. Seluruh teks dalam bahasa Indonesia. Berikan hasilnya sebagai file HTML yang bisa saya unduh.</div>
+Use a clean layout with a white background, dark text, and one dark green accent colour. All text in Indonesian. Give me the result as a downloadable HTML file.</div>
 <div class="callout good"><b>This is what management actually wants.</b> Ten Word documents that had to be opened one at a time are now one page you can filter by estate and by urgency. You wrote no code.</div>
 
 <div class="task-step"><div class="step-label">Test it &middot; upload one new report</div>This is the most convincing thing you can show a management team. Open the <b>Field Visit Reports</b> folder and upload <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Wait one to two minutes, reload the library page, then look at the four columns: Estate, Urgency, Key Finding and Action Required have filled themselves in. Nobody typed them. Finally, go back to the dashboard and select <b>Refresh Data</b> &mdash; the new report appears in the table and the summary cards update.</div>
@@ -2862,19 +2864,19 @@ Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hij
 <div class="task-step"><div class="step-label">Step 4</div>Rename it <b>Palmaraya Operations Assistant</b>.</div>
 <div class="task-step"><div class="step-label">Step 5</div>Under <b>Sources</b>, make sure both the <b>SOP</b> and <b>Field Visit Reports</b> folders are included. The maximum is 20 sources.</div>
 <div class="task-step"><div class="step-label">Step 6</div>In the instructions box, paste the following.</div>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Kamu adalah Palmaraya Operations Assistant, asisten dokumen operasional PT Palmaraya Nusantara Tbk. Kamu hanya menjawab berdasarkan dokumen yang ada di library ini: SOP panen dan kualitas panen, standar kualitas dan losses pabrik, pedoman komunikasi perusahaan, memo strategis direksi, serta laporan kunjungan kebun.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>You are the Palmaraya Operations Assistant, the operational document assistant for PT Palmaraya Nusantara Tbk. You answer only from the documents in this library: the harvest and harvest quality SOPs, the mill quality and loss standards, the company communication guidelines, the board strategic memo, and the field visit reports.
 
-Jawab dalam bahasa Indonesia yang lugas. Mulai dengan jawaban langsungnya, baru rinciannya.
+Answer in plain Indonesian. Lead with the direct answer, then the detail.
 
-Setiap jawaban wajib menyebutkan nama dokumen sumbernya, dan bila relevan sebutkan juga bagian atau nomor pasalnya. Sertakan link ke dokumen tersebut supaya pengguna bisa membukanya sendiri.
+Every answer must name the source document, and where relevant the section or clause number. Include a link to that document so the user can open it themselves.
 
-Untuk pertanyaan mengenai kondisi lapangan, sebutkan estate, afdeling, tanggal kunjungan, dan nama pemeriksa.
+For questions about field conditions, name the estate, the division, the visit date, and the inspector.
 
-Bila dua dokumen menyebutkan hal yang berbeda, tampilkan keduanya dan sebutkan mana yang lebih baru berdasarkan tanggal berlaku atau tanggal kunjungan.
+Where two documents say different things, show both and state which is more recent based on the effective date or the visit date.
 
-Bila jawabannya tidak ada di library ini, katakan terus terang dan sebutkan departemen mana yang sebaiknya ditanya. Jangan menjawab berdasarkan pengetahuan umum di luar dokumen.
+If the answer is not in this library, say so plainly and name which department to ask instead. Do not answer from general knowledge outside these documents.
 
-Jangan menilai kinerja orang per orang. Bila nama mandor atau asisten muncul dalam laporan, sebutkan hanya sebagai konteks temuan, bukan sebagai penilaian.</div>
+Do not assess individual performance. Where a foreman or assistant is named in a report, mention them only as context for the finding, never as a judgement.</div>
 <div class="task-step"><div class="step-label">Step 7</div>Fill in the starter prompts with these four: <i>Apa temuan kunjungan terakhir di estate saya?</i> &middot; <i>Berapa standar losses empty fruit bunch?</i> &middot; <i>Apa empat prioritas Kuartal 3?</i> &middot; <i>Kapan saya wajib mengajukan penambahan tenaga panen?</i></div>
 <div class="task-step"><div class="step-label">Step 8</div>Select <b>Save</b>, then <b>Share</b> to give the SQA and Agronomy teams access.</div>
 
@@ -2897,23 +2899,23 @@ Jangan menilai kinerja orang per orang. Bila nama mandor atau asisten muncul dal
 <div class="task-step"><div class="step-label">Step 1</div>Open the <b>Palmaraya Operations</b> site and select <b>+ New</b> on the command bar.</div>
 <div class="task-step"><div class="step-label">Step 2</div>Choose <b>Page</b>, then pick the Copilot creation option. If your tenant still uses the older route, choose <b>Page with AI</b>.</div>
 <div class="task-step"><div class="step-label">Step 3</div>Copilot asks you to describe the page you want. Paste the prompt below.</div>
-<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Susun halaman berita internal berjudul Fokus Operasi Kuartal 3 untuk seluruh karyawan kebun dan pabrik Palmaraya.
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Compose an internal news page titled Fokus Operasi Kuartal 3 for all estate and mill staff at Palmaraya.
 
-Ambil isinya dari dokumen 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx yang ada di library ini, dan ikuti gaya bahasa yang diatur dalam 07 Palmaraya_Pedoman_Komunikasi.docx.
+Take the content from 08 Palmaraya_Memo_Strategis_Q3_FY2026.docx in this library, and follow the tone set out in 07 Palmaraya_Pedoman_Komunikasi.docx.
 
-Susunan halamannya sebagai berikut.
+Lay the page out as follows.
 
-Bagian pembuka, satu paragraf pendek yang menjelaskan mengapa extraction rate menjadi perhatian utama kuartal ini, ditulis dengan bahasa yang dimengerti mandor dan asisten kebun, tanpa istilah keuangan.
+An opening section, one short paragraph explaining why extraction rate is the priority this quarter, written in language a foreman or field assistant understands, with no financial jargon.
 
-Empat kartu, satu untuk setiap prioritas Kuartal 3. Setiap kartu memuat judul singkat, satu kalimat penjelasan, dan nama departemen penanggung jawabnya.
+Four cards, one per Q3 priority. Each card carries a short title, one sentence of explanation, and the name of the department that owns it.
 
-Satu bagian berisi tabel ukuran keberhasilan dengan kolom indikator, posisi Juli, dan target akhir kuartal.
+One section containing a success measures table with columns for the indicator, the July position, and the end-of-quarter target.
 
-Satu bagian tanya jawab singkat berisi empat pertanyaan yang paling mungkin diajukan karyawan lapangan mengenai perubahan ini, beserta jawabannya masing-masing satu paragraf.
+One short question-and-answer section covering the four questions field staff are most likely to ask about this change, each answered in a single paragraph.
 
-Bagian penutup berisi ajakan bertanya kepada Estate Manager atau Asisten Kepala masing-masing.
+A closing section inviting people to raise questions with their Estate Manager or Head Assistant.
 
-Gunakan bahasa Indonesia yang mudah dipahami. Hindari istilah poin persentase dan extraction rate konsolidasi. Jangan menampilkan angka kerugian dalam rupiah pada halaman ini, karena pembacanya karyawan lapangan.</div>
+Write in Indonesian that is easy to follow. Avoid the terms poin persentase and extraction rate konsolidasi. Do not show rupiah loss figures on this page, because the readers are field staff.</div>
 <div class="task-step"><div class="step-label">Step 4</div>Copilot lays the page out. Review it, then edit anything that needs tightening directly on the page.</div>
 <div class="task-step"><div class="step-label">Step 5</div>Select <b>Publish</b> in the top right. Once published, use <b>Send to</b> or copy the link to share it.</div>
 
