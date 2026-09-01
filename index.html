@@ -415,7 +415,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <li>Laporan deep research yang dihasilkan oleh agent Researcher terkait upaya mengurangi empty fruit bunch (EFB) dan unstripped bunch losses, yang diuji menggunakan data pabrik Anda sendiri.</li>
 <li>Analisis dari Analyst yang memecah penurunan extraction rate sebesar 1,59 poin ke kontribusi masing-masing stasiun di setiap pabrik, lengkap dengan grafik pendukung.</li>
 <li>Menyelesaikan satu proses kerja melalui Cowork yang membaca empat workbook sekaligus, membuat dashboard, presentasi, dan memo, serta menyusun draft email untuk Estate Manager.</li>
-<li>Dashboard kualitas panen (harvest quality) dan daftar prioritas pemupukan yang dibuat otomatis oleh Copilot in Excel pada worksheet baru tanpa mengubah raw data (raw data), sekaligus forecast produksi sampai akhir tahun yang dihitung dari pola curah hujan.</li>
+<li>Dashboard kualitas panen (harvest quality) dan daftar prioritas pemupukan yang dibuat otomatis oleh Copilot in Excel pada worksheet baru tanpa mengubah data mentah (raw data), sekaligus forecast produksi sampai akhir tahun yang dihitung dari pola curah hujan.</li>
 <li>Materi presentasi untuk pengambilan keputusan Direksi (Board Decision Deck) serta revisi SOP yang dibuat langsung oleh Copilot in PowerPoint dan Copilot in Word.</li>
 <li>Agent <b>Harvest Quality Assistant</b> tanpa coding menggunakan Agent Builder, yang dapat menjawab pertanyaan terkait SOP maupun hasil kunjungan lapangan untuk seluruh tim SQA dan Agronomy.</li>
 <li>Agent berbasis SharePoint yang membuat seluruh dokumen operasional dalam satu document library dapat diakses oleh siapa saja.</li>
@@ -500,7 +500,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 </div>
 
 <h3>Berkas ini diunggah ke mana</h3>
-<p class="lead">Penempatan ini meniru cara perusahaan sungguhan menyimpan berkasnya: data kerja harian di OneDrive pribadi, sedangkan SOP, memo dan laporan kunjungan di pustaka SharePoint yang digunakan bersama.</p>
+<p class="lead">Penempatan ini meniru cara perusahaan sungguhan menyimpan berkasnya: data kerja harian di OneDrive pribadi, sedangkan SOP, memo dan laporan kunjungan di document library SharePoint yang digunakan bersama.</p>
 <table>
 <tr><th style="width:26%">Tujuan</th><th style="width:34%">Berkas</th><th>Diperlukan untuk</th></tr>
 <tr>
@@ -509,7 +509,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <td>Latihan 1 sampai 7. Ini berkas kerja yang Anda lampirkan langsung ke Copilot.</td>
 </tr>
 <tr>
-<td><b>Pustaka SharePoint</b><br/><span style="font-size:12px;color:var(--muted)">Buat document library baru, misalnya bernama <b>Operasi Kebun</b></span></td>
+<td><b>Document library SharePoint</b><br/><span style="font-size:12px;color:var(--muted)">Buat document library baru, misalnya bernama <b>Operasi Kebun</b></span></td>
 <td>05, 06, 07, 08 (SOP, pedoman, memo) &rarr; taruh di subfolder <code>SOP</code><br/>Folder <b>Laporan Kunjungan Kebun</b> (10 berkas) &rarr; taruh di subfolder <code>Laporan Kunjungan</code></td>
 <td>Latihan 8 dan 9. Latihan 9 hanya berjalan kalau kelima berkas ini ada di SharePoint, bukan di OneDrive.</td>
 </tr>
@@ -519,7 +519,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <td>Latihan 5 Bagian C. Cara membukanya dijelaskan di latihan tersebut.</td>
 </tr>
 </table>
-<div class="callout"><b>Berkas 05 sampai 08 cukup diunggah ke SharePoint saja.</b> Copilot tetap dapat membacanya dari sana pada Latihan 2, 4, 6 dan 7, selama Anda punya akses ke pustakanya. Tidak perlu menyimpan salinan kedua di OneDrive.</div>
+<div class="callout"><b>Berkas 05 sampai 08 cukup diunggah ke SharePoint saja.</b> Copilot tetap dapat membacanya dari sana pada Latihan 2, 4, 6 dan 7, selama Anda punya akses ke library-nya. Tidak perlu menyimpan salinan kedua di OneDrive.</div>
 <div class="callout warn"><b>Kenapa harus OneDrive atau SharePoint?</b> Microsoft 365 Copilot hanya dapat membaca berkas yang tersimpan di OneDrive atau SharePoint. Berkas yang ada di desktop atau folder lokal tidak terlihat oleh Copilot.</div>
 
 <h3 style="margin-top:26px">Berkas inti &mdash; diperlukan untuk seluruh latihan</h3>
@@ -534,9 +534,9 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <tr><td>07</td><td><a href="samples/07 Palmaraya_Pedoman_Komunikasi.docx">07 Palmaraya_Pedoman_Komunikasi.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 6, 7, Bonus</td><td>Pedoman gaya bahasa, istilah baku perusahaan, struktur memo direksi dan laporan bulanan, warna dan tipografi, serta nada bicara ke tiap pemangku kepentingan.</td></tr>
 <tr><td>08</td><td><a href="samples/08 Palmaraya_Memo_Strategis_Q3_FY2026.docx">08 Palmaraya_Memo_Strategis_Q3_FY2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 6, 7</td><td>Memo Direktur Operasi: empat prioritas Kuartal 3 dan tabel ukuran keberhasilan dengan penanggung jawab.</td></tr>
 <tr><td>09</td><td><a href="samples/09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx">09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 1, 7</td><td>Transcript lengkap rapat produksi bulanan 4 Agustus 2026 dengan 10 peserta, berisi enam keputusan dengan penanggung jawab dan deadline.</td></tr>
-<tr><td>10</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/Laporan%20Kunjungan%20Kebun" target="_blank">samples/Laporan Kunjungan Kebun/ (10 berkas)</a></td><td><span class="badge yellow">Word &times;10</span></td><td>Latihan 8, 9</td><td>Sepuluh laporan kunjungan kebun dan pabrik dari divisi Agronomi Advisory, Juli 2026. Unggah sebagai satu folder di SharePoint. Dipakai sebagai bahan Autofill columns dan sebagai sumber pengetahuan agen.</td></tr>
+<tr><td>10</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/Laporan%20Kunjungan%20Kebun" target="_blank">samples/Laporan Kunjungan Kebun/ (10 berkas)</a></td><td><span class="badge yellow">Word &times;10</span></td><td>Latihan 8, 9</td><td>Sepuluh laporan kunjungan kebun dan pabrik dari divisi Agronomi Advisory, Juli 2026. Unggah sebagai satu folder di SharePoint. Dipakai sebagai bahan Autofill columns dan sebagai sumber pengetahuan agent.</td></tr>
 <tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folder)</a></td><td><span class="badge green">SKILL.md</span></td><td>Latihan 5 Bagian C</td><td>Dua Custom Skill siap pakai: <code>analisis-losses-palmaraya</code> untuk Copilot in Excel dan <code>dek-keputusan-produksi</code> untuk Copilot in PowerPoint.</td></tr>
-<tr><td>12</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/csv" target="_blank">samples/csv/ (20 berkas)</a></td><td><span class="badge">CSV</span></td><td>Referensi</td><td>Seluruh tabel mentah di balik keempat workbook, satu berkas per tabel. Tidak diperlukan untuk latihan mana pun. Disertakan kalau Anda ingin memuat datanya ke perkakas Anda sendiri seperti Power BI.</td></tr>
+<tr><td>12</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/csv" target="_blank">samples/csv/ (20 berkas)</a></td><td><span class="badge">CSV</span></td><td>Referensi</td><td>Seluruh tabel mentah di balik keempat workbook, satu berkas per tabel. Tidak diperlukan untuk latihan mana pun. Disertakan kalau Anda ingin memuat datanya ke tools Anda sendiri seperti Power BI.</td></tr>
 </table>
 
 <div class="callout warn" style="margin-top:14px"><b>Perhatian.</b> Berkas 01 sampai 04 berukuran 1 sampai 3 MB dengan puluhan ribu baris. Ini disengaja. Data kecil membuat Copilot terlihat mudah dan tidak membuktikan apa pun tentang skala pekerjaan sebenarnya.</div>
@@ -755,9 +755,9 @@ Tulis dalam bahasa Indonesia. Bedakan dengan jelas mana temuan dari data saya da
 <span class="persona">Cocok untuk <b>Direktur Operasi</b> &middot; <b>GM Mill Operations</b> &middot; <b>kepala divisi</b></span>
 <span class="persona">Waktu <b>20 menit</b></span>
 
-<h4>Dua cara, dua cara kerja yang berbeda</h4>
+<h4>Dua mode, dua cara kerja yang berbeda</h4>
 <table>
-<tr><th>Cara</th><th>Cara kerjanya</th><th>Hasilnya</th></tr>
+<tr><th>Mode</th><th>Cara kerjanya</th><th>Hasilnya</th></tr>
 <tr><td><b>Critique</b></td><td>Berurutan. GPT menyusun laporan lebih dulu, lalu Claude melakukan pemeriksaan kedua atas struktur, kelengkapan, kualitas sumber, dan apakah setiap kutipan benar-benar berdasar.</td><td>Satu laporan akhir yang sudah diperbaiki.</td></tr>
 <tr><td><b>Model Council</b></td><td>Paralel. GPT dan Claude menjawab pertanyaan yang sama secara terpisah, masing-masing menghasilkan laporan utuh.</td><td>Dua laporan lengkap, ditambah ringkasan yang menunjukkan di mana keduanya sepakat, di mana berbeda, dan apa yang hanya ditemukan salah satu.</td></tr>
 </table>
@@ -1086,7 +1086,7 @@ Dari keempat workbook yang saya lampirkan, telusuri mengapa extraction rate grup
 
 Ikuti seluruh aturan yang ada di dalam kedua skill tersebut. Kalau ada mata rantai sebab-akibat yang tidak didukung data, katakan terus terang dan jangan dipaksakan.</div>
 <div class="task-step"><div class="step-label">Langkah 4 &middot; bagikan</div>Setelah puas dengan hasilnya, buka <b>Customize &rarr; Skills</b>, pilih skill tersebut, lalu bagikan kepada rekan di organisasi Anda. Untuk penyebaran yang lebih luas, administrator dapat mengemas skill ke dalam plugin Cowork dan menyebarkannya ke seluruh organisasi atau ke grup tertentu.</div>
-<div class="callout good"><b>Inilah alasan skill layak dibuat.</b> Aturan mutu analisis Palmaraya berhenti menjadi pengetahuan satu orang. Begitu skill dibagikan, setiap anggota tim yang menggunakan Cowork menghasilkan analisis dengan standar yang sama, tanpa perlu mengingat dan mengetik ulang aturannya.</div>
+<div class="callout good"><b>Inilah alasan skill layak dibuat.</b> Aturan kualitas analisis Palmaraya berhenti menjadi pengetahuan satu orang. Begitu skill dibagikan, setiap anggota tim yang menggunakan Cowork menghasilkan analisis dengan standar yang sama, tanpa perlu mengingat dan mengetik ulang aturannya.</div>
 </div>
 
 <div class="activity bonus">
@@ -1475,7 +1475,7 @@ Rujuk berkas 06 Palmaraya_Standar_Mutu_dan_Losses_PKS.docx untuk ketentuan sorta
 
 Isi surat: sampaikan terima kasih atas pertanyaannya, jelaskan parameter apa saja yang dinilai saat sortasi dan mengapa masing-masing parameter mempengaruhi extraction rate, jelaskan bagaimana potongan dihitung, lalu tawarkan sesi sosialisasi di kebun beserta usulan tanggalnya.
 
-Nada surat hormat, tidak menggurui, dan tidak menyalahkan. Jelaskan dampaknya terhadap pendapatan mereka secara jujur, termasuk bahwa mutu yang lebih baik menaikkan harga yang mereka terima. Hindari singkatan teknis. Panjang maksimal tiga paragraf ditambah satu daftar parameter.
+Nada surat hormat, tidak menggurui, dan tidak menyalahkan. Jelaskan dampaknya terhadap pendapatan mereka secara jujur, termasuk bahwa kualitas yang lebih baik menaikkan harga yang mereka terima. Hindari singkatan teknis. Panjang maksimal tiga paragraf ditambah satu daftar parameter.
 
 Simpan sebagai draft, jangan dikirim.</div>
 </div>
