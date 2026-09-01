@@ -295,6 +295,8 @@ body.ihh-active .activity h4{text-transform:none;letter-spacing:0;font-size:16.5
 body.ihh-active .card>h3{letter-spacing:0}
 body.ihh-active .prompt .copy{background:#ca8a04!important}
 body.ihh-active .prompt .copy:hover{background:#a16207!important}
+.prompt.json{font-family:Consolas,"Cascadia Mono",Menlo,monospace;font-size:12.5px;line-height:1.55;letter-spacing:0}
+body.ihh-active .prompt.json{background:#0b1f16;color:#bbf7d0}
 .persona{display:inline-flex;align-items:center;gap:7px;background:var(--badge-bg);border:1px solid var(--border);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--muted);margin:0 6px 6px 0}
 .persona b{color:var(--ink);font-weight:600}
 .usecase-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:12px}
@@ -1278,32 +1280,37 @@ Slide terakhir wajib meminta keputusan, bukan meringkas ulang. Berikan hasilnya 
 <div class="callout good"><b>Cara mengakses.</b> Buka Word, lalu klik <b>Copilot</b> pada tab Home. Untuk menulis dari nol gunakan <b>Draft with Copilot</b>, dan sebut nama file rujukan dengan mengetik tanda <b>/</b> di dalam kotak prompt. Untuk bekerja pada dokumen yang sudah terbuka, gunakan panel Copilot di sisi kanan.</div>
 
 <div class="card">
-<p class="lead">SOP kualitas panen terakhir direvisi pada Januari. Data tujuh bulan terakhir menunjukkan ada satu hal yang belum diatur di dalamnya: apa yang harus terjadi ketika separuh pemanen di sebuah afdeling bermasa kerja di bawah enam bulan. Latihan ini menulis revisinya, lalu menerjemahkan memo direksi ke bahasa yang dimengerti mandor.</p>
+<p class="lead">SOP kualitas panen terakhir direvisi pada Januari. Data tujuh bulan terakhir menunjukkan ada satu hal yang belum diatur di dalamnya: masa kerja pemanen sama sekali tidak disebut, padahal selisih skornya mencapai 14,6 poin antara pemanen baru dan pemanen berpengalaman. Latihan ini menulis usulan revisinya, lalu menerjemahkan memo direksi ke bahasa yang dimengerti mandor.</p>
 <span class="persona">Cocok untuk <b>SQA</b> &middot; <b>Agronomy EPR</b> &middot; <b>Agronomy ADV</b></span>
 <span class="persona">Waktu <b>26 menit</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 7.1</span><span class="file">&#128196; 05 SOP Panen dan Kualitas Panen</span><span class="file">&#128202; 03 Kualitas Panen</span><span class="time">12 menit</span></div>
+<div class="head"><span class="num">Tugas 7.1</span><span class="file">&#128196; 05 SOP Panen dan Kualitas Panen</span><span class="time">12 menit</span></div>
 <h4>Tulis usulan revisi SOP yang berdasar temuan data</h4>
-<p>Buka dokumen Word kosong, jalankan <b>Draft with Copilot</b>, lalu rujuk kedua file berikut di dalam prompt.</p>
+<p>Buka dokumen Word kosong, jalankan <b>Draft with Copilot</b>, lalu ketik tanda <b>/</b> di dalam kotak prompt dan pilih file <b>05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx</b>.</p>
+<div class="callout warn"><b>Angkanya sengaja dicantumkan di dalam prompt, dan ini bukan kekurangan.</b> Copilot in Word membaca dokumen sebagai teks, bukan menghitung isi workbook. Bila Anda meminta Word membaca file Excel berisi 25.438 baris lalu menghitung rata-rata sendiri, Copilot akan menolak menulis dengan alasan datanya tidak dapat diverifikasi, dan penolakan itu sebenarnya perilaku yang benar. Pekerjaan menghitung sudah selesai di <b>Latihan 3</b>. Word bertugas menyusun dokumennya. Inilah pembagian kerja yang juga berlaku di pekerjaan sehari-hari: analisis di Excel, penulisan di Word.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Tulis usulan revisi SOP dengan judul Usulan Revisi SOP-AGR-014 Revisi 5, ditujukan kepada Manager SQA dan Manager Agronomy EPR.
 
-Rujuk file 05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx sebagai dokumen yang direvisi, dan file 03 Palmaraya_Mutu_Hancak.xlsx sebagai dasar buktinya.
+Rujuk file 05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx sebagai dokumen yang direvisi.
+
+Angka berikut sudah diverifikasi dari data penilaian mutu hancak periode Januari sampai Juli 2026. Pakai hanya angka ini. Jangan menghitung sendiri dan jangan menambah angka yang tidak tercantum di bawah.
+
+Skor rata-rata grup 85,5. Estate dengan skor terendah adalah Bukit Sekawan dengan 79,6. Afdeling terendah adalah Bukit Sekawan Afdeling C dan D dengan 68,1, dan pada Juli turun ke 64,9. Skor menurut masa kerja pemanen: di bawah 6 bulan 73,1, antara 6 sampai 12 bulan 83,0, dan di atas 12 bulan 87,7. Proporsi pemanen bermasa kerja di bawah 6 bulan mencapai 45 persen di Bukit Sekawan Afdeling D dan 28,6 persen di Afdeling C. Rasio hancak grup 12,4 hektar per pemanen, sedangkan Bukit Sekawan Afdeling C dan D mencapai 15,8 hektar per pemanen.
 
 Struktur dokumen:
 
-Bagian 1, latar belakang. Maksimal lima kalimat. Sebutkan skor kualitas panen rata-rata grup, skor estate dan afdeling terendah, dan selisih skor antara pemanen bermasa kerja di bawah enam bulan dengan yang di atas dua belas bulan. Setiap kalimat wajib memuat angka dari file 03.
+Bagian 1, latar belakang. Maksimal lima kalimat, setiap kalimat memuat angka dari daftar di atas.
 
-Bagian 2, celah dalam SOP yang berlaku. Tunjukkan pasal mana dalam SOP-AGR-014 yang sudah mengatur pendampingan pemanen baru, dan jelaskan mengapa rumusan yang ada belum cukup ketika proporsi pemanen baru di satu afdeling melampaui separuh dari total tenaga panen. Kutip bunyi pasal aslinya.
+Bagian 2, celah dalam SOP yang berlaku. Periksa Bagian 4 tentang rasio tenaga panen, Bagian 5.1 tentang grade dan konsekuensi, dan Bagian 6 tentang eskalasi. Kutip bunyi aslinya, lalu tunjukkan satu hal: ketiganya mengatur konsekuensi berdasarkan skor dan berdasarkan luas hancak, tetapi tidak satu pun menyebut masa kerja pemanen. Nyatakan secara tegas bahwa SOP yang berlaku belum mengatur apa yang harus dilakukan ketika sebagian besar tenaga panen di satu afdeling masih baru. Jangan mengarang nomor pasal yang tidak ada di dalam dokumen.
 
-Bagian 3, usulan perubahan. Sajikan dalam tabel tiga kolom: nomor pasal, bunyi lama, dan bunyi baru yang diusulkan. Usulkan sedikitnya empat perubahan, mencakup ambang proporsi pemanen baru yang memicu tindakan wajib, frekuensi pendampingan mandor, mekanisme evaluasi mandor berdasarkan skor rata-rata hancak yang dipegangnya, dan ambang rasio hancak yang memicu permintaan penambahan tenaga.
+Bagian 3, usulan perubahan. Sajikan dalam tabel tiga kolom: bagian SOP, bunyi lama, dan bunyi baru yang diusulkan. Usulkan empat perubahan: ambang proporsi pemanen baru dalam satu afdeling yang memicu tindakan wajib, frekuensi pendampingan mandor untuk pemanen bermasa kerja di bawah 6 bulan, evaluasi mandor berdasarkan skor rata-rata hancak yang dipegangnya, dan penegasan bahwa rasio hancak di atas 14 hektar per pemanen tidak boleh diberlakukan pada afdeling yang mayoritas pemanennya baru.
 
-Bagian 4, dampak yang diharapkan, dinyatakan dalam angka. Perkirakan kenaikan skor kualitas panen dan penurunan brondolan tidak terkutip kalau usulan dijalankan, dan nyatakan asumsinya secara terbuka.
+Bagian 4, dampak yang diharapkan. Perkirakan kenaikan skor mutu hancak bila usulan dijalankan, dengan bertolak dari selisih 14,6 poin antara pemanen baru dan pemanen berpengalaman. Nyatakan asumsinya secara terbuka.
 
 Bagian 5, tabel pelaksanaan berisi kolom tindakan, penanggung jawab, dan deadline.
 
-Gaya penulisan: bahasa Indonesia formal khas dokumen prosedur, kalimat pendek, tidak menyalahkan orang per orang, dan setiap klaim disertai angka. Jangan menyebut nama pemanen. Nama mandor boleh disebut hanya di Bagian 4 kalau memang relevan sebagai contoh.</div>
-<div class="callout"><b>Hasil yang seharusnya muncul.</b> Bagian 2 adalah ujian yang sesungguhnya. Copilot harus mengutip bunyi pasal yang ada di SOP, lalu menunjukkan bahwa pasal itu mengatur pendampingan tanpa mengatur apa yang terjadi kalau jumlah pemanen barunya terlalu banyak.</div>
+Gaya penulisan: bahasa Indonesia formal khas dokumen prosedur, kalimat pendek, tidak menyalahkan orang per orang, dan setiap klaim disertai angka. Jangan menyebut nama pemanen atau nama mandor.</div>
+<div class="callout"><b>Hasil yang seharusnya muncul.</b> Bagian 2 adalah ujian yang sesungguhnya. Copilot harus mengutip bunyi bagian yang memang ada di dalam SOP, lalu menyimpulkan bahwa masa kerja sama sekali tidak disebut di dalamnya. Menemukan sesuatu yang tidak ada jauh lebih sulit daripada meringkas yang ada, dan di situlah nilainya. Bila Copilot menyebut nomor pasal tentang pendampingan pemanen baru, jawabannya keliru: pasal seperti itu tidak ada di dalam dokumen, dan peserta perlu melihat kekeliruan semacam ini agar terbiasa memeriksa.</div>
 </div>
 
 <div class="activity">
@@ -1490,12 +1497,12 @@ Selalu tutup jawaban dengan satu kalimat tindakan praktis yang bisa dikerjakan p
 <h3>Bagian A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Sepuluh laporan kunjungan berubah menjadi satu tabel yang bisa difilter</small></h3>
 <p class="lead">Sepuluh laporan kunjungan kebun tersimpan sebagai dokumen Word. Untuk mengetahui estate mana yang temuannya paling mendesak, seseorang harus membuka kesepuluh dokumen tersebut satu per satu. Autofill columns membaca isi setiap dokumen dan menuliskan hasilnya ke kolom library, sehingga daftar dokumen berubah menjadi tabel yang bisa difilter dan diurutkan.</p>
 <span class="persona">Cocok untuk <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Waktu <b>23 menit</b></span>
+<span class="persona">Waktu <b>28 menit</b></span>
 
 <div class="callout warn"><b>Perlu dikonfirmasi sebelum sesi.</b> Autofill columns merupakan layanan document processing berbayar sesuai pemakaian. Tenant Anda perlu langganan Azure di tenant yang sama dengan pay-as-you-go yang sudah tersambung. Tarifnya USD 0,005 per transaksi, dan satu halaman Word dihitung satu transaksi, sehingga biaya untuk sepuluh laporan pendek ini sangat kecil. Bila belum tersambung, bagian ini cukup dijalankan sebagai demo oleh fasilitator.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 9.1</span><span class="file">&#128193; Folder Field Visit Reports</span><span class="time">8 menit</span></div>
+<div class="head"><span class="num">Tugas 9.1</span><span class="file">&#128193; Folder Field Visit Reports</span><span class="time">13 menit</span></div>
 <h4>Minta Copilot membuat seluruh kolomnya sekaligus</h4>
 <p>Kolomnya tidak perlu dibuat satu per satu. Buka folder <b>Field Visit Reports</b>, klik <b>Copilot</b> di bilah perintah kanan atas, lalu tempel prompt berikut.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Library ini berisi laporan kunjungan kebun dan pabrik dalam format Word. Saya ingin isinya bisa dibaca sebagai tabel tanpa harus membuka setiap dokumen.
@@ -1506,14 +1513,42 @@ Kolom pertama, Estate. Jenis Choice. Isi dengan nama estate atau pabrik yang dik
 
 Kolom kedua, Urgency. Jenis Choice dengan pilihan Kritis, Perhatian, dan Normal. Isi Kritis bila laporan menyebutkan penyimpangan lebih dari dua kali standar, atau komponen yang sudah melewati batas penggantian, atau kondisi yang berpotensi menghentikan operasi. Isi Perhatian bila ada penyimpangan terhadap standar tetapi masih di bawah dua kali lipat. Isi Normal bila seluruh temuan masih dalam batas standar.
 
-Kolom ketiga, Key Finding. Jenis Multiple lines of text. Isi dengan ringkasan temuan utama dalam dua kalimat bahasa Indonesia. Kalimat pertama menyebutkan temuannya beserta angkanya, kalimat kedua menyebutkan dampaknya terhadap produksi atau extraction rate.
+Kolom ketiga, Key Finding. Jenis Multiple lines of text. Isi dengan satu kalimat ringkas maksimal 20 kata dalam bahasa Indonesia, yang menyebutkan temuan utamanya beserta angkanya. Jangan menuliskan lebih dari satu kalimat, karena kolom ini harus tetap terbaca sebagai tabel.
 
 Kolom keempat, Action Required. Jenis Yes/No. Isi Yes bila laporan memuat rekomendasi dengan deadline kurang dari satu bulan sejak tanggal kunjungan, atau bila ada temuan berkategori Kritis. Selain itu isi No.
 
-Setelah keempat kolom dibuat, jalankan pengisian otomatis untuk seluruh dokumen yang sudah ada di library ini.</div>
+Proses seluruh dokumen sekaligus dalam satu kali jalan, jangan dipecah menjadi beberapa tahap.</div>
 <div class="callout good"><b>Perhatikan kolom kedua dan keempat.</b> Yang Anda tuliskan di sana sebenarnya adalah aturan penilaian, bukan sekadar nama kolom. Ambang batasnya diambil dari SOP perusahaan, sehingga pengelompokannya konsisten untuk kesepuluh laporan dan tidak bergantung pada penilaian orang yang membacanya.</div>
-<div class="callout warn"><b>Bila Copilot tidak bisa membuat kolomnya sekaligus.</b> Buat kolomnya secara manual lewat <b>+ Add column</b>, pilih jenis kolomnya, lalu pada bagian <b>Autofill</b> klik <b>Set up</b> dan tempel instruksi masing-masing kolom dari prompt di atas. Hasil akhirnya sama, hanya langkahnya lebih panjang.</div>
-<div class="callout"><b>Untuk dokumen yang sudah ada, prosesnya perlu dijalankan sekali.</b> Pilih seluruh dokumen, lalu klik <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Dokumen yang diunggah setelah ini akan diproses otomatis. Microsoft menyarankan maksimal 10 kolom Autofill per library dan dokumen tidak lebih dari 65 halaman.</div>
+
+<div class="callout warn"><b>Copilot akan meminta konfirmasi beberapa kali, dan itu wajar.</b> Di panel Copilot akan muncul kartu <b>Update items</b> dengan keterangan seperti <i>10 items will be updated</i> beserta tombol <b>Update</b> dan <b>Cancel</b>. Copilot tidak akan mengubah apa pun sebelum Anda menekan <b>Update</b>. Bila muncul beberapa kartu berurutan, tekan <b>Update</b> pada setiap kartu sampai tidak ada lagi yang tersisa. Kolomnya baru terisi penuh setelah seluruh kartu disetujui, jadi jangan berhenti di kartu pertama.</div>
+
+<div class="callout"><b>Ada dua cara mengisi kolom ini, dan bedanya penting.</b> Prompt di atas membuat Copilot menuliskan nilainya <b>satu kali</b> untuk dokumen yang ada sekarang. <b>Autofill</b> berbeda: ia dipasang di kolomnya dan terus berlaku, sehingga dokumen yang diunggah besok ikut terisi sendiri. Untuk pengujian di Tugas 9.3, Autofill inilah yang membuat file baru terisi otomatis. Cara memasangnya: klik panah di sebelah judul kolom, pilih <b>Edit</b>, lalu pada bagian <b>Autofill</b> klik <b>Set up</b> dan tempel kembali instruksi kolom tersebut dari prompt di atas. Bila menu <b>Autofill</b> tidak muncul, berarti layanannya belum aktif di tenant Anda. Lewati saja, dan pada Tugas 9.3 cukup jalankan ulang prompt di atas setelah file baru diunggah, sehingga baris barunya ikut terisi.</div>
+
+<h4>Beri warna pada kolom Urgency</h4>
+<p>Setelah terisi, Urgency masih tampil sebagai teks biasa, sehingga <b>Kritis</b> dan <b>Normal</b> terlihat sama saja. Padahal justru kolom inilah yang paling dulu dicari orang ketika membuka library. Pengaturan warnanya ada di kolomnya sendiri, bukan di Copilot.</p>
+<div class="task-step"><div class="step-label">1</div>Klik panah kecil di sebelah judul kolom <b>Urgency</b>.</div>
+<div class="task-step"><div class="step-label">2</div>Pilih <b>Column settings</b>, lalu <b>Format this column</b>.</div>
+<div class="task-step"><div class="step-label">3</div>Bila Urgency dibuat sebagai kolom <b>Choice</b>, panel akan langsung menampilkan pilihan warna untuk setiap nilai. Pilih merah untuk Kritis, kuning untuk Perhatian, dan hijau untuk Normal, lalu tekan <b>Save</b>. Selesai, tidak perlu langkah berikutnya.</div>
+<div class="task-step"><div class="step-label">4</div>Bila Urgency ternyata dibuat sebagai kolom teks, atau Anda ingin warnanya persis seperti contoh, klik <b>Advanced mode</b> di bagian bawah panel. Kosongkan isi kotaknya, lalu tempel kode berikut.</div>
+<div class="prompt json"><button class="copy" onclick="cp(this)">Salin</button>{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "display": "inline-block",
+    "padding": "3px 12px",
+    "border-radius": "12px",
+    "font-size": "12px",
+    "font-weight": "600",
+    "color": "=if(@currentField == 'Kritis', '#A4262C', if(@currentField == 'Perhatian', '#8A5300', '#0B6A0B'))",
+    "background-color": "=if(@currentField == 'Kritis', '#FDE7E9', if(@currentField == 'Perhatian', '#FFF4CE', '#DFF6DD'))"
+  }
+}</div>
+<div class="task-step"><div class="step-label">5</div>Klik <b>Preview</b> untuk melihat hasilnya, lalu <b>Save</b>. Kolom Urgency kini tampil sebagai label berwarna: merah untuk Kritis, kuning untuk Perhatian, hijau untuk Normal.</div>
+<div class="callout good"><b>Kode yang sama bisa dipakai ulang.</b> Untuk memberi warna pada kolom lain, cukup ganti kata <b>Kritis</b> dan <b>Perhatian</b> pada kode di atas dengan nilai yang ada di kolom tersebut. Nilai yang tidak disebutkan akan memakai warna terakhir, yaitu hijau.</div>
+<div class="callout"><b>Referensi resmi:</b> <a href="https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting" target="_blank">Use column formatting to customize SharePoint</a> di Microsoft Learn.</div>
+
+<div class="callout"><b>Untuk dokumen yang sudah ada, prosesnya perlu dijalankan sekali.</b> Bila Anda memakai Autofill, pilih seluruh dokumen, lalu klik <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Dokumen yang diunggah setelah ini akan diproses otomatis. Microsoft menyarankan maksimal 10 kolom Autofill per library dan dokumen tidak lebih dari 65 halaman.</div>
 </div>
 
 <div class="activity">
@@ -1537,7 +1572,7 @@ Untuk tombol Refresh Data, gunakan Microsoft Graph API guna mengambil ulang isi 
 Gunakan tampilan bersih dengan latar putih, teks gelap, dan satu warna aksen hijau tua. Seluruh teks dalam bahasa Indonesia. Berikan hasilnya sebagai file HTML yang bisa saya unduh.</div>
 <div class="callout good"><b>Inilah nilai tambahnya bagi manajemen.</b> Yang tadinya sepuluh dokumen Word yang harus dibuka satu per satu, kini menjadi satu halaman yang bisa difilter per estate dan per tingkat urgensi. Tidak ada satu baris kode pun yang Anda tulis.</div>
 
-<div class="task-step"><div class="step-label">Uji &middot; unggah satu laporan baru</div>Inilah bagian yang paling meyakinkan ketika ditunjukkan ke manajemen. Buka folder <b>Field Visit Reports</b>, lalu unggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Tunggu satu sampai dua menit, muat ulang halaman library, lalu perhatikan keempat kolomnya: Estate, Urgency, Key Finding, dan Action Required terisi dengan sendirinya, tanpa ada yang mengetik satu pun. Terakhir, buka kembali dashboard tadi dan klik <b>Refresh Data</b>. Laporan baru itu muncul di tabel dan kartu ringkasannya ikut berubah.</div>
+<div class="task-step"><div class="step-label">Uji &middot; unggah satu laporan baru</div>Inilah bagian yang paling meyakinkan ketika ditunjukkan ke manajemen. Buka folder <b>Field Visit Reports</b>, lalu unggah file <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Bila Autofill sudah terpasang, tunggu satu sampai dua menit, muat ulang halaman library, lalu perhatikan keempat kolomnya terisi dengan sendirinya tanpa ada yang mengetik satu pun. Bila Autofill belum aktif di tenant Anda, buka Copilot lalu jalankan ulang prompt dari Tugas 9.1, dan hanya baris baru itu yang akan terisi. Terakhir, buka kembali dashboard tadi dan klik <b>Refresh Data</b>. Laporan baru itu muncul di tabel dan kartu ringkasannya ikut berubah.</div>
 <div class="callout good"><b>Yang seharusnya terjadi.</b> Laporan Kampar Sentosa berisi temuan press cone yang sudah melewati batas penggantian, sehingga Urgency terisi <b>Kritis</b> dan Action Required terisi <b>Yes</b>. Tidak ada yang perlu menyortir, tidak ada email yang perlu diteruskan, dan tidak ada yang perlu diingatkan. Dokumennya masuk, tabelnya langsung menyesuaikan.</div>
 </div>
 </div>
@@ -2606,32 +2641,37 @@ The final slide must ask for a decision rather than summarise again. Give me the
 <div class="callout good"><b>How to open it.</b> Open Word, then click <b>Copilot</b> on the Home tab. To write from scratch use <b>Draft with Copilot</b>, and reference a file by typing <b>/</b> inside the prompt box. To work on a document already open, use the Copilot panel on the right.</div>
 
 <div class="card">
-<p class="lead">The harvest quality SOP was last revised in January. Seven months of data reveal one thing it does not cover: what should happen when half the harvesters in a division have under six months of tenure. This exercise writes the revision, then translates the board memo into language a foreman will act on.</p>
+<p class="lead">The harvest quality SOP was last revised in January. Seven months of data reveal one thing it does not cover: tenure is never mentioned at all, even though the score gap between new and experienced harvesters runs to 14.6 points. This exercise writes the proposed revision, then translates the board memo into language a foreman will act on.</p>
 <span class="persona">Suits <b>SQA</b> &middot; <b>Agronomy EPR</b> &middot; <b>Agronomy ADV</b></span>
 <span class="persona">Time <b>26 minutes</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Task 7.1</span><span class="file">&#128196; 05 Harvest SOP</span><span class="file">&#128202; 03 Harvest Quality</span><span class="time">12 minutes</span></div>
+<div class="head"><span class="num">Task 7.1</span><span class="file">&#128196; 05 Harvest SOP</span><span class="time">12 minutes</span></div>
 <h4>Write an SOP revision grounded in what the data shows</h4>
-<p>Open a blank Word document, run <b>Draft with Copilot</b>, then reference both files inside the prompt.</p>
+<p>Open a blank Word document, run <b>Draft with Copilot</b>, then type <b>/</b> in the prompt box and pick <b>05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx</b>.</p>
+<div class="callout warn"><b>The figures are supplied inside the prompt on purpose, and that is not a shortcoming.</b> Copilot in Word reads documents as prose; it does not compute over a workbook. Ask Word to open a 25,438-row Excel file and work out the averages itself and Copilot will refuse to write, on the grounds that it cannot verify the data &mdash; and that refusal is the correct behaviour. The computing was already done in <b>Exercise 3</b>. Word's job is to build the document. That split is exactly how the work runs in practice: analysis in Excel, writing in Word.</div>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Write a proposed SOP revision titled Usulan Revisi SOP-AGR-014 Revisi 5, addressed to the SQA Manager and the Agronomy EPR Manager.
 
-Reference 05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx as the document being revised, and 03 Palmaraya_Mutu_Hancak.xlsx as the evidence base.
+Reference 05 Palmaraya_SOP_Panen_dan_Mutu_Hancak.docx as the document being revised.
+
+The figures below have been verified from the harvest quality inspection data for January to July 2026. Use only these figures. Do not calculate anything yourself and do not introduce numbers that are not listed here.
+
+Group average score 85.5. The lowest-scoring estate is Bukit Sekawan at 79.6. The lowest divisions are Bukit Sekawan Afdeling C and D at 68.1, falling to 64.9 in July. Scores by harvester tenure: under 6 months 73.1, 6 to 12 months 83.0, over 12 months 87.7. Harvesters with under 6 months tenure make up 45 percent of the workforce in Bukit Sekawan Afdeling D and 28.6 percent in Afdeling C. The group harvester-to-area ratio is 12.4 hectares per harvester, while Bukit Sekawan Afdeling C and D reach 15.8 hectares per harvester.
 
 Document structure:
 
-Section 1, background. Maximum five sentences. State the group average harvest quality score, the lowest-scoring estate and division, and the score gap between harvesters with under six months tenure and those with over twelve months. Every sentence must carry a figure from file 03.
+Section 1, background. Maximum five sentences, each carrying a figure from the list above.
 
-Section 2, the gap in the current SOP. Identify which clause of SOP-AGR-014 already covers supervision of new harvesters, and explain why the existing wording is insufficient once the proportion of new harvesters in a single division passes half the total workforce. Quote the original clause.
+Section 2, the gap in the current SOP. Examine Section 4 on harvester-to-area ratio, Section 5.1 on grades and consequences, and Section 6 on escalation. Quote their original wording, then establish one point: all three set consequences based on score and on area covered, but not one of them mentions harvester tenure. State plainly that the current SOP does not govern what happens when most of the harvesters in a division are new. Do not invent clause numbers that are not in the document.
 
-Section 3, proposed changes. Present them as a three-column table: clause number, current wording, and proposed new wording. Propose at least four changes, covering the proportion of new harvesters that triggers mandatory action, the frequency of foreman supervision, a mechanism for evaluating foremen based on the average harvest quality score of the harvesters they supervise, and the harvester-to-area ratio that triggers a request for additional labour.
+Section 3, proposed changes. Present them as a three-column table: SOP section, current wording, and proposed new wording. Propose four changes: the proportion of new harvesters within a division that triggers mandatory action, the frequency of foreman supervision for harvesters with under 6 months tenure, evaluation of foremen based on the average score of the harvesters they supervise, and a rule that a ratio above 14 hectares per harvester may not be applied to a division where most harvesters are new.
 
-Section 4, expected impact, stated in numbers. Estimate the improvement in harvest quality score and the reduction in uncollected loose fruit if the proposal is adopted, and state your assumptions openly.
+Section 4, expected impact. Estimate the improvement in harvest quality score if the proposal is adopted, working from the 14.6-point gap between new and experienced harvesters. State your assumptions openly.
 
 Section 5, an implementation table with columns for action, owner, and deadline.
 
-Style: formal procedural English, short sentences, no blaming of individuals, and every claim carrying a figure. Do not name any harvester. Foremen may be named only in Section 4 and only where genuinely relevant as an example.</div>
-<div class="callout"><b>What should come back.</b> Section 2 is the real test. Copilot must quote the clause that exists in the SOP, then show that it mandates supervision without saying anything about what happens when there are too many new harvesters to supervise.</div>
+Style: formal procedural Indonesian, short sentences, no blaming of individuals, and every claim carrying a figure. Do not name any harvester or foreman.</div>
+<div class="callout"><b>What should come back.</b> Section 2 is the real test. Copilot has to quote wording that genuinely exists in the SOP, then conclude that tenure is never mentioned anywhere in it. Finding what is absent is far harder than summarising what is present, and that is where the value sits. If Copilot cites a clause number about supervising new harvesters, the answer is wrong &mdash; no such clause exists &mdash; and participants need to see that happen so they get into the habit of checking.</div>
 </div>
 
 <div class="activity">
@@ -2818,12 +2858,12 @@ Always close with one practical action the user could take that same day, where 
 <h3>Part A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Ten field visit reports become one filterable table</small></h3>
 <p class="lead">Ten field visit reports sit there as Word documents. To find out which estate has the most urgent findings, somebody has to open all ten. Autofill columns reads each document and writes the answers into library columns, turning a list of files into a table you can filter and sort.</p>
 <span class="persona">Best for <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Time <b>23 minutes</b></span>
+<span class="persona">Time <b>28 minutes</b></span>
 
 <div class="callout warn"><b>Check this before the session.</b> Autofill columns is a pay-as-you-go document processing service. Your tenant needs an Azure subscription in the same tenant with pay-as-you-go connected. It costs USD 0.005 per transaction and one Word page counts as one transaction, so ten short reports cost very little. If it is not connected, run this part as a facilitator demo.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 9.1</span><span class="file">&#128193; Field Visit Reports folder</span><span class="time">8 minutes</span></div>
+<div class="head"><span class="num">Task 9.1</span><span class="file">&#128193; Field Visit Reports folder</span><span class="time">13 minutes</span></div>
 <h4>Ask Copilot to build every column at once</h4>
 <p>You do not need to create the columns one by one. Open the <b>Field Visit Reports</b> folder, select <b>Copilot</b> on the command bar, and paste the prompt below.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>This library holds estate and mill visit reports as Word documents. I want their contents readable as a table without having to open every document.
@@ -2834,14 +2874,42 @@ First column, Estate. Type Choice. Fill it with the estate or mill visited, chos
 
 Second column, Urgency. Type Choice, with the options Kritis, Perhatian, and Normal. Set Kritis when the report describes a deviation more than twice the standard, or a component past its replacement threshold, or a condition that could halt operations. Set Perhatian when there is a deviation against standard but under twice the limit. Set Normal when all findings sit within standard.
 
-Third column, Key Finding. Type Multiple lines of text. Summarise the main finding in two sentences in Indonesian. The first sentence states the finding with its figure, the second states its impact on production or extraction rate.
+Third column, Key Finding. Type Multiple lines of text. Summarise the main finding in one short sentence of at most 20 words, in Indonesian, stating the finding and its figure. Do not write more than one sentence, because this column has to stay readable as a table.
 
 Fourth column, Action Required. Type Yes/No. Set Yes when the report contains a recommendation due less than one month from the visit date, or when there is a Kritis finding. Otherwise set No.
 
-Once all four columns exist, run the automatic fill across every document already in this library.</div>
+Process every document in a single pass rather than splitting the work into stages.</div>
 <div class="callout good"><b>Look at the second and fourth columns.</b> What you wrote there is a grading rule, not just a column name. The thresholds come from the company SOP, so the classification stays consistent across all ten reports instead of depending on whoever happens to read them.</div>
-<div class="callout warn"><b>If Copilot cannot create the columns in one go.</b> Create them manually via <b>+ Add column</b>, pick the column type, then under <b>Autofill</b> select <b>Set up</b> and paste each column's instruction from the prompt above. Same end result, just more steps.</div>
-<div class="callout"><b>Existing documents need one manual run.</b> Select all the documents, then <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Anything uploaded after this is processed automatically. Microsoft recommends a maximum of 10 Autofill columns per library and documents of no more than 65 pages.</div>
+
+<div class="callout warn"><b>Copilot will ask you to confirm several times, and that is normal.</b> The Copilot pane shows <b>Update items</b> cards reading something like <i>10 items will be updated</i>, with <b>Update</b> and <b>Cancel</b> buttons. Copilot changes nothing until you press <b>Update</b>. If several cards appear one after another, press <b>Update</b> on each until none are left. The columns are only fully populated once every card has been approved, so do not stop at the first one.</div>
+
+<div class="callout"><b>There are two ways to fill these columns, and the difference matters.</b> The prompt above has Copilot write the values <b>once</b>, for the documents that exist right now. <b>Autofill</b> is different: it lives on the column and keeps applying, so a document uploaded tomorrow fills itself in. Autofill is what makes the test in Task 9.3 work. To set it up: click the arrow next to the column heading, choose <b>Edit</b>, then under <b>Autofill</b> select <b>Set up</b> and paste that column's instruction from the prompt above. If you see no <b>Autofill</b> option, the service is not enabled on your tenant. Skip it, and in Task 9.3 simply re-run the prompt above after uploading the new file so the new row gets filled.</div>
+
+<h4>Colour-code the Urgency column</h4>
+<p>Once populated, Urgency still shows as plain text, so <b>Kritis</b> and <b>Normal</b> look identical. Yet this is the column people scan first when they open the library. The colour setting lives on the column itself, not in Copilot.</p>
+<div class="task-step"><div class="step-label">1</div>Click the small arrow next to the <b>Urgency</b> column heading.</div>
+<div class="task-step"><div class="step-label">2</div>Choose <b>Column settings</b>, then <b>Format this column</b>.</div>
+<div class="task-step"><div class="step-label">3</div>If Urgency was created as a <b>Choice</b> column, the panel offers a colour picker for each value straight away. Pick red for Kritis, yellow for Perhatian, green for Normal, then <b>Save</b>. Done, no further steps needed.</div>
+<div class="task-step"><div class="step-label">4</div>If Urgency turned out to be a text column, or you want exactly the colours shown here, click <b>Advanced mode</b> at the bottom of the panel. Clear the box, then paste the code below.</div>
+<div class="prompt json"><button class="copy" onclick="cp(this)">Copy</button>{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+  "elmType": "div",
+  "txtContent": "@currentField",
+  "style": {
+    "display": "inline-block",
+    "padding": "3px 12px",
+    "border-radius": "12px",
+    "font-size": "12px",
+    "font-weight": "600",
+    "color": "=if(@currentField == 'Kritis', '#A4262C', if(@currentField == 'Perhatian', '#8A5300', '#0B6A0B'))",
+    "background-color": "=if(@currentField == 'Kritis', '#FDE7E9', if(@currentField == 'Perhatian', '#FFF4CE', '#DFF6DD'))"
+  }
+}</div>
+<div class="task-step"><div class="step-label">5</div>Click <b>Preview</b> to check it, then <b>Save</b>. Urgency now renders as a coloured pill: red for Kritis, yellow for Perhatian, green for Normal.</div>
+<div class="callout good"><b>The same code works elsewhere.</b> To colour another column, just swap <b>Kritis</b> and <b>Perhatian</b> in the code above for the values in that column. Anything not named falls through to the last colour, green.</div>
+<div class="callout"><b>Official reference:</b> <a href="https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting" target="_blank">Use column formatting to customize SharePoint</a> on Microsoft Learn.</div>
+
+<div class="callout"><b>Existing documents need one manual run.</b> If you are using Autofill, select all the documents, then <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Anything uploaded after this is processed automatically. Microsoft recommends a maximum of 10 Autofill columns per library and documents of no more than 65 pages.</div>
 </div>
 
 <div class="activity">
@@ -2865,7 +2933,7 @@ For the Refresh Data button, use the Microsoft Graph API to re-read the library 
 Use a clean layout with a white background, dark text, and one dark green accent colour. All text in Indonesian. Give me the result as a downloadable HTML file.</div>
 <div class="callout good"><b>This is what management actually wants.</b> Ten Word documents that had to be opened one at a time are now one page you can filter by estate and by urgency. You wrote no code.</div>
 
-<div class="task-step"><div class="step-label">Test it &middot; upload one new report</div>This is the most convincing thing you can show a management team. Open the <b>Field Visit Reports</b> folder and upload <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. Wait one to two minutes, reload the library page, then look at the four columns: Estate, Urgency, Key Finding and Action Required have filled themselves in. Nobody typed them. Finally, go back to the dashboard and select <b>Refresh Data</b> &mdash; the new report appears in the table and the summary cards update.</div>
+<div class="task-step"><div class="step-label">Test it &middot; upload one new report</div>This is the most convincing thing you can show a management team. Open the <b>Field Visit Reports</b> folder and upload <b>11 Palmaraya_Laporan_Kunjungan_Kampar_Sentosa_Agustus.docx</b>. If Autofill is set up, wait one to two minutes, reload the library page, and the four columns will have filled themselves in with nobody typing a thing. If Autofill is not enabled on your tenant, open Copilot and re-run the prompt from Task 9.1, and only that new row gets filled. Finally, go back to the dashboard and select <b>Refresh Data</b> &mdash; the new report appears in the table and the summary cards update.</div>
 <div class="callout good"><b>What should happen.</b> The Kampar Sentosa report describes a press cone past its replacement threshold, so Urgency comes out as <b>Kritis</b> and Action Required as <b>Yes</b>. Nobody triaged it, nobody forwarded an email, nobody had to be reminded. The document arrived and the table caught up.</div>
 </div>
 </div>
