@@ -481,7 +481,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div class="modulehead"><div class="num">&#9654;</div><h2>Tiga Langkah Sebelum Mulai<small>Sekitar 5 menit</small></h2></div>
 <div class="card">
 <div class="task-step"><div class="step-label">Langkah 1</div>Buka tab <b>File Contoh</b> dan unduh seluruh file-nya. Di tab tersebut ada tabel <b>File ini diunggah ke mana</b> yang bisa Anda ikuti. Ringkasnya: workbook 01 sampai 04 dan transkrip 09 masuk ke <b>OneDrive</b>, sedangkan SOP 05 sampai 08 beserta folder <b>Laporan Kunjungan Kebun</b> masuk ke document library <b>SharePoint</b>.</div>
-<div class="task-step"><div class="step-label">Langkah 2</div>Tunggu sekitar 2 menit sampai Microsoft Graph selesai melakukan indexing. Tanpa langkah ini, Copilot tidak akan menemukan file Anda.</div>
+<div class="task-step"><div class="step-label">Langkah 2</div>Tunggu sekitar 2 menit sampai Microsoft Graph selesai mengindeks file Anda. Tanpa langkah ini, Copilot tidak akan menemukan file Anda.</div>
 <div class="task-step"><div class="step-label">Langkah 3</div>Buka <a href="https://m365.cloud.microsoft/chat" target="_blank">Microsoft 365 Copilot</a> di browser, lalu mulai dari Latihan 1.</div>
 <div class="callout warn"><b>Kenapa harus OneDrive atau SharePoint?</b> Microsoft 365 Copilot hanya dapat membaca file yang tersimpan di OneDrive atau SharePoint. File yang ada di desktop atau folder lokal tidak akan terlihat oleh Copilot.</div>
 <div class="callout"><b>Latihan 9 wajib menggunakan SharePoint.</b> Autofill columns dan agent SharePoint hanya bisa berjalan di document library SharePoint, tidak bisa dari OneDrive. Kalau Anda belum punya akses untuk membuat library baru, sebaiknya minta bantuan admin sebelum sesi dimulai.</div>
@@ -535,7 +535,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <tr><td>08</td><td><a href="samples/08 Palmaraya_Memo_Strategis_Q3_FY2026.docx">08 Palmaraya_Memo_Strategis_Q3_FY2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 6, 7</td><td>Memo Direktur Operasi: empat prioritas Kuartal 3 dan tabel ukuran keberhasilan dengan penanggung jawab.</td></tr>
 <tr><td>09</td><td><a href="samples/09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx">09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</a></td><td><span class="badge yellow">Word</span></td><td>Latihan 1, 7</td><td>Transkrip lengkap rapat produksi bulanan 4 Agustus 2026 dengan 10 peserta, berisi enam keputusan dengan penanggung jawab dan deadline.</td></tr>
 <tr><td>10</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/Laporan%20Kunjungan%20Kebun" target="_blank">samples/Laporan Kunjungan Kebun/ (10 file)</a></td><td><span class="badge yellow">Word &times;10</span></td><td>Latihan 8, 9</td><td>Sepuluh laporan kunjungan kebun dan pabrik dari departemen Agronomy Advisory, Juli 2026. Unggah sebagai satu folder di SharePoint. Dipakai sebagai bahan Autofill columns dan sebagai sumber pengetahuan agent.</td></tr>
-<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folder)</a></td><td><span class="badge green">SKILL.md</span></td><td>Latihan 5 Bagian C</td><td>Dua Custom Skill siap pakai: <code>analisis-losses-palmaraya</code> untuk Copilot in Excel dan <code>dek-keputusan-produksi</code> untuk Copilot in PowerPoint.</td></tr>
+<tr><td>11</td><td><a href="https://github.com/steffiyappy/palmaraya-copilot-immersion/tree/main/samples/skills" target="_blank">samples/skills/ (2 folder)</a></td><td><span class="badge green">SKILL.md</span></td><td>Latihan 5 Bagian C</td><td>Dua Custom Skill yang sudah jadi: <code>analisis-losses-palmaraya</code> untuk Copilot in Excel dan <code>dek-keputusan-produksi</code> untuk Copilot in PowerPoint.</td></tr>
 </table>
 
 <div class="callout warn" style="margin-top:14px"><b>Perhatian.</b> File 01 sampai 04 berukuran 1 sampai 3 MB dengan puluhan ribu baris. Ini disengaja. Data kecil membuat Copilot terlihat mudah dan tidak membuktikan apa pun tentang skala pekerjaan sebenarnya.</div>
@@ -598,8 +598,29 @@ Aturan penulisan: bahasa Indonesia yang lugas dan ringkas. Sebutkan nama orang d
 <div class="callout warn"><b>Jangan tampilkan hasil ini di layar proyektor</b> tanpa memeriksanya lebih dulu. Isinya adalah email dan jadwal Anda yang sebenarnya.</div>
 </div>
 
+<div class="activity">
+<div class="head"><span class="num">Tugas 1.2</span><span class="file">&#128231; Lanjutan dari Tugas 1.1</span><span class="time">6 menit</span></div>
+<h4>Ubah daily briefing tadi menjadi satu halaman HTML</h4>
+<p>Tetap di conversation yang sama. Copilot akan menuliskan kode HTML-nya di dalam satu kotak kode. Salin seluruh isinya, simpan sebagai <code>briefing.html</code> lewat Notepad, lalu buka file itu dengan double click. Hasilnya satu halaman pribadi yang bisa Anda buka setiap pagi.</p>
+<div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Sekarang ubah daily briefing tadi menjadi satu halaman HTML yang bisa saya simpan dan buka di browser. Tulis seluruh kodenya dalam satu kotak kode, satu file utuh, tanpa file terpisah untuk CSS atau JavaScript, dan tanpa memanggil apa pun dari internet supaya tetap bisa dibuka tanpa koneksi.
+
+Isi halamannya persis dari briefing tadi, jangan menambah atau mengurangi informasi apa pun.
+
+Susunannya seperti ini. Bagian kepala memuat nama saya, tanggal hari ini, dan satu kalimat pembuka tentang hari saya. Di bawahnya empat kartu berjajar berisi angka ringkas: jumlah rapat hari ini, jumlah email yang menunggu balasan, jumlah tugas yang harus selesai hari ini, dan jumlah hal yang masih menggantung tanpa penanggung jawab.
+
+Setelah itu empat bagian bertumpuk ke bawah, masing-masing dengan judulnya sendiri: Perkembangan sejak kemarin, Hal yang perlu saya kerjakan hari ini, Email yang menunggu balasan saya, dan Persiapan rapat hari ini. Bagian email dan bagian rapat dibuat sebagai tabel. Bagian lainnya sebagai daftar.
+
+Setiap baris tugas dan setiap baris email diberi penanda warna di sisi kiri: merah untuk yang harus selesai hari ini, kuning untuk minggu ini, abu-abu untuk sisanya.
+
+Gayanya bersih dan mudah dibaca, latar putih, teks gelap, satu warna aksen hijau tua. Gunakan font sistem saja. Beri jarak yang cukup antar bagian supaya nyaman dibaca di layar laptop, dan pastikan tetap rapi kalau dibuka di layar ponsel.
+
+Seluruh teks dalam bahasa Indonesia. Jangan menambahkan data contoh atau angka yang tidak ada di briefing tadi. Kalau sebuah bagian memang kosong, tulis apa adanya bahwa tidak ada isinya.</div>
+<div class="callout good"><b>Kenapa latihan ini menarik.</b> Copilot tidak hanya menjawab, tapi juga membuatkan alat kecil yang bisa Anda pakai lagi besok. Halaman ini milik Anda sendiri, tidak perlu izin IT, tidak perlu lisensi tambahan, dan tidak ada satu pun baris kode yang Anda tulis.</div>
+<div class="callout warn"><b>Cara menyimpannya.</b> Buka Notepad, tempel kodenya, lalu <b>Save As</b>. Pada kolom <b>Save as type</b> pilih <b>All Files</b>, isi nama file dengan <code>briefing.html</code>, dan pastikan <b>Encoding</b> disetel ke <b>UTF-8</b> agar huruf Indonesia tidak berantakan. Kalau file tersimpan sebagai <code>briefing.html.txt</code>, berarti pilihan All Files terlewat.</div>
+</div>
+
 <div class="activity bonus">
-<div class="head"><span class="num">Tugas 1.2</span><span class="file">&#128231; Lanjutan dari Tugas 1.1</span><span class="time">4 menit &middot; opsional</span></div>
+<div class="head"><span class="num">Tugas 1.3</span><span class="file">&#128231; Lanjutan dari Tugas 1.1</span><span class="time">4 menit &middot; opsional</span></div>
 <h4>Perdalam satu topik dari daily briefing tadi</h4>
 <p>Tetap di conversation yang sama. Ganti bagian dalam kurung siku dengan satu topik yang muncul di daily briefing Anda.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Dari daily briefing tadi, saya ingin memperdalam satu hal: [tuliskan topik atau nama proyeknya di sini].
@@ -617,7 +638,7 @@ Sebutkan sumbernya untuk setiap poin, berupa nama file, judul email, atau nama r
 <span class="persona">Waktu <b>18 menit</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 1.3</span><span class="file">&#128196; 09 Transkrip Rapat Produksi</span><span class="time">7 menit</span></div>
+<div class="head"><span class="num">Tugas 1.4</span><span class="file">&#128196; 09 Transkrip Rapat Produksi</span><span class="time">7 menit</span></div>
 <h4>Ubah transkrip rapat 100 menit menjadi notulen dan daftar action item</h4>
 <p>Lampirkan file <b>09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</b> lebih dulu, lalu tempel prompt ini.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Baca file 09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx, lalu susun notulen resmi rapat produksi bulanan dalam bahasa Indonesia.
@@ -641,7 +662,7 @@ Aturan penulisan: bahasa Indonesia yang lugas, kalimat pendek, gunakan istilah b
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 1.4</span><span class="file">&#128196; Lanjutan dari Tugas 1.3</span><span class="time">10 menit</span></div>
+<div class="head"><span class="num">Tugas 1.5</span><span class="file">&#128196; Lanjutan dari Tugas 1.4</span><span class="time">10 menit</span></div>
 <h4>Minta Copilot membuat tiga file, satu per satu</h4>
 <p>Tetap di conversation yang sama, jangan mulai chat baru. <b>Copilot Chat membuat satu file per permintaan</b>, jadi jalankan ketiga prompt di bawah secara berurutan dan tunggu setiap file selesai sebelum lanjut ke berikutnya. Karena conversation-nya sama, Copilot tetap ingat notulen tadi dan ketiga file akan konsisten satu sama lain.</p>
 
@@ -1782,8 +1803,29 @@ Writing rules: plain, concise English. Name people and files specifically rather
 <div class="callout warn"><b>Do not put this on the projector</b> without checking it first. The contents are your actual emails and schedule.</div>
 </div>
 
+<div class="activity">
+<div class="head"><span class="num">Task 1.2</span><span class="file">&#128231; Continues from Task 1.1</span><span class="time">6 minutes</span></div>
+<h4>Turn that daily briefing into a single HTML page</h4>
+<p>Stay in the same conversation. Copilot will write the HTML into one code block. Copy the whole thing, save it as <code>briefing.html</code> using Notepad, then double-click to open it. The result is a personal page you can open every morning.</p>
+<div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Now turn that daily briefing into a single HTML page I can save and open in my browser. Write all the code in one code block, as one complete file, with no separate CSS or JavaScript files, and nothing loaded from the internet so it still opens offline.
+
+Use exactly the content from the briefing above. Do not add or remove any information.
+
+Structure it like this. A header carrying my name, today's date, and the one-line opening about my day. Below it, four cards in a row with the headline counts: meetings today, emails waiting on my reply, tasks due today, and open items with no owner.
+
+Then four stacked sections, each with its own heading: What changed since yesterday, What I need to do today, Emails waiting on my reply, and Preparing for today's meetings. Build the emails and meetings sections as tables. Build the others as lists.
+
+Give every task row and every email row a coloured marker down the left edge: red for due today, amber for due this week, grey for everything else.
+
+Keep the styling clean and easy to read — white background, dark text, one dark green accent. Use system fonts only. Leave enough space between sections to read comfortably on a laptop, and make sure it still holds up on a phone screen.
+
+Do not invent sample data or figures that were not in the briefing. If a section is genuinely empty, say so plainly.</div>
+<div class="callout good"><b>Why this one lands.</b> Copilot does not just answer — it builds you a small tool you can use again tomorrow. The page is yours, needs no IT approval, no extra licence, and you wrote none of the code.</div>
+<div class="callout warn"><b>How to save it.</b> Open Notepad, paste the code, then <b>Save As</b>. Set <b>Save as type</b> to <b>All Files</b>, name it <code>briefing.html</code>, and make sure <b>Encoding</b> is <b>UTF-8</b>. If the file lands as <code>briefing.html.txt</code>, the All Files step was missed.</div>
+</div>
+
 <div class="activity bonus">
-<div class="head"><span class="num">Task 1.2</span><span class="file">&#128231; Continues from Task 1.1</span><span class="time">4 minutes &middot; optional</span></div>
+<div class="head"><span class="num">Task 1.3</span><span class="file">&#128231; Continues from Task 1.1</span><span class="time">4 minutes &middot; optional</span></div>
 <h4>Go deeper on one topic from the briefing</h4>
 <p>Stay in the same conversation. Replace the bracketed part with one topic that appeared in your briefing.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>From that briefing, I want to go deeper on one thing: [write the topic or project name here].
@@ -1801,7 +1843,7 @@ Cite a source for every point, giving the file name, email subject, or meeting t
 <span class="persona">Time <b>18 minutes</b></span>
 
 <div class="activity">
-<div class="head"><span class="num">Task 1.3</span><span class="file">&#128196; 09 Production Meeting Transcript</span><span class="time">7 minutes</span></div>
+<div class="head"><span class="num">Task 1.4</span><span class="file">&#128196; 09 Production Meeting Transcript</span><span class="time">7 minutes</span></div>
 <h4>Turn a 100-minute transcript into minutes and an action list</h4>
 <p>Attach <b>09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx</b> first, then paste this prompt.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>Read the file 09 Palmaraya_Transkrip_Rapat_Produksi_Juli_2026.docx, then write formal minutes of the monthly production meeting.
@@ -1825,7 +1867,7 @@ Writing rules: plain professional English, short sentences. Keep the Indonesian 
 </div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 1.4</span><span class="file">&#128196; Continues from Task 1.3</span><span class="time">10 minutes</span></div>
+<div class="head"><span class="num">Task 1.5</span><span class="file">&#128196; Continues from Task 1.4</span><span class="time">10 minutes</span></div>
 <h4>Ask Copilot for three files, one at a time</h4>
 <p>Stay in the same conversation, do not start a new chat. <b>Copilot Chat creates one file per request</b>, so run the three prompts below in order and wait for each file to finish before moving on. Because the conversation is shared, Copilot still remembers the minutes and all three files stay consistent with each other.</p>
 
