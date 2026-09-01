@@ -1,0 +1,11 @@
+Parameter,BobotMaksimal,Definisi,Grade_A,Grade_B,Grade_C,Grade_D
+BrondolanTidakTerkutip,20,"Brondolan tidak terkutip di piringan, pasar pikul dan gawangan",>= 90,80 - 89,70 - 79,< 70
+BuahMatangTertinggal,15,Janjang matang tidak dipanen di pokok,>= 90,80 - 89,70 - 79,< 70
+BuahMentahDipanen,10,Janjang mentah ikut dipanen,>= 90,80 - 89,70 - 79,< 70
+MutuPotongTangkai,10,"Tangkai dipotong mepet (cangkem kodok), maksimal 2 cm",>= 90,80 - 89,70 - 79,< 70
+PelepahSengkleh,10,Pelepah sengkleh atau tidak dipotong rapi,>= 90,80 - 89,70 - 79,< 70
+SusunanPelepah,10,Susunan pelepah di gawangan mati sesuai standar,>= 90,80 - 89,70 - 79,< 70
+PiringanBersih,10,Piringan bersih dari gulma dan brondolan,>= 90,80 - 89,70 - 79,< 70
+GawanganBersih,5,Gawangan bebas sampah pelepah,>= 90,80 - 89,70 - 79,< 70
+PasarPikulBersih,5,Pasar pikul bersih dan dapat dilalui,>= 90,80 - 89,70 - 79,< 70
+KerapianTPH,5,"TPH tersusun rapi, brondolan dialas",>= 90,80 - 89,70 - 79,< 70

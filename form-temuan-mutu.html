@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>Formulir Tindak Lanjut Temuan Mutu Panen · PT Palmaraya Nusantara Tbk</title>
+<style>
+:root{--hijau:#14532d;--hijau2:#166534;--emas:#ca8a04;--merah:#b91c1c;--garis:#d1d9e6;--abu:#64748b;--panel:#fff;--bg:#f0f4f8;--ink:#1a202c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Segoe UI",system-ui,sans-serif}
+header{background:linear-gradient(135deg,var(--hijau) 0%,var(--hijau2) 60%,#3f6212 100%);color:#fff;padding:26px 20px}
+.wrap{max-width:900px;margin:0 auto;padding:0 20px;display:flex;align-items:center;gap:16px}
+.logo{width:56px;height:56px;background:#fff;color:var(--hijau);border-radius:12px;display:grid;place-items:center;font-weight:900;font-size:20px;flex:0 0 auto}
+header h1{margin:0;font-size:12px;letter-spacing:2px;text-transform:uppercase;opacity:.85;font-weight:600}
+header h2{margin:2px 0 0;font-size:23px}
+main{max-width:900px;margin:22px auto 60px;padding:0 20px}
+.kartu{background:var(--panel);border:1px solid var(--garis);border-radius:12px;padding:24px 26px;margin-bottom:18px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.kartu h3{margin:0 0 4px;font-size:17px;color:var(--hijau)}
+.kartu .ket{margin:0 0 18px;color:var(--abu);font-size:13.5px}
+.baris{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.baris.tiga{grid-template-columns:1fr 1fr 1fr}
+@media(max-width:700px){.baris,.baris.tiga{grid-template-columns:1fr}}
+.bidang{margin-bottom:16px}
+label{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
+label .wajib{color:var(--merah)}
+label .bantu{display:block;font-weight:400;color:var(--abu);font-size:12px;margin-top:2px}
+input[type=text],input[type=email],input[type=number],input[type=date],select,textarea{width:100%;padding:9px 11px;border:1px solid var(--garis);border-radius:8px;font:inherit;font-size:14px;background:#fff;color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--hijau2);box-shadow:0 0 0 3px rgba(22,101,52,.12)}
+textarea{min-height:88px;resize:vertical}
+.pilih{display:flex;flex-wrap:wrap;gap:16px;margin-top:4px}
+.pilih label{display:flex;align-items:center;gap:7px;font-weight:400;font-size:14px;margin:0;cursor:pointer}
+.pilih input{margin:0}
+.kotak{display:flex;align-items:flex-start;gap:9px;margin-bottom:9px;font-size:14px}
+.kotak input{margin-top:3px}
+.aksi{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:8px}
+button{font:inherit;font-weight:700;font-size:15px;padding:12px 26px;border-radius:9px;border:none;cursor:pointer}
+.utama{background:var(--hijau2);color:#fff}.utama:hover{background:var(--hijau)}
+.kedua{background:transparent;color:var(--abu);border:1px solid var(--garis)}
+.galat{color:var(--merah);font-size:13px;margin-top:6px;display:none}
+.galat.tampil{display:block}
+.catatan{background:#fffbeb;border-left:4px solid var(--emas);padding:12px 16px;border-radius:8px;font-size:13.5px;margin-bottom:18px}
+.demo{background:#f0fdf4;border-left:4px solid var(--hijau2);padding:12px 16px;border-radius:8px;font-size:13px;color:#14532d;margin-bottom:18px}
+#hasil{display:none}
+.ok{width:60px;height:60px;border-radius:50%;background:var(--hijau2);color:#fff;display:grid;place-items:center;font-size:30px;margin:0 auto 14px}
+#hasil h3{text-align:center;font-size:21px;margin:0 0 4px}
+#hasil .ref{text-align:center;font-family:Consolas,monospace;font-size:19px;font-weight:700;color:var(--hijau);background:#f0fdf4;border:1px dashed var(--hijau2);border-radius:8px;padding:10px;margin:14px 0 20px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--garis);vertical-align:top}
+th{width:38%;color:var(--abu);font-weight:600;font-size:13px}
+td{font-weight:500}
+td.kosong{color:var(--merah);font-weight:400;font-style:italic}
+footer{text-align:center;color:var(--abu);font-size:12px;padding:0 20px 40px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="logo">PN</div>
+<div><h1>PT Palmaraya Nusantara Tbk &middot; Divisi SQA</h1><h2>Formulir Tindak Lanjut Temuan Mutu Panen</h2></div>
+</div></header>
+
+<main>
+<div class="demo"><b>Formulir latihan.</b> Formulir demo untuk sesi Microsoft 365 Copilot Immersion. Tidak terhubung ke sistem mana pun dan tidak ada data yang dikirim ke server. Isian hanya ditampilkan kembali di layar Anda.</div>
+
+<form id="formulir" novalidate>
+<div class="kartu">
+<h3>Bagian 1 &middot; Identitas Temuan</h3>
+<p class="ket">Diisi berdasarkan hasil inspeksi mutu hancak dan inspeksi losses panen periode berjalan.</p>
+<div class="baris">
+<div class="bidang"><label for="pelapor">Nama pelapor <span class="wajib">*</span></label><input id="pelapor" name="pelapor" type="text" required/></div>
+<div class="bidang"><label for="jabatan">Jabatan <span class="wajib">*</span></label>
+<select id="jabatan" name="jabatan" required><option value="">-- pilih --</option>
+<option>Manager SQA</option><option>SQA Officer</option><option>Manager Agronomi EPR</option>
+<option>Asisten Kepala EPR</option><option>Estate Manager</option><option>Asisten Afdeling</option></select></div>
+</div>
+<div class="baris tiga">
+<div class="bidang"><label for="estate">Estate <span class="wajib">*</span></label>
+<select id="estate" name="estate" required><option value="">-- pilih estate --</option>
+<option>Estate Bukit Sekawan</option><option>Estate Tanjung Lestari</option><option>Estate Muara Alam</option>
+<option>Estate Sungai Rangkat</option><option>Estate Landak Permai</option><option>Estate Rokan Jaya</option>
+<option>Estate Kampar Sentosa</option></select></div>
+<div class="bidang"><label for="afdeling">Afdeling <span class="wajib">*</span></label>
+<select id="afdeling" name="afdeling" required><option value="">-- pilih --</option>
+<option>A</option><option>B</option><option>C</option><option>D</option><option>E</option><option>F</option></select></div>
+<div class="bidang"><label for="periode">Periode temuan <span class="wajib">*</span></label>
+<select id="periode" name="periode" required><option value="">-- pilih bulan --</option>
+<option>Januari 2026</option><option>Februari 2026</option><option>Maret 2026</option><option>April 2026</option>
+<option>Mei 2026</option><option>Juni 2026</option><option>Juli 2026</option></select></div>
+</div>
+</div>
+
+<div class="kartu">
+<h3>Bagian 2 &middot; Angka Temuan</h3>
+<p class="ket">Seluruh angka wajib diambil dari data inspeksi, bukan perkiraan. Cantumkan angka pembanding agar besarnya penyimpangan terlihat.</p>
+<div class="baris tiga">
+<div class="bidang"><label for="skor">Skor mutu hancak afdeling <span class="wajib">*</span><span class="bantu">Rata-rata periode ini, skala 0 sampai 100.</span></label><input id="skor" name="skor" type="number" min="0" max="100" step="0.1" required/></div>
+<div class="bidang"><label for="skorgrup">Skor rata-rata grup <span class="wajib">*</span></label><input id="skorgrup" name="skorgrup" type="number" min="0" max="100" step="0.1" required/></div>
+<div class="bidang"><label for="grade">Grade <span class="wajib">*</span></label>
+<select id="grade" name="grade" required><option value="">-- pilih --</option>
+<option>A (90 ke atas)</option><option>B (80 sampai 89)</option><option>C (70 sampai 79)</option><option>D (di bawah 70)</option></select></div>
+</div>
+<div class="baris tiga">
+<div class="bidang"><label for="brondolan">Brondolan tidak terkutip <span class="wajib">*</span><span class="bantu">Butir per pokok.</span></label><input id="brondolan" name="brondolan" type="number" min="0" step="0.01" required/></div>
+<div class="bidang"><label for="standar">Standar perusahaan <span class="wajib">*</span><span class="bantu">Butir per pokok, sesuai SOP-AGR-014.</span></label><input id="standar" name="standar" type="number" min="0" step="0.1" required/></div>
+<div class="bidang"><label for="rasio">Rasio hancak<span class="bantu">Hektar per pemanen.</span></label><input id="rasio" name="rasio" type="number" min="0" step="0.1"/></div>
+</div>
+<div class="baris">
+<div class="bidang"><label for="losses">Losses panen terhadap produksi (persen)</label><input id="losses" name="losses" type="number" min="0" step="0.01"/></div>
+<div class="bidang"><label for="kerugian">Estimasi kerugian (Rp)<span class="bantu">Tanpa titik atau koma.</span></label><input id="kerugian" name="kerugian" type="number" min="0" step="1"/></div>
+</div>
+</div>
+
+<div class="kartu">
+<h3>Bagian 3 &middot; Analisa Penyebab</h3>
+<p class="ket">Sebutkan penyebab yang didukung data, bukan dugaan. Penyebab tanpa angka pendukung akan dikembalikan oleh Manager SQA.</p>
+<div class="bidang"><label>Faktor penyebab yang teridentifikasi <span class="wajib">*</span><span class="bantu">Pilih seluruh yang berlaku.</span></label>
+<div class="kotak"><input id="f1" name="faktor" type="checkbox" value="Rasio hancak melebihi standar"/><label for="f1" style="font-weight:400;margin:0">Rasio hancak melebihi standar</label></div>
+<div class="kotak"><input id="f2" name="faktor" type="checkbox" value="Proporsi pemanen masa kerja di bawah 6 bulan tinggi"/><label for="f2" style="font-weight:400;margin:0">Proporsi pemanen masa kerja di bawah 6 bulan tinggi</label></div>
+<div class="kotak"><input id="f3" name="faktor" type="checkbox" value="Pengawasan mandor tidak memadai"/><label for="f3" style="font-weight:400;margin:0">Pengawasan mandor tidak memadai</label></div>
+<div class="kotak"><input id="f4" name="faktor" type="checkbox" value="Restan janjang melebihi 24 jam"/><label for="f4" style="font-weight:400;margin:0">Restan janjang melebihi 24 jam</label></div>
+<div class="kotak"><input id="f5" name="faktor" type="checkbox" value="Piringan tidak bersih sehingga brondolan sulit ditemukan"/><label for="f5" style="font-weight:400;margin:0">Piringan tidak bersih sehingga brondolan sulit ditemukan</label></div>
+<div class="kotak"><input id="f6" name="faktor" type="checkbox" value="Curah hujan tinggi menghambat panen"/><label for="f6" style="font-weight:400;margin:0">Curah hujan tinggi menghambat panen</label></div>
+<div class="kotak"><input id="f7" name="faktor" type="checkbox" value="Kondisi hara tanaman di bawah nilai kritis"/><label for="f7" style="font-weight:400;margin:0">Kondisi hara tanaman di bawah nilai kritis</label></div>
+</div>
+<div class="bidang"><label for="analisa">Uraian analisa penyebab <span class="wajib">*</span><span class="bantu">Untuk setiap faktor yang dipilih, sebutkan angka pendukungnya dan sumber datanya.</span></label><textarea id="analisa" name="analisa" required></textarea></div>
+<div class="bidang"><label for="pembanding">Perbandingan dengan unit berkinerja baik<span class="bantu">Sebutkan afdeling atau estate pembanding beserta angkanya.</span></label><textarea id="pembanding" name="pembanding" style="min-height:70px"></textarea></div>
+</div>
+
+<div class="kartu">
+<h3>Bagian 4 &middot; Tindakan dan Eskalasi</h3>
+<div class="bidang"><label>Klasifikasi temuan <span class="wajib">*</span></label>
+<div class="pilih">
+<label><input name="klasifikasi" type="radio" value="Minor" required/> Minor</label>
+<label><input name="klasifikasi" type="radio" value="Perhatian"/> Perhatian</label>
+<label><input name="klasifikasi" type="radio" value="Kritis"/> Kritis</label>
+</div></div>
+<div class="bidang"><label for="tindakan">Tindakan korektif yang diusulkan <span class="wajib">*</span><span class="bantu">Tindakan yang bisa dikerjakan, bukan pernyataan akan memantau.</span></label><textarea id="tindakan" name="tindakan" required></textarea></div>
+<div class="baris">
+<div class="bidang"><label for="pj">Penanggung jawab tindakan <span class="wajib">*</span></label><input id="pj" name="pj" type="text" required/></div>
+<div class="bidang"><label for="tenggat">Tenggat penyelesaian <span class="wajib">*</span></label><input id="tenggat" name="tenggat" type="date" required/></div>
+</div>
+<div class="baris">
+<div class="bidang"><label for="eskalasi">Dieskalasi kepada <span class="wajib">*</span></label>
+<select id="eskalasi" name="eskalasi" required><option value="">-- pilih --</option>
+<option>Tidak perlu eskalasi</option>
+<option>Estate Manager</option>
+<option>Tri Wibisono &mdash; Manager SQA</option>
+<option>Tantra Mahendra &mdash; Manager Agronomi EPR</option>
+<option>Ratna Kusumaningrum &mdash; Direktur Operasi</option></select></div>
+<div class="bidang"><label for="dasar">Dasar eskalasi menurut SOP<span class="bantu">Sebutkan nomor dan bagian SOP yang mewajibkan eskalasi ini.</span></label><input id="dasar" name="dasar" type="text"/></div>
+</div>
+<div class="kotak"><input id="pernyataan" name="pernyataan" type="checkbox" required/><label for="pernyataan" style="font-weight:400;margin:0">Seluruh angka pada laporan ini diambil dari data inspeksi resmi dan dapat ditelusuri. <span class="wajib">*</span></label></div>
+<div class="galat" id="galat">Beberapa isian wajib masih kosong atau belum benar. Bagian yang bermasalah ditandai di atas.</div>
+<div class="aksi">
+<button class="utama" type="submit">Kirim Laporan</button>
+<button class="kedua" type="reset">Kosongkan Formulir</button>
+</div>
+</div>
+</form>
+
+<div class="kartu" id="hasil">
+<div class="ok">&#10003;</div>
+<h3>Laporan tindak lanjut berhasil dicatat</h3>
+<p style="text-align:center;color:var(--abu);margin:0">Simpan nomor rujukan di bawah ini untuk penelusuran.</p>
+<div class="ref" id="nomorref"></div>
+<div class="catatan"><b>Untuk fasilitator.</b> Cocokkan isian di bawah dengan Kunci Jawaban Fasilitator. Perhatikan khususnya apakah skor, brondolan per pokok, dan rasio hancak diambil dengan benar dari workbook, dan apakah tindakan korektif yang diusulkan bersifat konkret.</div>
+<table id="tabelhasil"></table>
+<div class="aksi" style="justify-content:center;margin-top:20px">
+<button class="kedua" onclick="salinRingkasan()" type="button">Salin ringkasan</button>
+<button class="kedua" onclick="location.reload()" type="button">Isi formulir lagi</button>
+</div>
+</div>
+</main>
+
+<footer>PT Palmaraya Nusantara Tbk adalah perusahaan fiktif. Formulir ini dibuat untuk pelatihan Microsoft 365 Copilot dan tidak terhubung ke sistem mana pun.</footer>
+
+<script>
+const LABEL={pelapor:"Nama pelapor",jabatan:"Jabatan",estate:"Estate",afdeling:"Afdeling",periode:"Periode temuan",
+skor:"Skor mutu hancak afdeling",skorgrup:"Skor rata-rata grup",grade:"Grade",
+brondolan:"Brondolan tidak terkutip (butir/pokok)",standar:"Standar perusahaan (butir/pokok)",
+rasio:"Rasio hancak (ha/pemanen)",losses:"Losses panen (persen)",kerugian:"Estimasi kerugian (Rp)",
+faktor:"Faktor penyebab",analisa:"Uraian analisa penyebab",pembanding:"Perbandingan unit berkinerja baik",
+klasifikasi:"Klasifikasi temuan",tindakan:"Tindakan korektif",pj:"Penanggung jawab",tenggat:"Tenggat",
+eskalasi:"Dieskalasi kepada",dasar:"Dasar eskalasi menurut SOP"};
+const URUT=Object.keys(LABEL);
+let RINGKASAN="";
+function rupiah(n){return Number(n).toLocaleString('id-ID');}
+
+document.getElementById('formulir').addEventListener('submit',function(e){
+  e.preventDefault();
+  const f=e.target, galat=document.getElementById('galat');
+  if(!f.checkValidity()){ galat.classList.add('tampil'); f.reportValidity(); return; }
+  galat.classList.remove('tampil');
+  const fd=new FormData(f), data={};
+  URUT.forEach(k=>{
+    if(k==='faktor'){ const v=fd.getAll('faktor'); data[k]=v.length?v.join('; '):''; }
+    else data[k]=(fd.get(k)||'').toString().trim();
+  });
+  const ref='SQA-'+new Date().getFullYear()+'-'+String(Math.floor(Math.random()*9000)+1000);
+  document.getElementById('nomorref').textContent=ref;
+  const tb=document.getElementById('tabelhasil'); tb.innerHTML='';
+  let teks='Nomor rujukan: '+ref+'\n';
+  URUT.forEach(k=>{
+    let nilai=data[k];
+    if(k==='kerugian'&&nilai!=='') nilai='Rp '+rupiah(nilai);
+    const tr=document.createElement('tr');
+    const th=document.createElement('th'); th.textContent=LABEL[k];
+    const td=document.createElement('td');
+    if(nilai===''){ td.textContent='(tidak diisi)'; td.className='kosong'; } else td.textContent=nilai;
+    tr.appendChild(th); tr.appendChild(td); tb.appendChild(tr);
+    teks+=LABEL[k]+': '+(nilai===''?'(tidak diisi)':nilai)+'\n';
+  });
+  RINGKASAN=teks;
+  f.style.display='none';
+  const h=document.getElementById('hasil'); h.style.display='block'; h.scrollIntoView({behavior:'smooth'});
+});
+function salinRingkasan(){
+  navigator.clipboard.writeText(RINGKASAN).then(()=>{
+    const b=event.target,t=b.textContent; b.textContent='Tersalin!'; setTimeout(()=>b.textContent=t,2000);
+  });
+}
+</script>
+</body></html>

@@ -1,0 +1,971 @@
+PemanenID,NamaPemanen,EstateKode,Estate,Wilayah,Afdeling,Mandor,Asisten,TanggalMasuk,MasaKerjaBulan,StatusKaryawan,HancakHa
+PMN-0001,Priyo Rachman,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2026-06-28,1,BHL,24.3
+PMN-0002,Budi Manurung,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2022-06-19,50,BHL,24.3
+PMN-0003,Darto Silalahi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2026-04-07,3,SKU,15.4
+PMN-0004,Deni Wibowo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2024-07-02,25,SKU,18.0
+PMN-0005,Zainal Sianturi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2026-02-18,5,BHL,21.6
+PMN-0006,Wulan Kurniawan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2018-07-24,97,SKU,17.4
+PMN-0007,Ratna Sembiring,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2024-08-27,23,SKU,23.3
+PMN-0008,Bambang Utomo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2021-06-16,62,SKU,17.3
+PMN-0009,Firman Rachman,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2023-08-16,36,SKU,24.9
+PMN-0010,Usman Harahap,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2015-03-16,138,SKU,25.4
+PMN-0011,Hendra Sanjaya,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2013-03-05,163,BHL,22.7
+PMN-0012,Krisna Butar-butar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2025-01-28,18,SKU,16.8
+PMN-0013,Wardi Prasetyo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2015-10-27,131,SKU,14.9
+PMN-0014,Mulyadi Pratama,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2025-12-25,7,SKU,22.1
+PMN-0015,Budi Sudarmono,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2024-01-01,31,BHL,21.6
+PMN-0016,Zulkifli Siregar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2015-04-21,137,SKU,19.3
+PMN-0017,Usman Mangunsong,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2021-04-10,64,SKU,14.8
+PMN-0018,Jumadi Sitompul,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2025-09-14,10,SKU,23.8
+PMN-0019,Ade Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2016-09-21,120,SKU,25.7
+PMN-0020,Oki Sembiring,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2013-08-03,158,SKU,25.6
+PMN-0021,Fajar Hutapea,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2012-05-25,172,SKU,19.9
+PMN-0022,Imam Purba,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Endang Manurung,Dedi Halim,2026-01-18,6,SKU,17.6
+PMN-0023,Paiman Sagala,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2026-07-01,1,SKU,17.1
+PMN-0024,Candra Nugroho,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2015-05-22,136,SKU,21.5
+PMN-0025,Nasrul Damanik,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Teguh Sagala,Dedi Halim,2025-03-13,16,SKU,16.2
+PMN-0026,Marni Utomo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,A,Iwan Harahap,Dedi Halim,2024-12-13,19,SKU,18.6
+PMN-0027,Bayu Lubis,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2021-10-23,58,SKU,24.2
+PMN-0028,Feri Adiputra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2017-08-08,109,BHL,23.6
+PMN-0029,Wagimin Sudarmono,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2022-11-19,45,SKU,24.0
+PMN-0030,Agus Yusril,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Yusuf Nugroho,Wulan Hutapea,2026-05-23,2,BHL,16.1
+PMN-0031,Yanto Fauzi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2024-02-29,29,SKU,19.9
+PMN-0032,Jumadi Nasution,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2025-12-08,7,SKU,14.5
+PMN-0033,Deni Firdaus,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2013-04-07,162,BHL,15.5
+PMN-0034,Lukman Manurung,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2024-11-25,20,SKU,15.3
+PMN-0035,Yuli Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2023-12-06,32,SKU,22.6
+PMN-0036,Fajar Hutapea,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2026-03-23,4,SKU,15.2
+PMN-0037,Zainal Dalimunthe,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Yusuf Nugroho,Wulan Hutapea,2016-02-06,127,BHL,25.6
+PMN-0038,Eko Nugroho,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Yusuf Nugroho,Wulan Hutapea,2020-09-07,71,BHL,24.3
+PMN-0039,Darto Sagala,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2021-04-17,64,SKU,18.9
+PMN-0040,Yuli Sinaga,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2015-07-24,134,SKU,19.5
+PMN-0041,Bayu Butar-butar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2016-02-21,127,BHL,15.4
+PMN-0042,Nurdin Lubis,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Yusuf Nugroho,Wulan Hutapea,2019-09-17,83,SKU,22.1
+PMN-0043,Kurnia Damanik,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2025-12-25,7,SKU,21.9
+PMN-0044,Tono Barus,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2026-04-21,3,SKU,23.0
+PMN-0045,Sutrisno Silalahi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Gilang Pratama,Wulan Hutapea,2014-02-12,151,SKU,18.0
+PMN-0046,Oki Ramadhan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2023-05-05,39,SKU,18.3
+PMN-0047,Fajar Hutapea,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Maman Gunadi,Wulan Hutapea,2019-04-19,88,SKU,15.3
+PMN-0048,Endang Panjaitan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,B,Yusuf Nugroho,Wulan Hutapea,2026-06-15,1,BHL,15.2
+PMN-0049,Dewi Tarigan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Slamet Riyadi,Yanuar Santika,2026-01-30,6,BHL,14.8
+PMN-0050,Ratna Maulana,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2020-03-03,78,SKU,25.7
+PMN-0051,Wagimin Sanjaya,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2025-04-20,15,SKU,19.7
+PMN-0052,Parjono Pratama,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2026-02-18,5,SKU,18.7
+PMN-0053,Lestari Nasution,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2024-11-26,20,SKU,21.5
+PMN-0054,Gilang Mangunsong,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2024-10-09,22,BHL,17.8
+PMN-0055,Tono Butar-butar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Slamet Riyadi,Yanuar Santika,2026-05-31,2,SKU,14.7
+PMN-0056,Siti Sagala,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2026-06-12,1,SKU,17.7
+PMN-0057,Tono Sianturi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2016-09-21,120,SKU,22.1
+PMN-0058,Marni Butar-butar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2026-02-14,5,SKU,20.4
+PMN-0059,Ade Effendi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2024-10-05,22,SKU,22.5
+PMN-0060,Ahmad Ginting,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2016-02-03,127,SKU,15.6
+PMN-0061,Firman Sanjaya,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2026-05-17,2,SKU,24.9
+PMN-0062,Zulkifli Santoso,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2018-02-19,102,SKU,23.9
+PMN-0063,Priyo Santoso,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2024-09-03,23,SKU,18.3
+PMN-0064,Zulkifli Effendi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Suwarno Prayitno,Yanuar Santika,2026-02-09,5,BHL,25.4
+PMN-0065,Ahmad Setiawan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Slamet Riyadi,Yanuar Santika,2017-12-08,105,SKU,15.2
+PMN-0066,Oki Kurniawan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Slamet Riyadi,Yanuar Santika,2025-08-24,11,SKU,14.2
+PMN-0067,Rudi Nasution,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2025-12-16,7,SKU,23.6
+PMN-0068,Tono Hutapea,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Slamet Riyadi,Yanuar Santika,2025-11-18,8,BHL,23.1
+PMN-0069,Tarno Saputra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,C,Rudi Hartanto,Yanuar Santika,2024-09-25,22,SKU,14.2
+PMN-0070,Hadi Santoso,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2024-09-28,22,SKU,21.6
+PMN-0071,Endang Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Deni Saputra,Bagas Alkhairi,2025-03-28,16,BHL,17.3
+PMN-0072,Joko Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2026-01-26,6,SKU,18.4
+PMN-0073,Samsul Ramadhan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2022-05-19,51,SKU,22.4
+PMN-0074,Yohanes Panjaitan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2026-03-02,5,BHL,17.8
+PMN-0075,Marni Bahari,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2026-03-13,4,BHL,22.8
+PMN-0076,Wahyu Purba,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2025-11-29,8,SKU,23.0
+PMN-0077,Yanto Rachman,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2026-05-29,2,SKU,14.3
+PMN-0078,Eko Situmorang,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2026-06-07,1,SKU,23.0
+PMN-0079,Siti Panjaitan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2025-12-29,7,SKU,18.9
+PMN-0080,Candra Silalahi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2021-04-04,64,BHL,15.0
+PMN-0081,Ratna Saputra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2026-03-24,4,SKU,16.9
+PMN-0082,Hadi Sianturi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2025-04-27,15,SKU,21.4
+PMN-0083,Gunawan Sagala,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2026-06-12,1,SKU,19.2
+PMN-0084,Jumadi Sitompul,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2018-10-11,95,BHL,17.6
+PMN-0085,Lukman Maulana,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2026-02-26,5,SKU,19.9
+PMN-0086,Agus Setiawan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Deni Saputra,Bagas Alkhairi,2024-12-07,20,SKU,14.4
+PMN-0087,Agus Ismail,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Marwan Halim,Bagas Alkhairi,2026-05-20,2,SKU,21.8
+PMN-0088,Latif Saputra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Rudi Hartanto,Bagas Alkhairi,2025-12-26,7,SKU,17.0
+PMN-0089,Nanda Suhendra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,D,Deni Saputra,Bagas Alkhairi,2026-03-31,4,SKU,25.1
+PMN-0090,Hadi Sianturi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2024-11-19,20,SKU,14.5
+PMN-0091,Feri Sudarmono,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2025-04-23,15,BHL,25.1
+PMN-0092,Deni Manurung,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2024-12-01,20,SKU,23.4
+PMN-0093,Parjono Tampubolon,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2024-01-08,31,BHL,14.8
+PMN-0094,Mulyadi Saragih,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2025-02-19,17,SKU,15.5
+PMN-0095,Yusuf Nasution,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2025-06-03,14,SKU,17.1
+PMN-0096,Parjono Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2021-01-28,67,SKU,21.1
+PMN-0097,Untung Utomo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2014-08-16,145,BHL,17.9
+PMN-0098,Candra Wijaya,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2015-01-29,140,SKU,20.5
+PMN-0099,Firman Lubis,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2013-06-19,159,SKU,25.8
+PMN-0100,Yusuf Panjaitan,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2024-12-07,20,SKU,20.5
+PMN-0101,Samsul Sembiring,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2026-06-01,2,SKU,15.9
+PMN-0102,Ratna Hutapea,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2022-07-29,48,SKU,17.5
+PMN-0103,Umar Firdaus,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2026-01-08,6,SKU,17.0
+PMN-0104,Mulyadi Damanik,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2017-06-16,111,BHL,21.3
+PMN-0105,Maman Simanjuntak,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2025-04-02,16,BHL,17.6
+PMN-0106,Tarno Ismail,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2024-11-01,21,SKU,14.1
+PMN-0107,Jefri Kusuma,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2020-11-21,69,SKU,25.4
+PMN-0108,Marwan Mahendra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2025-10-12,9,BHL,17.2
+PMN-0109,Agus Saragih,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2025-05-27,14,BHL,23.7
+PMN-0110,Paiman Suhendra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2012-11-11,167,SKU,15.0
+PMN-0111,Latif Fauzi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Yanto Sitompul,Hendra Dalimunthe,2020-03-02,78,SKU,22.8
+PMN-0112,Wahyu Yusril,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2023-09-22,34,SKU,15.4
+PMN-0113,Wardi Sagala,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Kurnia Butar-butar,Hendra Dalimunthe,2025-11-27,8,BHL,18.3
+PMN-0114,Dedi Siregar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2019-11-29,81,SKU,25.6
+PMN-0115,Maman Lubis,BSK,Estate Bukit Sekawan,Kalimantan Tengah,E,Gunawan Mahendra,Hendra Dalimunthe,2017-07-28,109,SKU,25.0
+PMN-0116,Riko Butar-butar,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2014-02-18,151,SKU,16.3
+PMN-0117,Tono Pratama,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2021-12-30,55,SKU,21.2
+PMN-0118,Rahmat Sinaga,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2026-05-02,3,BHL,21.3
+PMN-0119,Candra Fauzi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2024-12-18,19,BHL,14.4
+PMN-0120,Edi Saragih,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2022-01-29,54,SKU,14.8
+PMN-0121,Wardi Wibowo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2024-11-03,21,BHL,21.3
+PMN-0122,Edi Nasution,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2023-11-08,33,SKU,22.1
+PMN-0123,Joko Damanik,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2015-07-10,134,SKU,15.0
+PMN-0124,Eko Prasetyo,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2013-08-29,157,SKU,18.4
+PMN-0125,Sutrisno Saputra,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2021-06-19,62,SKU,15.5
+PMN-0126,Priyo Santoso,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2021-02-14,66,SKU,14.2
+PMN-0127,Dewi Dalimunthe,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2025-10-15,9,SKU,16.3
+PMN-0128,Irwan Lubis,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2025-10-13,9,SKU,14.2
+PMN-0129,Budi Anggara,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2012-01-13,177,SKU,22.7
+PMN-0130,Feri Situmorang,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2016-03-01,126,SKU,25.8
+PMN-0131,Yanto Sianturi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2022-06-15,50,SKU,24.7
+PMN-0132,Deni Sembiring,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2016-04-16,125,BHL,25.6
+PMN-0133,Herman Mangunsong,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2018-11-06,94,SKU,16.7
+PMN-0134,Darto Sitompul,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2025-06-03,14,SKU,22.5
+PMN-0135,Deni Saragih,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2018-07-31,97,BHL,16.5
+PMN-0136,Untung Gunadi,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2026-01-22,6,SKU,19.7
+PMN-0137,Nasrul Harahap,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Agus Silalahi,Wahyu Anggara,2025-12-14,7,SKU,22.0
+PMN-0138,Teguh Harahap,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Latif Adiputra,Wahyu Anggara,2024-07-20,24,SKU,15.2
+PMN-0139,Bambang Yusril,BSK,Estate Bukit Sekawan,Kalimantan Tengah,F,Candra Sembiring,Wahyu Anggara,2024-06-25,25,SKU,22.4
+PMN-0140,Rahmat Panjaitan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2013-03-04,163,BHL,19.0
+PMN-0141,Umar Lubis,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2026-03-19,4,SKU,16.1
+PMN-0142,Wahyu Harahap,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Oki Saragih,Untung Sanjaya,2025-03-02,17,SKU,15.9
+PMN-0143,Wulan Sitompul,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2018-06-19,98,SKU,24.7
+PMN-0144,Zainal Harahap,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2022-12-15,44,SKU,17.5
+PMN-0145,Irwan Wijaya,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Oki Saragih,Untung Sanjaya,2025-09-28,10,SKU,18.5
+PMN-0146,Irwan Hartanto,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Oki Saragih,Untung Sanjaya,2026-03-30,4,BHL,16.2
+PMN-0147,Usman Nugroho,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2012-03-01,175,BHL,20.3
+PMN-0148,Eko Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Oki Saragih,Untung Sanjaya,2025-10-24,9,SKU,21.7
+PMN-0149,Usman Saragih,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2026-01-26,6,SKU,19.3
+PMN-0150,Untung Silalahi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2015-05-22,136,BHL,16.4
+PMN-0151,Endang Kurniawan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2024-09-16,22,SKU,18.8
+PMN-0152,Usman Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2026-01-15,6,SKU,19.4
+PMN-0153,Marni Sinaga,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2013-07-03,159,SKU,15.9
+PMN-0154,Gunawan Purba,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2025-09-24,10,SKU,24.6
+PMN-0155,Irwan Wibowo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2014-01-13,152,SKU,25.1
+PMN-0156,Kurnia Sembiring,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Oki Saragih,Untung Sanjaya,2014-09-22,144,SKU,15.4
+PMN-0157,Ratna Hartanto,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2013-04-17,161,SKU,15.9
+PMN-0158,Deni Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2016-10-17,119,SKU,14.9
+PMN-0159,Oki Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2025-09-25,10,SKU,14.6
+PMN-0160,Dewi Wibowo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2025-09-01,11,SKU,16.6
+PMN-0161,Gunawan Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2025-01-28,18,SKU,22.9
+PMN-0162,Gilang Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2014-01-23,152,SKU,23.2
+PMN-0163,Mulyadi Kurniawan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2026-01-19,6,SKU,23.5
+PMN-0164,Nanda Situmorang,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Gilang Santoso,Untung Sanjaya,2013-04-21,161,SKU,15.8
+PMN-0165,Jumadi Ismail,TJL,Estate Tanjung Lestari,Kalimantan Tengah,A,Fajar Fauzi,Untung Sanjaya,2025-10-20,9,BHL,25.0
+PMN-0166,Paiman Halim,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2026-01-24,6,SKU,22.1
+PMN-0167,Firman Utomo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2015-03-28,138,SKU,23.2
+PMN-0168,Tarno Simanjuntak,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2014-06-20,147,BHL,25.6
+PMN-0169,Agus Utomo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2021-06-16,62,SKU,21.0
+PMN-0170,Wahyu Sembiring,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2017-01-31,115,SKU,24.1
+PMN-0171,Agus Santoso,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2025-05-04,15,SKU,16.8
+PMN-0172,Wagimin Sitompul,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2026-03-20,4,BHL,21.5
+PMN-0173,Agus Sagala,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2021-01-27,67,SKU,17.9
+PMN-0174,Ahmad Firdaus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2026-04-09,3,BHL,14.6
+PMN-0175,Candra Barus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2025-04-30,15,BHL,16.3
+PMN-0176,Zulkifli Anggara,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2024-12-01,20,SKU,15.4
+PMN-0177,Nanda Silalahi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2026-02-23,5,SKU,24.0
+PMN-0178,Usman Firdaus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2013-08-14,157,BHL,16.3
+PMN-0179,Rahmat Nugroho,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2019-01-16,91,SKU,16.2
+PMN-0180,Fajar Tarigan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2025-12-26,7,SKU,18.6
+PMN-0181,Edi Handoko,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2023-05-27,38,BHL,19.3
+PMN-0182,Herman Sembiring,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2025-06-30,13,BHL,21.9
+PMN-0183,Lukman Yusril,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2021-03-07,65,SKU,19.8
+PMN-0184,Irwan Tampubolon,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2020-01-21,79,SKU,24.7
+PMN-0185,Yuli Effendi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2012-07-12,171,SKU,24.7
+PMN-0186,Ahmad Dalimunthe,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2025-09-21,10,SKU,23.2
+PMN-0187,Maman Sanjaya,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2026-02-28,5,SKU,15.0
+PMN-0188,Feri Ismail,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Rudi Ramadhan,Latif Sinaga,2016-06-07,123,BHL,24.1
+PMN-0189,Lestari Mahendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2026-04-22,3,BHL,23.5
+PMN-0190,Deni Sagala,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Candra Suhendra,Latif Sinaga,2016-04-18,125,BHL,20.2
+PMN-0191,Edi Suhendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,B,Yuli Damanik,Latif Sinaga,2026-05-27,2,SKU,16.4
+PMN-0192,Candra Lubis,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2022-09-26,46,SKU,16.8
+PMN-0193,Firman Sembiring,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2021-12-23,56,BHL,14.1
+PMN-0194,Wahyu Sudarmono,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2025-01-05,19,SKU,21.5
+PMN-0195,Marwan Fauzi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2024-11-14,20,BHL,20.1
+PMN-0196,Ahmad Setiawan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2013-07-30,158,SKU,24.4
+PMN-0197,Tarno Prasetyo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2025-10-04,10,SKU,25.7
+PMN-0198,Dewi Damanik,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2019-07-30,85,BHL,20.4
+PMN-0199,Kasno Sianturi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2026-01-10,6,BHL,16.4
+PMN-0200,Oki Harahap,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2025-10-11,9,BHL,25.9
+PMN-0201,Riko Adiputra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2019-05-24,87,SKU,14.1
+PMN-0202,Yuli Sianturi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2013-04-25,161,SKU,16.2
+PMN-0203,Endang Saragih,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2025-10-16,9,BHL,23.0
+PMN-0204,Teguh Rachman,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2021-11-10,57,BHL,18.9
+PMN-0205,Tono Purba,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2011-11-22,178,BHL,21.4
+PMN-0206,Ahmad Tarigan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2023-02-01,42,BHL,14.3
+PMN-0207,Wardi Firdaus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2024-04-09,28,SKU,21.9
+PMN-0208,Nasrul Purba,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2016-03-09,126,SKU,16.4
+PMN-0209,Joko Nugroho,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2019-07-01,86,SKU,17.9
+PMN-0210,Hendra Hartanto,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2023-08-22,35,BHL,22.2
+PMN-0211,Riko Sianturi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2023-06-10,38,SKU,15.7
+PMN-0212,Marwan Hutapea,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2015-11-19,130,SKU,23.5
+PMN-0213,Maman Harahap,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Edi Mahendra,Usman Harahap,2017-10-23,106,SKU,14.8
+PMN-0214,Agus Mangunsong,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2025-06-20,13,BHL,18.5
+PMN-0215,Irwan Yusril,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2019-03-19,89,SKU,20.0
+PMN-0216,Gunawan Pratama,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Samsul Butar-butar,Usman Harahap,2019-05-09,88,BHL,14.3
+PMN-0217,Yanto Lubis,TJL,Estate Tanjung Lestari,Kalimantan Tengah,C,Darto Sianturi,Usman Harahap,2025-04-05,16,BHL,24.2
+PMN-0218,Jefri Saragih,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2021-01-19,67,BHL,20.9
+PMN-0219,Deni Maulana,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2015-11-08,130,BHL,17.6
+PMN-0220,Zulkifli Rachman,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2019-12-29,80,SKU,21.3
+PMN-0221,Joko Suhendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2026-06-24,1,SKU,14.9
+PMN-0222,Tarno Dalimunthe,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2026-06-27,1,BHL,25.8
+PMN-0223,Siti Santoso,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2025-01-18,18,SKU,16.8
+PMN-0224,Riko Anggara,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2017-12-15,105,BHL,22.0
+PMN-0225,Eko Anggara,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2026-03-01,5,BHL,15.9
+PMN-0226,Ahmad Nugroho,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2025-07-18,12,SKU,21.8
+PMN-0227,Untung Maulana,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2012-09-08,169,BHL,24.0
+PMN-0228,Gilang Sinaga,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2022-09-02,47,BHL,22.7
+PMN-0229,Rahmat Nugroho,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2024-11-05,21,SKU,18.3
+PMN-0230,Marwan Situmorang,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2025-02-20,17,BHL,23.2
+PMN-0231,Siti Tampubolon,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2025-04-23,15,BHL,24.0
+PMN-0232,Bayu Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2019-03-20,89,BHL,14.7
+PMN-0233,Endang Dalimunthe,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2026-04-30,3,SKU,14.1
+PMN-0234,Latif Mangunsong,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2012-03-02,175,SKU,20.7
+PMN-0235,Nurdin Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2024-11-26,20,BHL,24.3
+PMN-0236,Rahmat Sudarmono,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2025-07-22,12,BHL,22.1
+PMN-0237,Untung Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Parjono Santoso,Bambang Yusril,2021-10-10,58,BHL,20.8
+PMN-0238,Edi Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Dewi Hutapea,Bambang Yusril,2017-09-13,108,SKU,15.5
+PMN-0239,Deni Sanjaya,TJL,Estate Tanjung Lestari,Kalimantan Tengah,D,Teguh Kurniawan,Bambang Yusril,2025-10-03,10,SKU,23.7
+PMN-0240,Endang Suhendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2020-02-03,79,BHL,17.7
+PMN-0241,Bambang Barus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2018-07-18,97,SKU,17.0
+PMN-0242,Tono Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2012-02-09,176,SKU,24.7
+PMN-0243,Joko Lubis,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2022-11-19,45,BHL,21.3
+PMN-0244,Paiman Tarigan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2021-05-11,63,BHL,15.5
+PMN-0245,Maman Kurniawan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2012-07-03,171,SKU,23.0
+PMN-0246,Untung Gunadi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2026-05-10,2,BHL,15.4
+PMN-0247,Candra Fauzi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2025-07-27,12,BHL,23.3
+PMN-0248,Joko Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2020-08-23,72,BHL,15.7
+PMN-0249,Samsul Fauzi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2024-07-28,24,SKU,23.8
+PMN-0250,Bayu Butar-butar,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2019-12-23,80,SKU,14.1
+PMN-0251,Rahmat Yusril,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2025-10-20,9,SKU,14.3
+PMN-0252,Lestari Sinaga,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2012-05-29,172,SKU,17.7
+PMN-0253,Fajar Lubis,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2018-08-17,96,BHL,15.6
+PMN-0254,Budi Tampubolon,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2026-01-21,6,SKU,14.4
+PMN-0255,Ahmad Fauzi,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2026-05-02,3,SKU,15.2
+PMN-0256,Sri Sanjaya,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2014-02-12,151,SKU,23.7
+PMN-0257,Nanda Kusuma,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Ahmad Sitompul,Wagimin Mangunsong,2018-03-29,101,BHL,14.2
+PMN-0258,Agus Rachman,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Darto Sinaga,Wagimin Mangunsong,2026-06-27,1,BHL,17.8
+PMN-0259,Bambang Mahendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,E,Hendra Dalimunthe,Wagimin Mangunsong,2026-03-22,4,SKU,25.0
+PMN-0260,Tarno Utomo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2016-07-23,122,BHL,25.0
+PMN-0261,Joko Barus,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2014-12-07,141,SKU,17.2
+PMN-0262,Lukman Pratama,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2021-08-07,60,SKU,15.6
+PMN-0263,Marni Mahendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2013-10-30,155,SKU,24.6
+PMN-0264,Fajar Purba,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2024-04-03,28,SKU,24.5
+PMN-0265,Teguh Mahendra,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Nurdin Barus,Yanto Ismail,2021-06-14,62,SKU,14.2
+PMN-0266,Priyo Handoko,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-09-14,10,SKU,18.8
+PMN-0267,Usman Yusril,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2011-12-25,177,BHL,22.9
+PMN-0268,Tarno Sagala,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Nurdin Barus,Yanto Ismail,2021-04-20,64,SKU,23.6
+PMN-0269,Hadi Tarigan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2026-04-30,3,SKU,23.4
+PMN-0270,Firman Wibowo,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-02-12,17,SKU,19.9
+PMN-0271,Wahyu Handoko,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2013-08-13,157,SKU,21.0
+PMN-0272,Gunawan Situmorang,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2023-12-30,31,SKU,14.4
+PMN-0273,Wulan Sudarmono,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2024-10-26,21,BHL,21.6
+PMN-0274,Kasno Ginting,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2014-06-24,147,BHL,24.1
+PMN-0275,Kasno Anggara,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-04-15,15,SKU,20.5
+PMN-0276,Samsul Ramadhan,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-09-13,10,BHL,18.0
+PMN-0277,Ade Handoko,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2021-06-17,62,SKU,17.0
+PMN-0278,Riko Siregar,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-09-29,10,BHL,22.9
+PMN-0279,Ade Situmorang,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2021-06-14,62,SKU,17.4
+PMN-0280,Wagimin Sagala,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2016-04-16,125,SKU,15.4
+PMN-0281,Marni Sagala,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2022-01-22,55,SKU,22.6
+PMN-0282,Firman Halim,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-06-18,13,SKU,24.5
+PMN-0283,Yanto Anggara,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Deni Sudarmono,Yanto Ismail,2025-01-21,18,SKU,23.6
+PMN-0284,Dedi Rachman,TJL,Estate Tanjung Lestari,Kalimantan Tengah,F,Budi Santoso,Yanto Ismail,2012-01-16,177,SKU,15.6
+PMN-0285,Siti Rachman,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2021-02-17,66,BHL,19.1
+PMN-0286,Latif Situmorang,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2022-09-17,47,SKU,22.1
+PMN-0287,Umar Hartanto,MRA,Estate Muara Alam,Kalimantan Tengah,A,Mulyadi Suhendra,Nurdin Wijaya,2023-08-01,36,SKU,24.4
+PMN-0288,Oki Barus,MRA,Estate Muara Alam,Kalimantan Tengah,A,Mulyadi Suhendra,Nurdin Wijaya,2012-04-05,174,SKU,19.8
+PMN-0289,Marwan Damanik,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2022-02-04,54,BHL,23.8
+PMN-0290,Tarno Ginting,MRA,Estate Muara Alam,Kalimantan Tengah,A,Mulyadi Suhendra,Nurdin Wijaya,2016-05-14,124,SKU,24.5
+PMN-0291,Lestari Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2024-09-21,22,SKU,14.3
+PMN-0292,Tono Butar-butar,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2019-07-20,85,BHL,20.3
+PMN-0293,Ratna Tampubolon,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2012-09-23,168,SKU,18.6
+PMN-0294,Nasrul Fauzi,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2026-04-07,3,BHL,22.6
+PMN-0295,Firman Yusril,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2015-06-24,135,BHL,15.7
+PMN-0296,Ahmad Silalahi,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2018-01-13,104,SKU,16.2
+PMN-0297,Herman Saragih,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2023-09-10,35,BHL,17.4
+PMN-0298,Sutrisno Tampubolon,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2021-10-21,58,SKU,23.6
+PMN-0299,Dewi Ismail,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2014-08-18,145,SKU,21.2
+PMN-0300,Zainal Utomo,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2022-11-02,45,SKU,16.1
+PMN-0301,Iwan Panjaitan,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2025-03-23,16,BHL,24.0
+PMN-0302,Sri Setiawan,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2014-12-16,141,SKU,15.5
+PMN-0303,Oki Anggara,MRA,Estate Muara Alam,Kalimantan Tengah,A,Mulyadi Suhendra,Nurdin Wijaya,2014-04-28,149,SKU,25.1
+PMN-0304,Gilang Nasution,MRA,Estate Muara Alam,Kalimantan Tengah,A,Mulyadi Suhendra,Nurdin Wijaya,2026-03-29,4,BHL,21.8
+PMN-0305,Sri Ismail,MRA,Estate Muara Alam,Kalimantan Tengah,A,Slamet Adiputra,Nurdin Wijaya,2025-12-17,7,SKU,20.6
+PMN-0306,Feri Kusuma,MRA,Estate Muara Alam,Kalimantan Tengah,A,Ade Panjaitan,Nurdin Wijaya,2019-09-30,83,SKU,19.0
+PMN-0307,Gunawan Hutapea,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2026-03-03,5,SKU,22.3
+PMN-0308,Nasrul Prasetyo,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2020-08-26,72,BHL,15.4
+PMN-0309,Priyo Wibowo,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2017-01-28,115,SKU,22.8
+PMN-0310,Hendra Saragih,MRA,Estate Muara Alam,Kalimantan Tengah,B,Budi Sinaga,Marwan Saragih,2026-02-12,5,SKU,17.1
+PMN-0311,Priyo Barus,MRA,Estate Muara Alam,Kalimantan Tengah,B,Budi Sinaga,Marwan Saragih,2025-07-21,12,SKU,14.8
+PMN-0312,Yusuf Sagala,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2024-06-05,26,SKU,23.1
+PMN-0313,Priyo Sudarmono,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2018-11-10,94,BHL,21.8
+PMN-0314,Yusuf Sianturi,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2024-10-31,21,SKU,19.3
+PMN-0315,Joko Sagala,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2025-05-14,14,SKU,16.2
+PMN-0316,Samsul Sianturi,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2016-12-17,117,SKU,15.6
+PMN-0317,Sri Ginting,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2021-02-09,66,BHL,21.6
+PMN-0318,Hadi Sagala,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2025-09-09,10,SKU,17.3
+PMN-0319,Yuli Hartanto,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2022-04-03,52,SKU,19.4
+PMN-0320,Untung Pratama,MRA,Estate Muara Alam,Kalimantan Tengah,B,Budi Sinaga,Marwan Saragih,2023-08-03,36,SKU,22.5
+PMN-0321,Zainal Barus,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2016-08-19,121,SKU,19.6
+PMN-0322,Umar Wijaya,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2024-07-27,24,SKU,20.5
+PMN-0323,Priyo Effendi,MRA,Estate Muara Alam,Kalimantan Tengah,B,Budi Sinaga,Marwan Saragih,2024-06-02,26,SKU,16.3
+PMN-0324,Sutrisno Fauzi,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2012-11-27,166,BHL,16.3
+PMN-0325,Nasrul Hutapea,MRA,Estate Muara Alam,Kalimantan Tengah,B,Wahyu Ismail,Marwan Saragih,2017-06-26,110,BHL,23.4
+PMN-0326,Nanda Wijaya,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2016-10-07,119,SKU,23.4
+PMN-0327,Jumadi Santoso,MRA,Estate Muara Alam,Kalimantan Tengah,B,Agus Prasetyo,Marwan Saragih,2013-05-18,160,SKU,14.9
+PMN-0328,Wagimin Suhendra,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2021-04-06,64,SKU,15.4
+PMN-0329,Tarno Yusril,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2021-12-01,56,SKU,22.2
+PMN-0330,Nurdin Sinaga,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2025-10-29,9,SKU,22.3
+PMN-0331,Jefri Sudarmono,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2024-12-07,20,SKU,25.5
+PMN-0332,Rudi Effendi,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2013-07-17,158,SKU,17.7
+PMN-0333,Agus Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2021-09-23,59,SKU,14.6
+PMN-0334,Wagimin Suhendra,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2014-01-24,152,SKU,21.7
+PMN-0335,Wardi Wibowo,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2014-11-30,142,SKU,17.7
+PMN-0336,Rudi Halim,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2018-01-05,104,SKU,14.4
+PMN-0337,Yohanes Butar-butar,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2025-10-29,9,SKU,22.6
+PMN-0338,Sutrisno Adiputra,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2022-03-06,53,SKU,14.0
+PMN-0339,Deni Dalimunthe,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2025-08-26,11,SKU,19.6
+PMN-0340,Wahyu Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2025-05-20,14,SKU,21.1
+PMN-0341,Rahmat Adiputra,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2019-09-23,83,SKU,22.5
+PMN-0342,Kasno Handoko,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2018-03-30,101,BHL,20.1
+PMN-0343,Ahmad Harahap,MRA,Estate Muara Alam,Kalimantan Tengah,C,Irwan Sitompul,Gunawan Prasetyo,2026-01-25,6,SKU,17.2
+PMN-0344,Gunawan Saragih,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2017-02-09,115,SKU,22.5
+PMN-0345,Jumadi Adiputra,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2025-11-16,8,BHL,22.5
+PMN-0346,Candra Silalahi,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2024-09-21,22,BHL,22.0
+PMN-0347,Irwan Santoso,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2017-01-04,116,SKU,22.5
+PMN-0348,Bayu Manurung,MRA,Estate Muara Alam,Kalimantan Tengah,C,Slamet Sanjaya,Gunawan Prasetyo,2026-03-09,4,BHL,20.5
+PMN-0349,Imam Nugroho,MRA,Estate Muara Alam,Kalimantan Tengah,C,Wagimin Ramadhan,Gunawan Prasetyo,2013-11-18,154,SKU,16.0
+PMN-0350,Wardi Nugroho,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2012-01-30,176,BHL,19.9
+PMN-0351,Budi Fauzi,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2020-07-11,73,SKU,14.7
+PMN-0352,Tarno Sagala,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2025-10-28,9,BHL,21.1
+PMN-0353,Eko Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2025-05-26,14,SKU,24.2
+PMN-0354,Fajar Hartanto,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2020-03-14,77,SKU,25.1
+PMN-0355,Paiman Mahendra,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2025-04-26,15,SKU,21.5
+PMN-0356,Paiman Ismail,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2016-05-14,124,SKU,23.0
+PMN-0357,Ahmad Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2026-05-12,2,SKU,21.7
+PMN-0358,Hendra Dalimunthe,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2026-01-21,6,SKU,18.7
+PMN-0359,Bayu Maulana,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2017-12-10,105,SKU,17.3
+PMN-0360,Firman Siregar,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2024-12-14,19,SKU,16.0
+PMN-0361,Feri Fauzi,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2012-04-10,174,BHL,22.3
+PMN-0362,Gunawan Pratama,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2021-08-04,60,SKU,16.4
+PMN-0363,Hadi Situmorang,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2018-03-26,101,SKU,20.4
+PMN-0364,Eko Effendi,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2025-12-29,7,BHL,20.2
+PMN-0365,Lestari Mangunsong,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2013-06-07,160,SKU,20.9
+PMN-0366,Eko Sinaga,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2022-08-28,47,SKU,19.6
+PMN-0367,Marwan Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,D,Marwan Halim,Jefri Anggara,2016-02-10,127,SKU,18.2
+PMN-0368,Agus Handoko,MRA,Estate Muara Alam,Kalimantan Tengah,D,Sutrisno Situmorang,Jefri Anggara,2025-03-30,16,BHL,14.7
+PMN-0369,Wahyu Butar-butar,MRA,Estate Muara Alam,Kalimantan Tengah,D,Usman Tarigan,Jefri Anggara,2012-06-13,172,SKU,22.6
+PMN-0370,Joko Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2016-06-04,123,BHL,14.9
+PMN-0371,Jumadi Nugroho,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2018-06-18,98,BHL,15.2
+PMN-0372,Mulyadi Adiputra,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2025-09-12,10,BHL,20.0
+PMN-0373,Teguh Halim,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2026-02-13,5,SKU,25.9
+PMN-0374,Fajar Sembiring,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2017-01-01,116,SKU,20.6
+PMN-0375,Slamet Saputra,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2026-03-03,5,SKU,14.2
+PMN-0376,Bayu Simanjuntak,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2021-12-19,56,BHL,19.7
+PMN-0377,Hendra Sagala,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2026-05-22,2,BHL,18.4
+PMN-0378,Gunawan Purba,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2022-08-11,48,SKU,23.0
+PMN-0379,Usman Nasution,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2024-10-25,21,SKU,23.3
+PMN-0380,Usman Manurung,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2023-07-09,37,SKU,24.7
+PMN-0381,Edi Sianturi,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2024-11-05,21,SKU,25.7
+PMN-0382,Deni Sudarmono,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2026-03-21,4,SKU,16.8
+PMN-0383,Wardi Pratama,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2026-01-16,6,SKU,24.5
+PMN-0384,Hendra Hartanto,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2018-02-06,103,BHL,14.3
+PMN-0385,Yuli Situmorang,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2026-05-17,2,BHL,25.0
+PMN-0386,Latif Rachman,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2014-04-05,150,SKU,22.8
+PMN-0387,Yanto Purba,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2017-12-25,104,SKU,16.3
+PMN-0388,Darto Hutapea,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2026-01-11,6,SKU,18.5
+PMN-0389,Riko Manurung,MRA,Estate Muara Alam,Kalimantan Tengah,E,Lestari Sembiring,Sutrisno Lubis,2025-09-14,10,BHL,19.0
+PMN-0390,Sri Rachman,MRA,Estate Muara Alam,Kalimantan Tengah,E,Nurdin Tarigan,Sutrisno Lubis,2017-09-26,107,BHL,22.6
+PMN-0391,Umar Butar-butar,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2024-10-24,21,SKU,15.5
+PMN-0392,Mulyadi Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2022-08-09,48,BHL,15.4
+PMN-0393,Marwan Suhendra,MRA,Estate Muara Alam,Kalimantan Tengah,E,Samsul Nugroho,Sutrisno Lubis,2019-08-06,85,SKU,24.3
+PMN-0394,Agus Dalimunthe,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2026-03-08,4,SKU,23.1
+PMN-0395,Feri Yusril,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2014-11-06,142,SKU,25.2
+PMN-0396,Herman Sianturi,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2025-02-16,17,SKU,21.0
+PMN-0397,Tono Sembiring,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2023-06-27,37,BHL,16.0
+PMN-0398,Marwan Sianturi,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2024-12-14,19,BHL,14.7
+PMN-0399,Candra Pratama,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2020-05-28,75,SKU,19.6
+PMN-0400,Teguh Sembiring,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2024-07-20,24,SKU,23.3
+PMN-0401,Imam Manurung,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2012-02-25,175,BHL,19.9
+PMN-0402,Nanda Nasution,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2012-05-21,172,BHL,18.3
+PMN-0403,Feri Harahap,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2017-07-31,109,BHL,25.1
+PMN-0404,Candra Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2025-12-03,8,BHL,22.7
+PMN-0405,Latif Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2014-11-27,142,SKU,25.2
+PMN-0406,Darto Kurniawan,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2013-09-12,156,BHL,21.2
+PMN-0407,Jefri Harahap,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2025-04-18,15,BHL,19.5
+PMN-0408,Endang Setiawan,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2025-03-16,16,SKU,25.4
+PMN-0409,Lukman Firdaus,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2018-12-02,93,SKU,14.0
+PMN-0410,Lestari Gunadi,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2024-12-19,19,SKU,17.0
+PMN-0411,Sutrisno Pratama,MRA,Estate Muara Alam,Kalimantan Tengah,F,Agus Adiputra,Joko Lubis,2012-11-30,166,BHL,22.0
+PMN-0412,Tono Nugroho,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2024-07-04,25,BHL,17.2
+PMN-0413,Wulan Ismail,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2024-02-24,29,BHL,19.6
+PMN-0414,Gunawan Silalahi,MRA,Estate Muara Alam,Kalimantan Tengah,F,Nanda Nasution,Joko Lubis,2026-01-15,6,SKU,21.0
+PMN-0415,Kasno Anggara,MRA,Estate Muara Alam,Kalimantan Tengah,F,Jumadi Ginting,Joko Lubis,2024-09-25,22,BHL,23.9
+PMN-0416,Hendra Effendi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2026-02-21,5,SKU,23.3
+PMN-0417,Umar Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2025-08-10,11,SKU,17.9
+PMN-0418,Wagimin Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Sri Santoso,Usman Siregar,2016-12-29,116,BHL,24.6
+PMN-0419,Priyo Lubis,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2016-03-03,126,SKU,17.4
+PMN-0420,Kurnia Ismail,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2013-12-17,153,SKU,16.1
+PMN-0421,Irwan Nasution,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2026-05-10,2,SKU,25.5
+PMN-0422,Maman Gunadi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2024-09-04,23,SKU,20.4
+PMN-0423,Rahmat Lubis,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Sri Santoso,Usman Siregar,2012-04-28,173,SKU,20.1
+PMN-0424,Siti Hutapea,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2017-03-08,114,SKU,20.1
+PMN-0425,Parjono Sitompul,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2026-01-09,6,BHL,25.6
+PMN-0426,Jefri Fauzi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2024-08-05,24,BHL,17.3
+PMN-0427,Agus Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2017-08-01,109,SKU,16.0
+PMN-0428,Deni Sianturi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2017-03-28,113,SKU,22.7
+PMN-0429,Dewi Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2020-05-16,75,SKU,17.8
+PMN-0430,Wahyu Situmorang,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Sri Santoso,Usman Siregar,2026-04-30,3,BHL,14.2
+PMN-0431,Bambang Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2026-06-23,1,SKU,18.9
+PMN-0432,Latif Butar-butar,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2025-06-27,13,SKU,22.3
+PMN-0433,Gilang Nasution,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2026-03-14,4,SKU,15.0
+PMN-0434,Priyo Sanjaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2024-11-04,21,SKU,15.4
+PMN-0435,Usman Gunadi,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2020-06-16,74,SKU,17.1
+PMN-0436,Sri Bahari,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Feri Kurniawan,Usman Siregar,2013-03-27,162,SKU,25.6
+PMN-0437,Deni Ismail,SRK,Estate Sungai Rangkat,Kalimantan Barat,A,Gilang Situmorang,Usman Siregar,2022-11-07,45,SKU,14.2
+PMN-0438,Maman Pratama,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2020-05-28,75,BHL,16.5
+PMN-0439,Krisna Barus,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2013-07-02,159,BHL,26.0
+PMN-0440,Kasno Fauzi,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2025-12-20,7,SKU,25.6
+PMN-0441,Bayu Santoso,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2013-04-04,162,SKU,20.9
+PMN-0442,Siti Kusuma,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2015-02-19,139,SKU,23.2
+PMN-0443,Fajar Sanjaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2019-03-10,90,SKU,24.8
+PMN-0444,Imam Adiputra,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2022-04-20,52,BHL,22.4
+PMN-0445,Tono Maulana,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2025-04-17,15,SKU,17.8
+PMN-0446,Gilang Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2025-10-27,9,SKU,25.3
+PMN-0447,Feri Sianturi,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2025-10-14,9,SKU,22.1
+PMN-0448,Dedi Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2012-10-18,167,SKU,15.4
+PMN-0449,Gunawan Nasution,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2024-10-29,21,SKU,14.1
+PMN-0450,Hadi Saputra,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2026-01-28,6,SKU,18.6
+PMN-0451,Oki Sitompul,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2022-05-29,50,SKU,23.2
+PMN-0452,Priyo Tampubolon,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2016-02-01,127,SKU,14.5
+PMN-0453,Wulan Saputra,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2021-10-20,58,BHL,20.1
+PMN-0454,Budi Sagala,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2017-07-16,110,SKU,15.9
+PMN-0455,Firman Hutapea,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2016-09-08,120,SKU,18.2
+PMN-0456,Eko Sagala,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2018-01-27,103,BHL,23.1
+PMN-0457,Dedi Sagala,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Ratna Simanjuntak,Tarno Hutapea,2025-09-27,10,SKU,24.9
+PMN-0458,Eko Wijaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2012-06-03,172,SKU,15.3
+PMN-0459,Candra Setiawan,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yuli Suhendra,Tarno Hutapea,2023-11-28,32,SKU,25.3
+PMN-0460,Hendra Prasetyo,SRK,Estate Sungai Rangkat,Kalimantan Barat,B,Yusuf Saputra,Tarno Hutapea,2020-08-13,72,SKU,22.0
+PMN-0461,Deni Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2022-09-09,47,BHL,25.6
+PMN-0462,Riko Tarigan,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Usman Santoso,Jumadi Saragih,2017-09-12,108,SKU,24.4
+PMN-0463,Guntur Wijaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2022-12-19,44,BHL,21.0
+PMN-0464,Darto Purba,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2025-10-31,9,SKU,22.1
+PMN-0465,Bayu Yusril,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2013-03-01,163,BHL,21.0
+PMN-0466,Sutrisno Situmorang,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2024-10-30,21,BHL,25.3
+PMN-0467,Endang Handoko,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2019-02-01,91,SKU,17.7
+PMN-0468,Umar Situmorang,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Usman Santoso,Jumadi Saragih,2025-01-17,18,SKU,14.7
+PMN-0469,Teguh Sitompul,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Usman Santoso,Jumadi Saragih,2024-11-29,20,SKU,21.9
+PMN-0470,Firman Wijaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2025-09-23,10,SKU,18.4
+PMN-0471,Darto Gunadi,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2025-03-18,16,SKU,17.3
+PMN-0472,Eko Wijaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2017-02-24,114,BHL,22.7
+PMN-0473,Edi Halim,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2026-06-11,1,BHL,14.4
+PMN-0474,Wulan Gunadi,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2025-10-21,9,SKU,21.7
+PMN-0475,Feri Nugroho,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2025-03-01,17,BHL,20.7
+PMN-0476,Iwan Santoso,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2024-10-18,21,SKU,16.1
+PMN-0477,Zulkifli Tampubolon,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2025-03-23,16,SKU,21.3
+PMN-0478,Lukman Sitompul,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2014-06-09,147,BHL,22.4
+PMN-0479,Parjono Kurniawan,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2025-01-19,18,SKU,18.7
+PMN-0480,Marwan Ginting,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2024-12-26,19,BHL,20.0
+PMN-0481,Teguh Saragih,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2012-05-13,173,BHL,17.9
+PMN-0482,Samsul Effendi,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Kurnia Butar-butar,Jumadi Saragih,2020-04-16,76,BHL,14.4
+PMN-0483,Endang Rachman,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2012-11-21,166,BHL,20.1
+PMN-0484,Agus Handoko,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Usman Santoso,Jumadi Saragih,2016-07-11,122,SKU,15.6
+PMN-0485,Kasno Santoso,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Usman Santoso,Jumadi Saragih,2024-11-01,21,BHL,18.5
+PMN-0486,Wahyu Mangunsong,SRK,Estate Sungai Rangkat,Kalimantan Barat,C,Gilang Sudarmono,Jumadi Saragih,2015-04-12,137,SKU,23.8
+PMN-0487,Irwan Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2015-12-31,128,SKU,25.2
+PMN-0488,Bayu Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2021-05-19,63,BHL,17.7
+PMN-0489,Teguh Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2020-10-30,70,SKU,19.5
+PMN-0490,Rahmat Butar-butar,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2022-01-30,54,SKU,23.8
+PMN-0491,Sri Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2026-05-18,2,BHL,20.9
+PMN-0492,Mulyadi Sitompul,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Imam Rachman,Dewi Rachman,2025-05-07,15,SKU,20.4
+PMN-0493,Ratna Gunadi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2025-09-25,10,SKU,24.2
+PMN-0494,Jumadi Fauzi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2020-04-03,77,SKU,14.4
+PMN-0495,Maman Fauzi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2013-05-01,161,SKU,17.4
+PMN-0496,Deni Firdaus,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Imam Rachman,Dewi Rachman,2026-04-20,3,SKU,16.6
+PMN-0497,Budi Sudarmono,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2024-08-07,24,SKU,16.3
+PMN-0498,Edi Butar-butar,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2013-03-22,162,SKU,14.9
+PMN-0499,Yohanes Ismail,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2018-09-08,96,SKU,23.0
+PMN-0500,Gilang Bahari,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2024-07-20,24,SKU,17.5
+PMN-0501,Herman Effendi,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2023-04-29,39,SKU,25.4
+PMN-0502,Wulan Bahari,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2021-06-09,62,SKU,14.7
+PMN-0503,Joko Prasetyo,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2026-02-13,5,BHL,22.6
+PMN-0504,Joko Wibowo,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2025-08-26,11,SKU,15.5
+PMN-0505,Parjono Santoso,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2026-05-21,2,SKU,15.8
+PMN-0506,Yuli Wijaya,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Imam Rachman,Dewi Rachman,2013-07-30,158,BHL,24.7
+PMN-0507,Lukman Firdaus,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yanto Sudarmono,Dewi Rachman,2017-08-12,109,BHL,17.6
+PMN-0508,Candra Bahari,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Imam Rachman,Dewi Rachman,2017-05-27,111,SKU,23.1
+PMN-0509,Gilang Wibowo,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Yuli Kurniawan,Dewi Rachman,2026-05-11,2,BHL,24.3
+PMN-0510,Sri Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,D,Imam Rachman,Dewi Rachman,2026-03-15,4,BHL,21.5
+PMN-0511,Samsul Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2023-08-06,36,SKU,22.9
+PMN-0512,Marni Mahendra,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2022-11-03,45,SKU,22.1
+PMN-0513,Paiman Hutapea,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2026-04-19,3,SKU,19.7
+PMN-0514,Bayu Nugroho,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2020-04-12,76,SKU,16.0
+PMN-0515,Rudi Lubis,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2020-04-13,76,SKU,25.2
+PMN-0516,Paiman Butar-butar,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2019-04-26,88,SKU,21.5
+PMN-0517,Bambang Handoko,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2016-07-04,122,SKU,22.7
+PMN-0518,Wahyu Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2021-08-19,60,SKU,19.2
+PMN-0519,Irwan Siregar,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2026-02-08,5,BHL,21.7
+PMN-0520,Oki Setiawan,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2013-02-02,164,BHL,21.1
+PMN-0521,Latif Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2026-01-08,6,BHL,18.7
+PMN-0522,Priyo Mangunsong,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2026-02-25,5,BHL,18.0
+PMN-0523,Irwan Hartanto,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2019-07-18,85,SKU,21.2
+PMN-0524,Riko Purba,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2018-03-03,102,BHL,22.0
+PMN-0525,Dewi Sembiring,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2024-11-07,21,SKU,25.5
+PMN-0526,Tono Tarigan,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2026-05-16,2,SKU,25.7
+PMN-0527,Dedi Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2020-05-01,76,SKU,16.5
+PMN-0528,Nanda Sinaga,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Yanto Effendi,Tono Purba,2025-08-05,12,SKU,16.2
+PMN-0529,Oki Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2025-05-29,14,BHL,23.1
+PMN-0530,Ahmad Handoko,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2020-01-31,79,SKU,21.2
+PMN-0531,Marwan Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2025-07-23,12,BHL,14.0
+PMN-0532,Bambang Mangunsong,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2011-11-12,179,BHL,14.3
+PMN-0533,Iwan Lubis,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2022-12-30,43,SKU,23.8
+PMN-0534,Firman Pratama,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Candra Hutapea,Tono Purba,2021-12-15,56,SKU,22.0
+PMN-0535,Darto Damanik,SRK,Estate Sungai Rangkat,Kalimantan Barat,E,Rahmat Prasetyo,Tono Purba,2025-11-15,8,BHL,18.8
+PMN-0536,Nurdin Pratama,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2018-01-01,104,BHL,23.9
+PMN-0537,Siti Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2023-07-22,36,BHL,20.9
+PMN-0538,Latif Utomo,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2016-05-03,124,SKU,20.3
+PMN-0539,Hendra Pratama,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2012-10-17,167,SKU,19.4
+PMN-0540,Eko Barus,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2022-05-10,51,SKU,21.1
+PMN-0541,Wulan Kurniawan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2014-01-31,152,SKU,14.2
+PMN-0542,Priyo Anggara,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2015-01-28,140,SKU,17.7
+PMN-0543,Riko Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2026-03-20,4,SKU,22.6
+PMN-0544,Riko Anggara,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2021-12-13,56,SKU,17.2
+PMN-0545,Kasno Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2019-03-25,89,SKU,25.0
+PMN-0546,Deni Fauzi,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2023-03-15,41,SKU,15.7
+PMN-0547,Wulan Handoko,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2013-11-21,154,BHL,14.3
+PMN-0548,Untung Silalahi,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2026-02-22,5,SKU,22.9
+PMN-0549,Ade Tampubolon,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2025-09-30,10,BHL,18.6
+PMN-0550,Zainal Situmorang,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2025-02-23,17,SKU,25.7
+PMN-0551,Wulan Simanjuntak,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2013-01-25,164,SKU,21.9
+PMN-0552,Usman Effendi,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2016-02-13,127,SKU,21.9
+PMN-0553,Priyo Hartanto,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Firman Damanik,Slamet Utomo,2015-04-24,137,SKU,18.4
+PMN-0554,Kasno Tarigan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2025-05-05,15,BHL,23.7
+PMN-0555,Kasno Maulana,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2016-03-04,126,SKU,17.2
+PMN-0556,Latif Dalimunthe,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2014-03-31,150,BHL,23.9
+PMN-0557,Wulan Siregar,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Jumadi Siregar,Slamet Utomo,2019-02-22,90,BHL,14.8
+PMN-0558,Tarno Ramadhan,SRK,Estate Sungai Rangkat,Kalimantan Barat,F,Tarno Handoko,Slamet Utomo,2015-08-12,133,SKU,22.3
+PMN-0559,Gilang Ginting,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2025-05-22,14,SKU,20.4
+PMN-0560,Zulkifli Yusril,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2024-06-21,25,BHL,24.4
+PMN-0561,Nanda Panjaitan,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2025-02-21,17,SKU,19.2
+PMN-0562,Priyo Siregar,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2020-12-23,68,SKU,21.5
+PMN-0563,Wardi Firdaus,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2024-11-23,20,BHL,21.6
+PMN-0564,Dedi Pratama,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2015-11-21,130,SKU,15.8
+PMN-0565,Marni Butar-butar,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2025-08-17,11,SKU,17.3
+PMN-0566,Darto Dalimunthe,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2024-07-24,24,BHL,18.9
+PMN-0567,Ahmad Ismail,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2026-06-16,1,SKU,15.7
+PMN-0568,Edi Ramadhan,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2012-03-26,174,SKU,24.4
+PMN-0569,Ahmad Nugroho,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2025-10-14,9,BHL,18.9
+PMN-0570,Mulyadi Saputra,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2014-05-03,149,BHL,19.4
+PMN-0571,Usman Mahendra,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2017-12-01,105,SKU,19.3
+PMN-0572,Lestari Fauzi,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2012-07-22,170,SKU,16.9
+PMN-0573,Imam Anggara,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2025-10-31,9,BHL,21.4
+PMN-0574,Edi Firdaus,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2024-11-15,20,SKU,17.3
+PMN-0575,Hadi Tampubolon,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2025-02-26,17,BHL,21.1
+PMN-0576,Kasno Firdaus,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2025-07-04,13,SKU,21.0
+PMN-0577,Ahmad Handoko,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2026-03-17,4,SKU,21.6
+PMN-0578,Yanto Sembiring,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2025-08-17,11,SKU,16.6
+PMN-0579,Yuli Hartanto,LDP,Estate Landak Permai,Kalimantan Barat,A,Wulan Effendi,Nanda Nasution,2016-02-15,127,BHL,25.5
+PMN-0580,Irwan Firdaus,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2019-12-11,80,BHL,23.2
+PMN-0581,Maman Mahendra,LDP,Estate Landak Permai,Kalimantan Barat,A,Nurdin Dalimunthe,Nanda Nasution,2018-08-29,96,BHL,17.9
+PMN-0582,Fajar Sianturi,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2015-04-19,137,BHL,17.6
+PMN-0583,Umar Bahari,LDP,Estate Landak Permai,Kalimantan Barat,A,Rudi Halim,Nanda Nasution,2025-05-21,14,BHL,18.7
+PMN-0584,Samsul Harahap,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2023-01-09,43,BHL,24.5
+PMN-0585,Nasrul Gunadi,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2019-11-25,81,BHL,23.9
+PMN-0586,Wahyu Gunadi,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2012-07-25,170,BHL,25.3
+PMN-0587,Sutrisno Ginting,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2022-03-09,53,SKU,24.5
+PMN-0588,Agus Simanjuntak,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2017-07-31,109,SKU,16.5
+PMN-0589,Tarno Sanjaya,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2024-10-18,21,BHL,20.5
+PMN-0590,Zainal Ismail,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2013-06-18,159,BHL,23.4
+PMN-0591,Deni Yusril,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2022-12-11,44,BHL,19.1
+PMN-0592,Darto Effendi,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2024-12-14,19,SKU,19.0
+PMN-0593,Untung Wijaya,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2024-08-01,24,SKU,24.1
+PMN-0594,Teguh Nugroho,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2026-03-31,4,SKU,21.9
+PMN-0595,Sri Lubis,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2025-07-01,13,BHL,17.4
+PMN-0596,Gunawan Adiputra,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2022-10-03,46,SKU,17.1
+PMN-0597,Imam Panjaitan,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2012-07-06,171,SKU,21.2
+PMN-0598,Wardi Handoko,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2026-03-17,4,BHL,17.0
+PMN-0599,Sutrisno Nasution,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2019-12-16,80,SKU,23.6
+PMN-0600,Zulkifli Mangunsong,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2026-01-28,6,SKU,24.0
+PMN-0601,Wagimin Anggara,LDP,Estate Landak Permai,Kalimantan Barat,B,Parjono Pratama,Priyo Dalimunthe,2015-05-26,136,BHL,21.1
+PMN-0602,Yusuf Tampubolon,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2025-04-17,15,SKU,24.6
+PMN-0603,Ratna Barus,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2012-11-02,167,BHL,24.4
+PMN-0604,Paiman Situmorang,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2025-12-11,7,SKU,20.8
+PMN-0605,Bambang Santoso,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2022-02-03,54,SKU,20.3
+PMN-0606,Wagimin Handoko,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2026-06-09,1,SKU,19.1
+PMN-0607,Tono Halim,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2016-09-18,120,SKU,18.4
+PMN-0608,Yohanes Fauzi,LDP,Estate Landak Permai,Kalimantan Barat,B,Jumadi Manurung,Priyo Dalimunthe,2025-06-02,14,BHL,17.7
+PMN-0609,Feri Sagala,LDP,Estate Landak Permai,Kalimantan Barat,B,Candra Sanjaya,Priyo Dalimunthe,2025-03-08,17,SKU,23.1
+PMN-0610,Samsul Adiputra,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2024-09-04,23,BHL,22.4
+PMN-0611,Tarno Harahap,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2025-08-30,11,SKU,17.1
+PMN-0612,Riko Hartanto,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2025-11-24,8,SKU,24.4
+PMN-0613,Joko Ginting,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2016-01-18,128,BHL,16.8
+PMN-0614,Untung Halim,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2020-03-17,77,SKU,25.1
+PMN-0615,Endang Sianturi,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2026-04-25,3,SKU,20.6
+PMN-0616,Dedi Sagala,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2013-11-02,155,BHL,14.7
+PMN-0617,Oki Dalimunthe,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2019-09-01,84,BHL,19.6
+PMN-0618,Ratna Saragih,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2026-05-21,2,SKU,16.7
+PMN-0619,Hadi Manurung,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2021-07-08,61,SKU,17.4
+PMN-0620,Riko Manurung,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2020-08-19,72,BHL,17.9
+PMN-0621,Wahyu Tampubolon,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2015-04-06,137,SKU,16.5
+PMN-0622,Hadi Silalahi,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2019-05-16,87,BHL,17.3
+PMN-0623,Krisna Prasetyo,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2016-11-13,118,SKU,22.1
+PMN-0624,Ade Lubis,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2022-09-09,47,BHL,15.3
+PMN-0625,Gunawan Santoso,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2025-02-20,17,SKU,25.4
+PMN-0626,Joko Gunadi,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2026-05-31,2,SKU,25.2
+PMN-0627,Lukman Harahap,LDP,Estate Landak Permai,Kalimantan Barat,C,Tarno Ginting,Eko Tampubolon,2018-10-31,94,BHL,16.1
+PMN-0628,Tono Setiawan,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2016-12-11,117,SKU,16.4
+PMN-0629,Jumadi Tarigan,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2017-03-07,114,SKU,23.3
+PMN-0630,Siti Mangunsong,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2026-01-23,6,BHL,23.1
+PMN-0631,Oki Sagala,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2015-07-10,134,BHL,20.2
+PMN-0632,Bayu Utomo,LDP,Estate Landak Permai,Kalimantan Barat,C,Nasrul Ramadhan,Eko Tampubolon,2014-01-04,153,SKU,18.6
+PMN-0633,Samsul Kurniawan,LDP,Estate Landak Permai,Kalimantan Barat,C,Dedi Sagala,Eko Tampubolon,2013-10-25,155,SKU,19.9
+PMN-0634,Ade Tampubolon,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2024-08-01,24,SKU,15.2
+PMN-0635,Usman Damanik,LDP,Estate Landak Permai,Kalimantan Barat,D,Paiman Simanjuntak,Krisna Adiputra,2012-05-03,173,SKU,15.0
+PMN-0636,Marni Silalahi,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2025-05-04,15,BHL,19.8
+PMN-0637,Agus Sianturi,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2025-07-27,12,SKU,20.0
+PMN-0638,Lukman Adiputra,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2024-07-18,24,SKU,20.9
+PMN-0639,Mulyadi Kurniawan,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2016-06-29,122,SKU,21.3
+PMN-0640,Siti Saragih,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2022-11-17,45,BHL,15.6
+PMN-0641,Priyo Simanjuntak,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2014-05-14,148,SKU,24.2
+PMN-0642,Mulyadi Rachman,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2025-09-28,10,SKU,18.8
+PMN-0643,Ade Sagala,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2020-04-21,76,SKU,20.2
+PMN-0644,Priyo Barus,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2026-06-22,1,SKU,23.9
+PMN-0645,Dedi Wibowo,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2025-03-13,16,SKU,25.2
+PMN-0646,Teguh Ginting,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2013-11-13,154,BHL,18.0
+PMN-0647,Candra Butar-butar,LDP,Estate Landak Permai,Kalimantan Barat,D,Paiman Simanjuntak,Krisna Adiputra,2019-03-24,89,SKU,20.9
+PMN-0648,Parjono Simanjuntak,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2022-11-19,45,SKU,23.1
+PMN-0649,Untung Kusuma,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2015-04-25,137,BHL,21.9
+PMN-0650,Gilang Dalimunthe,LDP,Estate Landak Permai,Kalimantan Barat,D,Paiman Simanjuntak,Krisna Adiputra,2016-12-10,117,BHL,22.1
+PMN-0651,Deni Prasetyo,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2024-08-05,24,BHL,21.3
+PMN-0652,Eko Kurniawan,LDP,Estate Landak Permai,Kalimantan Barat,D,Sri Sembiring,Krisna Adiputra,2019-03-10,90,SKU,16.6
+PMN-0653,Teguh Sanjaya,LDP,Estate Landak Permai,Kalimantan Barat,D,Paiman Simanjuntak,Krisna Adiputra,2014-11-01,143,BHL,15.3
+PMN-0654,Hendra Simanjuntak,LDP,Estate Landak Permai,Kalimantan Barat,D,Umar Maulana,Krisna Adiputra,2026-05-10,2,SKU,23.7
+PMN-0655,Kurnia Kurniawan,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2014-07-21,146,SKU,22.7
+PMN-0656,Fajar Saragih,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2026-03-11,4,SKU,19.5
+PMN-0657,Marwan Sudarmono,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2026-06-20,1,SKU,21.3
+PMN-0658,Fajar Panjaitan,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2026-03-19,4,SKU,15.0
+PMN-0659,Paiman Mahendra,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2016-05-16,124,BHL,23.3
+PMN-0660,Feri Utomo,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2015-03-23,138,SKU,21.9
+PMN-0661,Iwan Wijaya,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2023-08-08,36,SKU,14.2
+PMN-0662,Zulkifli Halim,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2026-06-18,1,SKU,20.8
+PMN-0663,Wulan Lubis,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2025-08-02,12,SKU,17.7
+PMN-0664,Samsul Firdaus,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2026-04-30,3,SKU,14.8
+PMN-0665,Ade Setiawan,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2016-10-07,119,SKU,20.7
+PMN-0666,Nurdin Siregar,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2016-07-06,122,BHL,18.0
+PMN-0667,Hendra Sagala,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2023-09-04,35,BHL,17.8
+PMN-0668,Tono Ramadhan,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2023-03-13,41,BHL,21.2
+PMN-0669,Untung Barus,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2024-12-25,19,SKU,20.9
+PMN-0670,Ade Adiputra,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2019-06-08,87,BHL,14.4
+PMN-0671,Usman Situmorang,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2025-05-20,14,SKU,19.0
+PMN-0672,Budi Prasetyo,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2025-07-27,12,SKU,15.8
+PMN-0673,Wardi Utomo,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2020-07-19,73,SKU,22.1
+PMN-0674,Guntur Sembiring,LDP,Estate Landak Permai,Kalimantan Barat,E,Samsul Fauzi,Usman Handoko,2024-03-10,29,BHL,16.9
+PMN-0675,Wagimin Nugroho,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2026-01-22,6,SKU,15.3
+PMN-0676,Jefri Ismail,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2012-08-07,170,SKU,22.9
+PMN-0677,Budi Gunadi,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2025-10-02,10,SKU,20.3
+PMN-0678,Lukman Anggara,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2016-02-09,127,SKU,19.9
+PMN-0679,Tono Handoko,LDP,Estate Landak Permai,Kalimantan Barat,E,Bambang Effendi,Usman Handoko,2022-02-16,54,BHL,16.8
+PMN-0680,Budi Situmorang,LDP,Estate Landak Permai,Kalimantan Barat,E,Dedi Sanjaya,Usman Handoko,2025-09-23,10,SKU,23.2
+PMN-0681,Wulan Saragih,LDP,Estate Landak Permai,Kalimantan Barat,F,Yuli Maulana,Dedi Sianturi,2019-04-20,88,SKU,17.4
+PMN-0682,Iwan Tarigan,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2017-01-24,115,SKU,19.1
+PMN-0683,Firman Rachman,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2022-04-29,51,SKU,17.7
+PMN-0684,Marwan Wibowo,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2014-08-17,145,SKU,21.8
+PMN-0685,Priyo Nasution,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2019-09-05,84,SKU,20.4
+PMN-0686,Candra Saputra,LDP,Estate Landak Permai,Kalimantan Barat,F,Yuli Maulana,Dedi Sianturi,2019-02-01,91,BHL,14.5
+PMN-0687,Oki Sianturi,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2021-09-30,58,BHL,20.8
+PMN-0688,Irwan Purba,LDP,Estate Landak Permai,Kalimantan Barat,F,Yuli Maulana,Dedi Sianturi,2017-09-23,107,SKU,19.3
+PMN-0689,Imam Sitompul,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2014-10-10,143,BHL,22.7
+PMN-0690,Candra Harahap,LDP,Estate Landak Permai,Kalimantan Barat,F,Yuli Maulana,Dedi Sianturi,2024-07-20,24,SKU,17.0
+PMN-0691,Mulyadi Manurung,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2025-07-14,12,SKU,21.6
+PMN-0692,Wulan Ramadhan,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2017-08-07,109,SKU,21.3
+PMN-0693,Yusuf Suhendra,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2013-05-09,161,BHL,19.1
+PMN-0694,Dedi Bahari,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2013-08-14,157,SKU,22.0
+PMN-0695,Iwan Wibowo,LDP,Estate Landak Permai,Kalimantan Barat,F,Yuli Maulana,Dedi Sianturi,2026-04-28,3,SKU,22.1
+PMN-0696,Endang Rachman,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2025-04-17,15,SKU,17.7
+PMN-0697,Fajar Sitompul,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2025-12-29,7,BHL,18.5
+PMN-0698,Dedi Sitompul,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2024-12-15,19,BHL,14.6
+PMN-0699,Lukman Nasution,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2016-09-29,119,SKU,25.0
+PMN-0700,Tono Kusuma,LDP,Estate Landak Permai,Kalimantan Barat,F,Guntur Firdaus,Dedi Sianturi,2025-02-27,17,SKU,24.2
+PMN-0701,Ahmad Fauzi,LDP,Estate Landak Permai,Kalimantan Barat,F,Dedi Firdaus,Dedi Sianturi,2017-08-24,108,SKU,14.0
+PMN-0702,Bambang Firdaus,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2024-07-19,24,SKU,15.2
+PMN-0703,Hadi Hartanto,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2013-02-04,164,BHL,22.4
+PMN-0704,Priyo Lubis,RKJ,Estate Rokan Jaya,Riau,A,Gilang Barus,Nanda Adiputra,2016-01-05,128,SKU,17.1
+PMN-0705,Darto Halim,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2026-05-19,2,SKU,24.6
+PMN-0706,Hadi Harahap,RKJ,Estate Rokan Jaya,Riau,A,Gilang Barus,Nanda Adiputra,2012-09-23,168,SKU,15.4
+PMN-0707,Wardi Ramadhan,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2022-07-28,48,SKU,24.2
+PMN-0708,Candra Butar-butar,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2025-11-23,8,BHL,23.0
+PMN-0709,Untung Kusuma,RKJ,Estate Rokan Jaya,Riau,A,Gilang Barus,Nanda Adiputra,2019-07-04,86,BHL,17.3
+PMN-0710,Edi Handoko,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2025-11-22,8,SKU,20.7
+PMN-0711,Darto Sembiring,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2018-06-18,98,BHL,18.5
+PMN-0712,Tono Siregar,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2013-07-22,158,SKU,17.5
+PMN-0713,Kurnia Anggara,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2024-08-31,23,SKU,24.5
+PMN-0714,Maman Suhendra,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2016-09-17,120,SKU,24.5
+PMN-0715,Nurdin Sinaga,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2024-12-20,19,SKU,24.0
+PMN-0716,Firman Suhendra,RKJ,Estate Rokan Jaya,Riau,A,Gilang Barus,Nanda Adiputra,2025-04-20,15,SKU,14.9
+PMN-0717,Dedi Halim,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2026-05-11,2,SKU,19.0
+PMN-0718,Marni Harahap,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2025-07-01,13,SKU,17.7
+PMN-0719,Bambang Halim,RKJ,Estate Rokan Jaya,Riau,A,Gilang Barus,Nanda Adiputra,2024-02-12,30,SKU,18.0
+PMN-0720,Marni Sanjaya,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2016-03-01,126,BHL,19.0
+PMN-0721,Siti Setiawan,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2025-11-23,8,SKU,17.2
+PMN-0722,Rahmat Simanjuntak,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2025-09-02,11,BHL,14.6
+PMN-0723,Bayu Sudarmono,RKJ,Estate Rokan Jaya,Riau,A,Herman Firdaus,Nanda Adiputra,2014-07-30,146,SKU,20.2
+PMN-0724,Umar Sinaga,RKJ,Estate Rokan Jaya,Riau,A,Lestari Pratama,Nanda Adiputra,2026-05-31,2,SKU,25.4
+PMN-0725,Sutrisno Manurung,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2025-10-22,9,SKU,14.5
+PMN-0726,Lukman Fauzi,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2022-05-30,50,SKU,14.7
+PMN-0727,Imam Maulana,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2025-04-25,15,SKU,14.5
+PMN-0728,Wardi Gunadi,RKJ,Estate Rokan Jaya,Riau,B,Teguh Harahap,Yusuf Yusril,2024-10-31,21,SKU,19.5
+PMN-0729,Tarno Ramadhan,RKJ,Estate Rokan Jaya,Riau,B,Teguh Harahap,Yusuf Yusril,2024-10-01,22,SKU,19.3
+PMN-0730,Siti Sudarmono,RKJ,Estate Rokan Jaya,Riau,B,Teguh Harahap,Yusuf Yusril,2021-04-18,64,SKU,23.2
+PMN-0731,Irwan Sinaga,RKJ,Estate Rokan Jaya,Riau,B,Teguh Harahap,Yusuf Yusril,2026-01-18,6,SKU,16.1
+PMN-0732,Nurdin Ginting,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2020-05-23,75,BHL,18.3
+PMN-0733,Lestari Ismail,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2014-03-30,150,BHL,23.0
+PMN-0734,Feri Anggara,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2024-07-30,24,BHL,16.5
+PMN-0735,Gilang Kurniawan,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2021-06-19,62,SKU,18.2
+PMN-0736,Zainal Santoso,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2025-03-21,16,SKU,20.6
+PMN-0737,Agus Anggara,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2018-04-25,100,SKU,24.7
+PMN-0738,Wardi Mangunsong,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2024-06-05,26,BHL,17.9
+PMN-0739,Kurnia Rachman,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2012-05-14,173,SKU,18.5
+PMN-0740,Dewi Halim,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2025-08-11,11,SKU,17.3
+PMN-0741,Wulan Ramadhan,RKJ,Estate Rokan Jaya,Riau,B,Yusuf Sianturi,Yusuf Yusril,2015-12-01,129,SKU,20.3
+PMN-0742,Ahmad Handoko,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2017-07-09,110,BHL,15.2
+PMN-0743,Joko Damanik,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2014-08-28,145,BHL,24.1
+PMN-0744,Jumadi Adiputra,RKJ,Estate Rokan Jaya,Riau,B,Teguh Harahap,Yusuf Yusril,2026-06-08,1,BHL,14.1
+PMN-0745,Ratna Siregar,RKJ,Estate Rokan Jaya,Riau,B,Untung Yusril,Yusuf Yusril,2024-09-17,22,SKU,25.0
+PMN-0746,Kasno Gunadi,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2019-10-04,83,SKU,22.3
+PMN-0747,Rudi Harahap,RKJ,Estate Rokan Jaya,Riau,C,Yuli Kurniawan,Priyo Simanjuntak,2019-08-31,84,BHL,18.4
+PMN-0748,Candra Maulana,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2024-09-21,22,SKU,14.7
+PMN-0749,Guntur Wibowo,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2017-01-02,116,SKU,25.8
+PMN-0750,Firman Pratama,RKJ,Estate Rokan Jaya,Riau,C,Yuli Kurniawan,Priyo Simanjuntak,2017-07-15,110,SKU,22.9
+PMN-0751,Nanda Barus,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2025-01-19,18,SKU,21.4
+PMN-0752,Nanda Harahap,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2026-01-23,6,SKU,25.7
+PMN-0753,Bambang Situmorang,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2022-03-02,53,BHL,21.5
+PMN-0754,Usman Effendi,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2025-05-26,14,SKU,18.8
+PMN-0755,Gilang Gunadi,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2015-03-07,138,SKU,16.8
+PMN-0756,Usman Halim,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2016-04-20,125,SKU,19.7
+PMN-0757,Maman Saputra,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2018-11-02,94,SKU,18.4
+PMN-0758,Sri Ginting,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2021-07-05,61,SKU,15.7
+PMN-0759,Dewi Siregar,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2018-03-14,102,SKU,22.3
+PMN-0760,Parjono Setiawan,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2026-01-29,6,SKU,21.7
+PMN-0761,Krisna Maulana,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2015-07-05,134,SKU,19.2
+PMN-0762,Teguh Barus,RKJ,Estate Rokan Jaya,Riau,C,Yuli Kurniawan,Priyo Simanjuntak,2024-09-23,22,SKU,25.4
+PMN-0763,Teguh Damanik,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2016-07-30,121,SKU,15.1
+PMN-0764,Lukman Ginting,RKJ,Estate Rokan Jaya,Riau,C,Yuli Kurniawan,Priyo Simanjuntak,2024-08-01,24,BHL,20.5
+PMN-0765,Jumadi Tampubolon,RKJ,Estate Rokan Jaya,Riau,C,Bayu Lubis,Priyo Simanjuntak,2022-03-30,52,SKU,18.2
+PMN-0766,Rahmat Pratama,RKJ,Estate Rokan Jaya,Riau,C,Zulkifli Pratama,Priyo Simanjuntak,2021-11-19,57,SKU,18.8
+PMN-0767,Lestari Sembiring,RKJ,Estate Rokan Jaya,Riau,D,Gunawan Kusuma,Yanto Ginting,2025-10-15,9,SKU,20.2
+PMN-0768,Wahyu Saragih,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2024-01-21,30,SKU,18.2
+PMN-0769,Jumadi Siregar,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2025-11-12,8,BHL,15.1
+PMN-0770,Budi Fauzi,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2023-06-03,38,BHL,19.8
+PMN-0771,Umar Simanjuntak,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2022-09-11,47,SKU,18.2
+PMN-0772,Jefri Ismail,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2025-09-20,10,SKU,17.0
+PMN-0773,Iwan Mangunsong,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2025-03-02,17,BHL,18.9
+PMN-0774,Wulan Damanik,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2020-02-20,78,SKU,15.6
+PMN-0775,Parjono Situmorang,RKJ,Estate Rokan Jaya,Riau,D,Gunawan Kusuma,Yanto Ginting,2025-09-02,11,BHL,17.8
+PMN-0776,Lukman Kusuma,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2026-03-20,4,SKU,23.1
+PMN-0777,Guntur Butar-butar,RKJ,Estate Rokan Jaya,Riau,D,Gunawan Kusuma,Yanto Ginting,2021-01-20,67,SKU,15.2
+PMN-0778,Siti Adiputra,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2020-04-18,76,SKU,15.9
+PMN-0779,Lukman Utomo,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2026-03-09,4,SKU,20.2
+PMN-0780,Parjono Sanjaya,RKJ,Estate Rokan Jaya,Riau,D,Gunawan Kusuma,Yanto Ginting,2011-12-01,178,BHL,19.9
+PMN-0781,Bambang Manurung,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2015-04-06,137,SKU,15.1
+PMN-0782,Riko Sinaga,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2026-02-11,5,BHL,25.8
+PMN-0783,Agus Kusuma,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2024-04-02,28,SKU,16.3
+PMN-0784,Deni Ismail,RKJ,Estate Rokan Jaya,Riau,D,Gunawan Kusuma,Yanto Ginting,2025-09-09,10,SKU,15.9
+PMN-0785,Parjono Silalahi,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2024-03-07,29,BHL,18.3
+PMN-0786,Herman Tarigan,RKJ,Estate Rokan Jaya,Riau,D,Kurnia Setiawan,Yanto Ginting,2025-02-14,17,BHL,14.4
+PMN-0787,Irwan Nasution,RKJ,Estate Rokan Jaya,Riau,D,Krisna Lubis,Yanto Ginting,2012-05-20,172,SKU,23.5
+PMN-0788,Jefri Saputra,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2025-12-17,7,BHL,21.4
+PMN-0789,Imam Santoso,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2025-09-13,10,SKU,17.4
+PMN-0790,Agus Prasetyo,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2025-09-04,11,BHL,21.8
+PMN-0791,Wahyu Tampubolon,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2021-07-05,61,SKU,25.4
+PMN-0792,Teguh Santoso,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2012-11-01,167,SKU,24.9
+PMN-0793,Lestari Santoso,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2015-07-27,134,SKU,20.9
+PMN-0794,Priyo Barus,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2026-06-11,1,BHL,22.3
+PMN-0795,Tono Yusril,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2024-12-02,20,BHL,17.4
+PMN-0796,Bambang Sembiring,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2026-03-19,4,BHL,22.4
+PMN-0797,Maman Barus,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2021-11-04,57,SKU,14.1
+PMN-0798,Krisna Ramadhan,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2025-08-14,11,SKU,21.1
+PMN-0799,Untung Effendi,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2025-04-14,15,SKU,25.5
+PMN-0800,Krisna Purba,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2025-04-17,15,BHL,20.1
+PMN-0801,Fajar Sitompul,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2023-06-03,38,BHL,15.2
+PMN-0802,Priyo Harahap,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2022-11-16,45,SKU,17.7
+PMN-0803,Kasno Sembiring,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2025-02-26,17,SKU,22.2
+PMN-0804,Eko Effendi,RKJ,Estate Rokan Jaya,Riau,E,Kasno Butar-butar,Hendra Kurniawan,2025-12-16,7,BHL,15.3
+PMN-0805,Hadi Nugroho,RKJ,Estate Rokan Jaya,Riau,E,Untung Kurniawan,Hendra Kurniawan,2017-04-14,113,SKU,22.9
+PMN-0806,Tono Tarigan,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2016-04-18,125,SKU,16.5
+PMN-0807,Sri Saragih,RKJ,Estate Rokan Jaya,Riau,E,Mulyadi Hartanto,Hendra Kurniawan,2018-12-02,93,SKU,22.2
+PMN-0808,Feri Sanjaya,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2023-06-25,37,BHL,21.4
+PMN-0809,Tarno Ismail,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2025-08-28,11,SKU,20.3
+PMN-0810,Nanda Wibowo,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2011-11-23,178,SKU,15.4
+PMN-0811,Guntur Hutapea,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2015-06-16,135,SKU,17.7
+PMN-0812,Ratna Hartanto,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2025-04-20,15,SKU,23.7
+PMN-0813,Latif Panjaitan,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2016-03-06,126,BHL,19.9
+PMN-0814,Teguh Halim,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2024-06-17,25,SKU,20.8
+PMN-0815,Deni Saragih,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2017-11-11,106,BHL,22.2
+PMN-0816,Slamet Santoso,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2025-08-18,11,SKU,21.3
+PMN-0817,Eko Sitompul,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2024-09-02,23,BHL,16.8
+PMN-0818,Marni Ginting,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2012-07-19,170,BHL,19.6
+PMN-0819,Kurnia Yusril,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2019-08-02,85,SKU,20.6
+PMN-0820,Usman Sianturi,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2018-08-06,97,SKU,21.9
+PMN-0821,Krisna Damanik,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2025-10-15,9,SKU,17.8
+PMN-0822,Gunawan Halim,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2017-07-17,110,SKU,17.6
+PMN-0823,Rudi Sagala,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2023-08-28,35,SKU,14.9
+PMN-0824,Bayu Fauzi,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2013-10-14,155,BHL,23.0
+PMN-0825,Hadi Adiputra,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2021-01-28,67,BHL,22.6
+PMN-0826,Zainal Mangunsong,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2018-07-28,97,SKU,19.5
+PMN-0827,Untung Handoko,RKJ,Estate Rokan Jaya,Riau,F,Lestari Sudarmono,Kurnia Gunadi,2022-11-13,45,SKU,25.9
+PMN-0828,Jefri Lubis,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2020-10-15,70,SKU,25.0
+PMN-0829,Iwan Kusuma,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2013-05-23,160,BHL,21.0
+PMN-0830,Dewi Lubis,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2014-04-30,149,BHL,16.1
+PMN-0831,Siti Setiawan,RKJ,Estate Rokan Jaya,Riau,F,Wagimin Lubis,Kurnia Gunadi,2025-08-24,11,SKU,15.3
+PMN-0832,Darto Wibowo,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2018-03-20,101,BHL,25.7
+PMN-0833,Ade Barus,RKJ,Estate Rokan Jaya,Riau,F,Umar Sudarmono,Kurnia Gunadi,2025-05-12,14,BHL,15.5
+PMN-0834,Firman Lubis,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2013-01-20,164,SKU,24.8
+PMN-0835,Imam Utomo,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2025-03-05,17,SKU,18.8
+PMN-0836,Krisna Saragih,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2024-10-25,21,SKU,21.8
+PMN-0837,Dedi Rachman,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2015-12-22,129,SKU,20.1
+PMN-0838,Samsul Damanik,KPS,Estate Kampar Sentosa,Riau,A,Sutrisno Hutapea,Bayu Setiawan,2018-08-09,97,SKU,19.2
+PMN-0839,Usman Silalahi,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2024-09-06,23,SKU,19.5
+PMN-0840,Nanda Sianturi,KPS,Estate Kampar Sentosa,Riau,A,Sutrisno Hutapea,Bayu Setiawan,2026-03-21,4,BHL,19.0
+PMN-0841,Sutrisno Effendi,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2024-11-17,20,BHL,24.1
+PMN-0842,Umar Nugroho,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2015-02-28,139,BHL,17.9
+PMN-0843,Slamet Dalimunthe,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2025-04-03,16,SKU,20.2
+PMN-0844,Firman Saputra,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2025-03-05,17,BHL,14.5
+PMN-0845,Ahmad Adiputra,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2019-07-07,86,SKU,16.2
+PMN-0846,Nasrul Ramadhan,KPS,Estate Kampar Sentosa,Riau,A,Sutrisno Hutapea,Bayu Setiawan,2021-05-28,63,SKU,21.7
+PMN-0847,Bayu Simanjuntak,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2013-02-08,164,SKU,24.5
+PMN-0848,Yusuf Purba,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2025-09-14,10,SKU,22.3
+PMN-0849,Sutrisno Situmorang,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2015-02-25,139,SKU,15.8
+PMN-0850,Darto Effendi,KPS,Estate Kampar Sentosa,Riau,A,Sutrisno Hutapea,Bayu Setiawan,2014-03-03,151,BHL,17.5
+PMN-0851,Yusuf Siregar,KPS,Estate Kampar Sentosa,Riau,A,Paiman Nugroho,Bayu Setiawan,2026-02-01,6,SKU,19.8
+PMN-0852,Firman Harahap,KPS,Estate Kampar Sentosa,Riau,A,Sutrisno Hutapea,Bayu Setiawan,2025-08-18,11,BHL,20.3
+PMN-0853,Gilang Saragih,KPS,Estate Kampar Sentosa,Riau,A,Nurdin Utomo,Bayu Setiawan,2026-02-13,5,SKU,17.3
+PMN-0854,Lestari Mangunsong,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2022-07-05,49,SKU,21.6
+PMN-0855,Kasno Sudarmono,KPS,Estate Kampar Sentosa,Riau,B,Hadi Simanjuntak,Teguh Simanjuntak,2017-04-01,113,SKU,16.3
+PMN-0856,Dewi Gunadi,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2025-06-23,13,SKU,17.7
+PMN-0857,Wulan Yusril,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2016-03-24,126,BHL,14.3
+PMN-0858,Marni Setiawan,KPS,Estate Kampar Sentosa,Riau,B,Hadi Simanjuntak,Teguh Simanjuntak,2024-09-04,23,SKU,24.2
+PMN-0859,Kurnia Hartanto,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2023-08-23,35,BHL,22.9
+PMN-0860,Iwan Rachman,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2013-06-06,160,SKU,19.6
+PMN-0861,Candra Sinaga,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2013-05-10,161,BHL,22.0
+PMN-0862,Lukman Sudarmono,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2019-09-11,83,SKU,17.0
+PMN-0863,Maman Saputra,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2024-09-18,22,SKU,16.3
+PMN-0864,Herman Nasution,KPS,Estate Kampar Sentosa,Riau,B,Hadi Simanjuntak,Teguh Simanjuntak,2024-11-15,20,SKU,17.0
+PMN-0865,Lestari Siregar,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2015-07-09,134,BHL,17.8
+PMN-0866,Riko Kusuma,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2012-04-23,173,SKU,15.7
+PMN-0867,Oki Rachman,KPS,Estate Kampar Sentosa,Riau,B,Hadi Simanjuntak,Teguh Simanjuntak,2020-10-18,70,BHL,15.0
+PMN-0868,Budi Gunadi,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2013-10-19,155,SKU,14.7
+PMN-0869,Siti Maulana,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2013-08-16,157,BHL,25.7
+PMN-0870,Umar Halim,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2013-12-19,153,SKU,14.4
+PMN-0871,Deni Suhendra,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2025-12-25,7,SKU,17.9
+PMN-0872,Maman Mahendra,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2024-12-04,20,BHL,19.2
+PMN-0873,Jefri Siregar,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2024-12-13,19,SKU,14.0
+PMN-0874,Untung Ramadhan,KPS,Estate Kampar Sentosa,Riau,B,Feri Ramadhan,Teguh Simanjuntak,2016-05-17,124,SKU,14.3
+PMN-0875,Jefri Gunadi,KPS,Estate Kampar Sentosa,Riau,B,Hadi Handoko,Teguh Simanjuntak,2023-06-12,38,SKU,24.1
+PMN-0876,Maman Maulana,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2016-06-22,123,BHL,25.4
+PMN-0877,Lukman Saputra,KPS,Estate Kampar Sentosa,Riau,C,Feri Prasetyo,Guntur Dalimunthe,2024-05-08,27,BHL,20.5
+PMN-0878,Hendra Nugroho,KPS,Estate Kampar Sentosa,Riau,C,Feri Prasetyo,Guntur Dalimunthe,2026-06-11,1,SKU,18.8
+PMN-0879,Zainal Barus,KPS,Estate Kampar Sentosa,Riau,C,Feri Prasetyo,Guntur Dalimunthe,2024-03-04,29,SKU,23.6
+PMN-0880,Krisna Bahari,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2012-02-28,175,BHL,23.8
+PMN-0881,Ratna Dalimunthe,KPS,Estate Kampar Sentosa,Riau,C,Feri Prasetyo,Guntur Dalimunthe,2012-09-06,169,SKU,19.3
+PMN-0882,Bambang Ramadhan,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2026-06-15,1,BHL,17.8
+PMN-0883,Gunawan Lubis,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2016-02-16,127,SKU,23.9
+PMN-0884,Joko Sagala,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2019-06-20,86,BHL,22.3
+PMN-0885,Maman Harahap,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2024-01-13,31,SKU,23.3
+PMN-0886,Budi Ramadhan,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2024-08-21,23,SKU,18.1
+PMN-0887,Candra Nugroho,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2013-12-23,153,SKU,25.5
+PMN-0888,Marwan Sudarmono,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2025-11-30,8,SKU,15.4
+PMN-0889,Tarno Hutapea,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2017-11-24,105,SKU,21.6
+PMN-0890,Ahmad Bahari,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2019-10-22,82,BHL,14.6
+PMN-0891,Bayu Butar-butar,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2017-11-14,106,BHL,20.0
+PMN-0892,Dedi Yusril,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2024-10-29,21,SKU,21.4
+PMN-0893,Darto Harahap,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2022-01-23,55,SKU,14.7
+PMN-0894,Ratna Panjaitan,KPS,Estate Kampar Sentosa,Riau,C,Kasno Simanjuntak,Guntur Dalimunthe,2017-03-14,114,SKU,16.9
+PMN-0895,Irwan Adiputra,KPS,Estate Kampar Sentosa,Riau,C,Endang Saragih,Guntur Dalimunthe,2025-05-05,15,SKU,20.6
+PMN-0896,Gunawan Barus,KPS,Estate Kampar Sentosa,Riau,C,Feri Prasetyo,Guntur Dalimunthe,2024-06-20,25,SKU,17.2
+PMN-0897,Ahmad Santoso,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2025-01-14,18,SKU,19.6
+PMN-0898,Mulyadi Ismail,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2017-11-27,105,SKU,22.0
+PMN-0899,Gunawan Butar-butar,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2026-01-26,6,BHL,23.9
+PMN-0900,Agus Saragih,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2026-03-30,4,BHL,22.7
+PMN-0901,Eko Mangunsong,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2026-02-07,5,SKU,19.9
+PMN-0902,Umar Panjaitan,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2018-05-07,100,SKU,25.4
+PMN-0903,Lestari Maulana,KPS,Estate Kampar Sentosa,Riau,D,Wulan Barus,Samsul Purba,2013-01-23,164,SKU,22.8
+PMN-0904,Ahmad Firdaus,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2026-02-28,5,SKU,25.3
+PMN-0905,Sri Suhendra,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2026-02-09,5,SKU,24.8
+PMN-0906,Dedi Wijaya,KPS,Estate Kampar Sentosa,Riau,D,Wulan Barus,Samsul Purba,2024-08-02,24,BHL,25.5
+PMN-0907,Fajar Mangunsong,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2019-07-20,85,SKU,24.6
+PMN-0908,Kasno Pratama,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2022-05-10,51,SKU,15.5
+PMN-0909,Gilang Bahari,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2019-02-26,90,SKU,23.3
+PMN-0910,Riko Siregar,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2016-07-13,122,SKU,16.2
+PMN-0911,Kasno Wijaya,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2012-03-14,175,BHL,15.3
+PMN-0912,Hadi Nugroho,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2025-10-02,10,BHL,15.1
+PMN-0913,Joko Barus,KPS,Estate Kampar Sentosa,Riau,D,Wulan Barus,Samsul Purba,2025-12-11,7,SKU,24.9
+PMN-0914,Rudi Sitompul,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2015-01-12,140,BHL,21.4
+PMN-0915,Ratna Lubis,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2015-11-02,130,SKU,15.7
+PMN-0916,Tono Anggara,KPS,Estate Kampar Sentosa,Riau,D,Sutrisno Saragih,Samsul Purba,2021-09-21,59,BHL,17.8
+PMN-0917,Lestari Mahendra,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2018-04-08,101,SKU,18.0
+PMN-0918,Tarno Maulana,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2023-02-22,41,SKU,17.6
+PMN-0919,Guntur Wibowo,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2018-01-05,104,BHL,19.3
+PMN-0920,Riko Harahap,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2020-07-28,73,SKU,19.5
+PMN-0921,Kasno Sagala,KPS,Estate Kampar Sentosa,Riau,D,Bayu Silalahi,Samsul Purba,2019-05-07,88,SKU,18.0
+PMN-0922,Gilang Damanik,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2025-10-31,9,BHL,17.7
+PMN-0923,Imam Manurung,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2025-02-15,17,SKU,24.1
+PMN-0924,Siti Hutapea,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2025-01-24,18,BHL,15.8
+PMN-0925,Slamet Lubis,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2025-04-24,15,BHL,17.9
+PMN-0926,Sri Mangunsong,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2012-11-30,166,BHL,14.9
+PMN-0927,Samsul Adiputra,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2012-12-17,165,SKU,16.4
+PMN-0928,Kasno Prasetyo,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2023-03-03,41,SKU,19.6
+PMN-0929,Marwan Kurniawan,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2018-03-10,102,SKU,18.1
+PMN-0930,Zainal Barus,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2024-11-21,20,SKU,14.3
+PMN-0931,Rudi Harahap,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2013-08-23,157,SKU,17.5
+PMN-0932,Parjono Hutapea,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2026-06-11,1,BHL,17.7
+PMN-0933,Ratna Saragih,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2025-12-26,7,BHL,15.8
+PMN-0934,Guntur Manurung,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2026-01-25,6,BHL,18.3
+PMN-0935,Usman Saputra,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2023-07-06,37,SKU,21.7
+PMN-0936,Lukman Mahendra,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2026-04-08,3,SKU,17.3
+PMN-0937,Sri Harahap,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2011-10-29,179,BHL,22.4
+PMN-0938,Agus Saragih,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2026-03-08,4,SKU,18.7
+PMN-0939,Siti Saputra,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2018-07-11,98,BHL,24.4
+PMN-0940,Joko Ramadhan,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2024-08-26,23,BHL,15.9
+PMN-0941,Budi Handoko,KPS,Estate Kampar Sentosa,Riau,E,Nanda Hartanto,Sutrisno Kurniawan,2025-08-15,11,SKU,22.9
+PMN-0942,Kurnia Wibowo,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2026-03-17,4,BHL,15.9
+PMN-0943,Edi Tampubolon,KPS,Estate Kampar Sentosa,Riau,E,Umar Halim,Sutrisno Kurniawan,2017-02-11,115,SKU,16.5
+PMN-0944,Wahyu Gunadi,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2021-05-06,63,SKU,21.1
+PMN-0945,Ahmad Wibowo,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2014-03-13,150,SKU,16.0
+PMN-0946,Nanda Ismail,KPS,Estate Kampar Sentosa,Riau,E,Ahmad Saputra,Sutrisno Kurniawan,2026-02-18,5,BHL,18.1
+PMN-0947,Siti Sitompul,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2022-11-07,45,SKU,22.5
+PMN-0948,Latif Pratama,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2025-02-27,17,SKU,22.2
+PMN-0949,Agus Tampubolon,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2020-06-24,74,SKU,15.7
+PMN-0950,Ahmad Dalimunthe,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2026-02-11,5,SKU,24.7
+PMN-0951,Wulan Sianturi,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2021-12-16,56,BHL,16.2
+PMN-0952,Fajar Gunadi,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2025-08-18,11,BHL,20.0
+PMN-0953,Siti Damanik,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2016-09-20,120,BHL,19.8
+PMN-0954,Nurdin Saputra,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2016-04-19,125,BHL,22.9
+PMN-0955,Kasno Santoso,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2025-06-21,13,SKU,23.9
+PMN-0956,Joko Sitompul,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2012-12-02,166,SKU,20.9
+PMN-0957,Nasrul Firdaus,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2023-01-08,43,BHL,22.3
+PMN-0958,Budi Rachman,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2018-06-09,99,SKU,17.4
+PMN-0959,Bambang Damanik,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2026-06-08,1,SKU,16.9
+PMN-0960,Zainal Setiawan,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2023-11-29,32,SKU,21.0
+PMN-0961,Fajar Prasetyo,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2017-01-09,116,SKU,18.2
+PMN-0962,Zainal Dalimunthe,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2024-07-06,25,SKU,18.0
+PMN-0963,Deni Handoko,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2018-02-28,102,SKU,25.5
+PMN-0964,Endang Tampubolon,KPS,Estate Kampar Sentosa,Riau,F,Wahyu Saragih,Wardi Wijaya,2023-04-11,40,BHL,23.0
+PMN-0965,Paiman Mahendra,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2019-05-22,87,SKU,21.4
+PMN-0966,Yuli Siregar,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2025-05-30,14,SKU,14.0
+PMN-0967,Kurnia Halim,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2019-12-16,80,SKU,17.4
+PMN-0968,Zainal Mahendra,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2025-02-15,17,SKU,16.8
+PMN-0969,Maman Sianturi,KPS,Estate Kampar Sentosa,Riau,F,Irwan Setiawan,Wardi Wijaya,2019-07-28,85,BHL,22.0
+PMN-0970,Yohanes Handoko,KPS,Estate Kampar Sentosa,Riau,F,Rahmat Panjaitan,Wardi Wijaya,2013-06-19,159,BHL,20.9
