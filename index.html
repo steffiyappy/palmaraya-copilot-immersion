@@ -400,7 +400,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <h2>PT Palmaraya Nusantara Tbk &middot; Microsoft 365 Copilot Immersion</h2>
 <p>Palmaraya merupakan grup usaha kelapa sawit yang terintegrasi, dengan 7 kebun inti dan plasma yang tersebar di Kalimantan Tengah, Kalimantan Barat, dan Riau, didukung oleh 4 pabrik kelapa sawit serta 1.008 blok tanaman menghasilkan (mature blocks). Dalam sesi ini, kita akan mengambil satu masalah nyata yang saat ini sedang dihadapi divisi operasional, lalu menyelesaikannya dengan sembilan pendekatan berbeda menggunakan Microsoft 365 Copilot.</p>
 <div class="meta-row">
-<span><b>Peserta</b> Engineering, Agronomi EPR, Agronomi MDO, Agronomi ADV, SQA, RND</span>
+<span><b>Peserta</b> Engineering, Agronomy EPR, Agronomy MDO, Agronomy ADV, SQA, R&amp;D</span>
 <span><b>Format</b> Demo, lalu langsung praktik</span>
 <span><b>Bahasa</b> Seluruh prompt tersedia dalam bahasa Indonesia</span>
 </div>
@@ -408,18 +408,18 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 
 <div class="card">
 <h3>Tentang Sesi Ini</h3>
-<p class="lead">Ini bukan sekadar demo fitur. Setiap latihan menggunakan data operasional Palmaraya dan menghasilkan sesuatu yang benar-benar bisa langsung digunakan, seperti analisis, dokumen, presentasi, dashboard, atau bahkan agent yang dapat dibagikan kepada tim Anda.</p>
-<h4>Key Takeaway</h4>
+<p class="lead">Ini bukan sekadar demo fitur. Setiap latihan menggunakan data operasional Palmaraya dan menghasilkan sesuatu yang benar-benar bisa langsung digunakan, seperti analisis, dokumen, presentasi, dashboard, atau bahkan agent yang dapat dibagikan kepada tim anda.</p>
+<h4>Key Take Away</h4>
 <ul>
 <li>Notulen rapat produksi beserta daftar action item, kemudian secara berurutan membuat dokumen Word, presentasi PowerPoint, dan workbook Excel dari satu conversation di Copilot Chat.</li>
-<li>Laporan deep research yang dihasilkan oleh agent Researcher terkait upaya mengurangi empty fruit bunch (EFB) dan unstripped bunch losses, yang diuji menggunakan data pabrik Anda sendiri.</li>
+<li>Laporan deep research yang dihasilkan oleh Agen Researcher terkait upaya mengurangi empty fruit bunch (EFB) dan unstripped bunch losses, yang diuji menggunakan data pabrik Anda sendiri.</li>
 <li>Analisis dari Analyst yang memecah penurunan extraction rate sebesar 1,59 poin ke kontribusi masing-masing stasiun di setiap pabrik, lengkap dengan grafik pendukung.</li>
 <li>Menyelesaikan satu proses kerja melalui Cowork yang membaca empat workbook sekaligus, membuat dashboard, presentasi, dan memo, serta menyusun draft email untuk Estate Manager.</li>
-<li>Dashboard kualitas panen (harvest quality) dan daftar prioritas pemupukan yang dibuat otomatis oleh Copilot in Excel pada worksheet baru tanpa mengubah data mentah (raw data), sekaligus forecast produksi sampai akhir tahun yang dihitung dari pola curah hujan.</li>
-<li>Materi presentasi untuk pengambilan keputusan Direksi (Board Decision Deck) serta revisi SOP yang dibuat langsung oleh Copilot in PowerPoint dan Copilot in Word.</li>
-<li>Agent <b>Harvest Quality Assistant</b> tanpa coding menggunakan Agent Builder, yang dapat menjawab pertanyaan terkait SOP maupun hasil kunjungan lapangan untuk seluruh tim SQA dan Agronomy.</li>
+<li>Dashboard kualitas panen (harvest quality) dan daftar prioritas pemupukan yang dibuat otomatis oleh Copilot di Excel pada worksheet baru, tanpa mengubah data mentah (raw data), termasuk forecast produksi sampai akhir tahun berdasarkan pola curah hujan.</li>
+<li>Materi presentasi untuk pengambilan keputusan Direksi (Board Decision Deck) serta revisi SOP yang dibuat langsung oleh Copilot di PowerPoint dan Word.</li>
+<li>Membuat Agent Harvest Quality Assistant tanpa coding menggunakan Agent Builder, yang dapat menjawab pertanyaan terkait SOP maupun hasil kunjungan lapangan untuk seluruh tim SQA dan Agronomy.</li>
 <li>Agent berbasis SharePoint yang membuat seluruh dokumen operasional dalam satu document library dapat diakses oleh siapa saja.</li>
-<li>Dua Custom Skills dalam format SKILL.md yang membuat Copilot in Excel, PowerPoint, dan Cowork secara otomatis mengikuti standar Palmaraya, sehingga tim tidak perlu terus-menerus mengulang instruksi yang sama di setiap prompt.</li>
+<li>Dua Custom Skills dalam format SKILL.md yang membuat Copilot di Excel, PowerPoint, dan Cowork secara otomatis mengikuti standar Palmaraya, sehingga tim tidak perlu terus-menerus mengulang instruksi yang sama di setiap prompt.</li>
 </ul>
 <h4>Apa yang Bukan Menjadi Fokus Sesi Ini</h4>
 <ul>
@@ -432,7 +432,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <section id="story">
 <div class="modulehead" style="margin-top:8px">
 <div class="num" style="font-size:14px">&#9654;</div>
-<h2>The Story<small>Satu angka yang membuat seluruh divisi gelisah</small></h2>
+<h2>The Story<small>Satu angka yang membuat seluruh departemen gelisah</small></h2>
 </div>
 
 <div class="card">
@@ -444,19 +444,19 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div class="kpi"><div class="lbl">Nilai selisih extraction rate</div><div class="val">Rp 122 M</div><div class="sub">Setahun, pada harga CPO Juli</div></div>
 </div>
 <div class="callout"><b>Catatan istilah.</b> Di situs ini kami memakai <b>extraction rate</b>, sedangkan dokumen dan SOP Palmaraya memakai istilah <b>rendemen</b>, yang memang lazim dipakai di industri sawit Indonesia. Keduanya merujuk pada hal yang sama, jadi jangan bingung kalau Copilot menjawab dengan salah satu istilah tersebut.</div>
-<div class="callout warn"><b>Pertanyaan yang dibawa Direktur Operasional ke dalam rapat:</b> "Selisih 1,24% terhadap target ini nilainya sekitar Rp 122 miliar per tahun. Kalau memang masih bisa dikendalikan lewat operasional, tunjukkan ke saya di mana letak masalahnya, siapa yang harus bertindak, apa yang harus dilakukan, dan kapan target penyelesaiannya."</div>
+<div class="callout warn"><b>Pertanyaan yang dibawa Direktur Operasional ke dalam rapat:</b> "Selisih 1,24% terhadap target ini bernilai sekitar Rp122 miliar per tahun. Jika memang masih bisa dikendalikan melalui operasional, tunjukkan kepada saya di mana masalahnya, siapa yang harus bertindak, apa yang harus dilakukan, dan kapan target penyelesaiannya."</div>
 </div>
 
 <div class="card">
-<h3>Empat Temuan yang Saling Mengunci</h3>
-<p class="lead">Setiap divisi sebenarnya memegang satu potongan dari persoalan ini, tetapi tidak ada satu pun yang memegang gambaran utuhnya. Itulah alasan kenapa angka ini bisa bertahan selama tujuh bulan.</p>
+<h3>Empat Temuan yang Saling Berkaitan</h3>
+<p class="lead">Setiap departemen hanya memegang satu bagian dari masalah. Tidak ada satu pun yang melihat gambaran besarnya secara utuh. Itulah sebabnya masalah ini bisa terus berlangsung selama tujuh bulan tanpa terselesaikan.</p>
 <div class="chain">
-<div class="step"><div class="n">RANTAI 1 &middot; RND</div><p><b>Pemupukan terlambat.</b> Realisasi Semester 1 di Bukit Sekawan hanya 62,0% dan Tanjung Lestari 61,3%, sementara rata-rata grup mencapai 82,7%. Akibatnya kalium daun jatuh di bawah nilai kritis pada 64,2% blok di kedua kebun tersebut, dan produksi Bukit Sekawan tertekan ke 11,25 ton per hektar, terendah di seluruh grup.</p></div>
-<div class="step"><div class="n">RANTAI 2 &middot; AGRONOMI EPR</div><p><b>Tenaga panen tidak mencukupi.</b> Rasio hancak di Bukit Sekawan afdeling C dan D mencapai 15,8 hektar per pemanen, padahal standarnya 12. Brondolan yang tidak terkutip naik ke 6,56 butir per pokok dari standar 2,0, dan restan janjang menembus 23,0%.</p></div>
-<div class="step"><div class="n">RANTAI 3 &middot; SQA</div><p><b>Kualitas panen menurun.</b> Skor afdeling C dan D hanya 68,1 dibandingkan rata-rata grup 85,5. Pemanen dengan masa kerja di bawah 6 bulan rata-rata hanya mencapai 73,1, dibandingkan 87,7 untuk yang sudah bekerja lebih dari 12 bulan. Tiga mandor tercatat berada jauh di bawah rekan-rekannya.</p></div>
-<div class="step"><div class="n">RANTAI 4 &middot; ENGINEERING</div><p><b>Minyak hilang di pabrik.</b> Restan memicu antrian TBS, sehingga operator memotong siklus rebusan dari 90 menjadi 72 menit. Ditambah press cone yang sudah beroperasi 7.800 jam, losses empty fruit bunch, unstripped bunch, dan ampas press di Sungai Rangkat melewati dua kali lipat standar.</p></div>
+<div class="step"><div class="n">TEMUAN 1 &middot; R&amp;D</div><p><b>Pemupukan terlambat dilakukan.</b> Realisasi aplikasi pupuk semester pertama hanya mencapai 62,0% di Bukit Sekawan dan 61,3% di Tanjung Lestari, jauh di bawah rata-rata grup sebesar 82,7%. Kadar kalium (potassium) pada daun turun di bawah batas kritis pada 64,2% blok di kedua estate tersebut. Akibatnya, produksi Bukit Sekawan turun menjadi hanya 11,25 ton per hektare, yang merupakan angka terendah di seluruh grup.</p></div>
+<div class="step"><div class="n">TEMUAN 2 &middot; AGRONOMY EPR</div><p><b>Jumlah pemanen tidak mencukupi.</b> Rasio pemanen terhadap area di Divisi C dan D Bukit Sekawan mencapai 15,8 hektare per pemanen, sementara standar perusahaan adalah 12 hektare per pemanen. Jumlah brondolan (loose fruit) yang tidak terkutip meningkat menjadi 6,56 butir per pokok, dibandingkan standar 2,0. Sementara itu, persentase tandan yang belum dievakuasi (unevacuated bunches) mencapai 23,0%.</p></div>
+<div class="step"><div class="n">TEMUAN 3 &middot; SQA</div><p><b>Kualitas panen mengalami penurunan drastis.</b> Divisi C dan D hanya memperoleh skor 68,1, jauh di bawah rata-rata grup yang berada di angka 85,5. Pemanen dengan masa kerja kurang dari 6 bulan memiliki skor rata-rata 73,1, sedangkan pemanen dengan masa kerja lebih dari 12 bulan mencapai 87,7. Selain itu, terdapat tiga mandor yang performanya jauh berada di bawah rekan-rekan lainnya.</p></div>
+<div class="step"><div class="n">TEMUAN 4 &middot; ENGINEERING</div><p><b>Kehilangan minyak terjadi di pabrik.</b> Tingginya jumlah buah yang belum dievakuasi menyebabkan antrean truk di pabrik. Untuk mengejar kapasitas, operator mengurangi siklus sterilisasi dari 90 menit menjadi hanya 72 menit. Ditambah lagi, press cone telah beroperasi selama 7.800 jam tanpa penggantian. Akibat kombinasi kedua faktor tersebut, kehilangan minyak pada empty fruit bunch (EFB), unstripped bunch (USB), dan press fibre di Pabrik Sungai Rangkat meningkat hingga lebih dari dua kali batas standar yang diperbolehkan.</p></div>
 </div>
-<div class="callout good"><b>Inilah yang akan dicari sepanjang sesi.</b> Tidak ada satu prompt pun di situs ini yang menyebutkan jawabannya. Copilot harus menemukannya sendiri dari data, dan fasilitator memegang kunci jawaban untuk memeriksa hasilnya.</div>
+<div class="callout good"><b>Inilah Yang Sedang Dicari Dalam Sesi Ini.</b> Tidak ada satu pun prompt dalam sesi ini yang secara langsung memberikan jawabannya. Copilot harus menemukan hubungan antar temuan tersebut dari data yang tersedia dan menyusun kesimpulannya sendiri. Fasilitator memegang answer key untuk memverifikasi apakah hasil analisis Copilot sesuai dengan akar masalah yang sebenarnya.</div>
 </div>
 </section>
 
@@ -464,16 +464,16 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div class="modulehead"><div class="num">&#128101;</div><h2>Siapa Mengerjakan Apa<small>Use case Palmaraya dipetakan ke latihan di sesi ini</small></h2></div>
 <div class="card">
 <table>
-<tr><th>Divisi</th><th>Peserta</th><th>Use case</th><th>Kerjakan latihan</th></tr>
+<tr><th>Departemen</th><th>Peserta</th><th>Use case</th><th>Kerjakan latihan</th></tr>
 <tr><td><b>Engineering</b></td><td>Agus Prakoso<br/>Tirta Sanjaya</td><td>Analisis Losses Produksi Mill</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
-<tr><td><b>Agronomi EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Analisis Losses Produksi Estate</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Analisis Losses Produksi Estate</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
 <tr><td><b>SQA</b></td><td>Tri Wibisono</td><td>Analisis Kualitas Panen</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
 <tr><td><b>SQA</b></td><td>Yanuar Santika</td><td>Analisis Losses Mill</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
-<tr><td><b>RND</b></td><td>Sadewa Kusuma Putra</td><td>Rekomendasi Pemupukan</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>Agronomi MDO</b></td><td>Erza Bagas Alkhairi</td><td><i>Belum ditentukan</i> &mdash; usulan: produktivitas dan kualitas kerja pemanen</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
-<tr><td><b>Agronomi ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td><i>Belum ditentukan</i> &mdash; usulan: laporan kunjungan lapangan terpusat</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
+<tr><td><b>R&amp;D</b></td><td>Sadewa Kusuma Putra</td><td>Rekomendasi Pemupukan</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy MDO</b></td><td>Erza Bagas Alkhairi</td><td><i>Belum ditentukan</i> &mdash; usulan: produktivitas dan kualitas kerja pemanen</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
+<tr><td><b>Agronomy ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td><i>Belum ditentukan</i> &mdash; usulan: laporan kunjungan lapangan terpusat</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
 </table>
-<div class="callout"><b>Dua use case yang masih kosong sudah kami siapkan datanya.</b> Untuk Agronomi MDO tersedia data produktivitas dan kualitas kerja dari 970 pemanen. Sementara untuk Agronomi ADV tersedia 10 laporan kunjungan lapangan yang siap dijadikan sumber pengetahuan agent.</div>
+<div class="callout"><b>Dua use case yang masih kosong sudah kami siapkan datanya.</b> Untuk Agronomy MDO tersedia data produktivitas dan kualitas kerja dari 970 pemanen. Sementara untuk Agronomy ADV tersedia 10 laporan kunjungan lapangan yang siap dijadikan sumber pengetahuan agent.</div>
 </div>
 </section>
 
@@ -482,7 +482,7 @@ body[data-lang="id"] .lang-wrap[data-lang="id"],body[data-lang="en"] .lang-wrap[
 <div class="card">
 <div class="task-step"><div class="step-label">Langkah 1</div>Buka tab <b>Berkas Contoh</b> dan unduh seluruh berkasnya. Di tab tersebut ada tabel <b>Berkas ini diunggah ke mana</b> yang bisa Anda ikuti. Ringkasnya: workbook 01 sampai 04 dan transcript 09 masuk ke <b>OneDrive</b>, sedangkan SOP 05 sampai 08 beserta folder <b>Laporan Kunjungan Kebun</b> masuk ke document library <b>SharePoint</b>.</div>
 <div class="task-step"><div class="step-label">Langkah 2</div>Tunggu sekitar 2 menit sampai Microsoft Graph selesai melakukan indexing. Tanpa langkah ini, Copilot tidak akan menemukan berkas Anda.</div>
-<div class="task-step"><div class="step-label">Langkah 3</div>Buka <a href='https://m365.cloud.microsoft/chat' target="_blank">Microsoft 365 Copilot</a> di browser, lalu mulai dari Latihan 1.</div>
+<div class="task-step"><div class="step-label">Langkah 3</div>Buka <a href="https://m365.cloud.microsoft/chat" target="_blank">Microsoft 365 Copilot</a> di browser, lalu mulai dari Latihan 1.</div>
 <div class="callout warn"><b>Kenapa harus OneDrive atau SharePoint?</b> Microsoft 365 Copilot hanya dapat membaca berkas yang tersimpan di OneDrive atau SharePoint. Berkas yang ada di desktop atau folder lokal tidak akan terlihat oleh Copilot.</div>
 <div class="callout"><b>Latihan 9 wajib menggunakan SharePoint.</b> Autofill columns dan agent SharePoint hanya bisa berjalan di document library SharePoint, tidak bisa dari OneDrive. Kalau Anda belum punya akses untuk membuat library baru, sebaiknya minta bantuan admin sebelum sesi dimulai.</div>
 <div class="callout good"><b>Tentang tombol bahasa.</b> Gunakan tombol <b>Bahasa / English</b> di kanan atas untuk mengganti seluruh isi situs, termasuk promptnya. Sesi boleh saja dibawakan dalam bahasa Inggris kalau memang lebih cocok untuk pesertanya, tetapi berikan prompt versi Bahasa kepada peserta karena kalimatnya jauh lebih enak dibaca oleh audiens Indonesia.</div>
@@ -1585,7 +1585,7 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <h2>PT Palmaraya Nusantara Tbk &middot; Microsoft 365 Copilot Immersion</h2>
 <p>An integrated palm oil group: 7 nucleus and plasma estates across Central Kalimantan, West Kalimantan and Riau, 4 palm oil mills, 1,008 mature blocks. This session takes one real problem the operations division is facing right now, then solves it nine different ways inside Microsoft 365 Copilot.</p>
 <div class="meta-row">
-<span><b>Participants</b> Engineering, Agronomi EPR, Agronomi MDO, Agronomi ADV, SQA, RND</span>
+<span><b>Participants</b> Engineering, Agronomy EPR, Agronomy MDO, Agronomy ADV, SQA, R&amp;D</span>
 <span><b>Format</b> Demo then hands-on</span>
 <span><b>Language</b> Toggle prompts between Bahasa Indonesia and English</span>
 </div>
@@ -1600,7 +1600,7 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <li>A deep research report from Researcher on reducing empty fruit bunch and unstripped bunch losses, tested against your own mill figures</li>
 <li>An Analyst breakdown of the 1.59-point extraction rate decline into each station's contribution at each mill, with the charts to prove it</li>
 <li>One Cowork run that reads four workbooks at once, builds a dashboard, a deck and a memo, and drafts the email to the Estate Manager</li>
-<li>A harvest quality dashboard and a fertiliser priority list built by Copilot in Excel on new sheets without touching the raw data, plus a production forecast to year-end calculated from rainfall patterns</li>
+<li>A harvest quality dashboard and a fertiliser priority list built by Copilot in Excel on new sheets without touching the raw data, including a production forecast to year-end based on rainfall patterns</li>
 <li>A board decision deck and an SOP revision written by Copilot in PowerPoint and Word</li>
 <li>A no-code <b>Harvest Quality Assistant</b> agent from Agent Builder, answering SOP and field visit questions for the whole SQA and Agronomy team</li>
 <li>A SharePoint agent that keeps one operations document library answerable by anyone</li>
@@ -1617,7 +1617,7 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <section id="story">
 <div class="modulehead" style="margin-top:8px">
 <div class="num" style="font-size:14px">&#9654;</div>
-<h2>The story<small>One number that has every department worried</small></h2>
+<h2>The Story<small>One number that has every department worried</small></h2>
 </div>
 
 <div class="card">
@@ -1629,19 +1629,19 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <div class="kpi"><div class="lbl">Value of the gap</div><div class="val">Rp 122 bn</div><div class="sub">Per year, at July CPO price</div></div>
 </div>
 <div class="callout"><b>A note on terminology.</b> This site says <b>extraction rate</b>, while Palmaraya's own documents and SOPs say <b>rendemen</b>, the term standard across the Indonesian palm oil industry. They mean the same thing, so do not be thrown if Copilot answers using either one.</div>
-<div class="callout warn"><b>The question the Operations Director brings to the meeting:</b> "That 1.24% gap against target is worth around Rp 122 billion a year. If this really can still be controlled through operations, show me where the problem is, who has to act, what they have to do, and by when it should be resolved."</div>
+<div class="callout warn"><b>The question the Operations Director brings to the meeting:</b> "That 1.24% gap against target is worth around Rp122 billion a year. If this really can still be controlled through operations, show me where the problem is, who has to act, what they have to do, and by when it should be resolved."</div>
 </div>
 
 <div class="card">
-<h3>Four findings that lock into each other</h3>
-<p class="lead">Each department holds one piece. Nobody holds the whole thing. That is exactly why this number has survived seven months.</p>
+<h3>Four findings that connect to each other</h3>
+<p class="lead">Each department holds only one part of the problem. Not one of them sees the whole picture. That is exactly why this has run for seven months without being resolved.</p>
 <div class="chain">
-<div class="step"><div class="n">LINK 1 &middot; R&amp;D</div><p><b>Fertiliser arrived late.</b> First-half application reached 62.0% at Bukit Sekawan and 61.3% at Tanjung Lestari, against 82.7% for the group. Leaf potassium fell below the critical value on 64.2% of blocks across both estates. Bukit Sekawan production is squeezed down to 11.25 tonnes per hectare, the lowest in the group.</p></div>
-<div class="step"><div class="n">LINK 2 &middot; AGRONOMY EPR</div><p><b>Not enough harvesters.</b> The harvester-to-area ratio at Bukit Sekawan divisions C and D reached 15.8 hectares per harvester against a standard of 12. Uncollected loose fruit rose to 6.56 per palm against a standard of 2.0, and unevacuated bunches hit 23.0%.</p></div>
-<div class="step"><div class="n">LINK 3 &middot; SQA</div><p><b>Harvest quality collapsed.</b> Divisions C and D score 68.1 against a group average of 85.5. Harvesters with under 6 months tenure average 73.1 compared with 87.7 for those over 12 months. Three foremen sit far below the rest.</p></div>
-<div class="step"><div class="n">LINK 4 &middot; ENGINEERING</div><p><b>Oil lost at the mill.</b> Unevacuated fruit created truck queues, so operators cut the sterilisation cycle from 90 to 72 minutes. Combined with a press cone at 7,800 operating hours, losses at empty fruit bunch, unstripped bunch and press fibre at Sungai Rangkat passed twice the standard.</p></div>
+<div class="step"><div class="n">FINDING 1 &middot; R&amp;D</div><p><b>Fertiliser was applied late.</b> First-half fertiliser application reached only 62.0% at Bukit Sekawan and 61.3% at Tanjung Lestari, far below the group average of 82.7%. Leaf potassium fell below the critical threshold on 64.2% of blocks across both estates. As a result, Bukit Sekawan production dropped to just 11.25 tonnes per hectare, the lowest figure in the entire group.</p></div>
+<div class="step"><div class="n">FINDING 2 &middot; AGRONOMY EPR</div><p><b>There are not enough harvesters.</b> The harvester-to-area ratio in Divisions C and D at Bukit Sekawan reached 15.8 hectares per harvester, while the company standard is 12 hectares per harvester. Uncollected loose fruit rose to 6.56 per palm against a standard of 2.0. Meanwhile, unevacuated bunches reached 23.0%.</p></div>
+<div class="step"><div class="n">FINDING 3 &middot; SQA</div><p><b>Harvest quality has fallen sharply.</b> Divisions C and D scored only 68.1, far below the group average of 85.5. Harvesters with less than 6 months tenure average 73.1, while those with more than 12 months reach 87.7. On top of that, three foremen are performing far below their peers.</p></div>
+<div class="step"><div class="n">FINDING 4 &middot; ENGINEERING</div><p><b>Oil is being lost at the mill.</b> The volume of unevacuated fruit created truck queues at the mill. To keep up with throughput, operators cut the sterilisation cycle from 90 minutes down to just 72 minutes. On top of that, the press cone has run 7,800 hours without replacement. The combination pushed oil losses at empty fruit bunch (EFB), unstripped bunch (USB) and press fibre at Sungai Rangkat mill to more than twice the permitted standard.</p></div>
 </div>
-<div class="callout good"><b>This is what the session is hunting.</b> Not one prompt on this site states the answer. Copilot has to find it in the data. The facilitator holds the answer key to check against.</div>
+<div class="callout good"><b>This is what the session is hunting for.</b> Not one prompt in this session hands over the answer directly. Copilot has to find the connections between these findings in the available data and reach its own conclusion. The facilitator holds the answer key to verify whether Copilot's analysis matches the real root cause.</div>
 </div>
 </section>
 
@@ -1651,12 +1651,12 @@ Tulis dalam bahasa Indonesia. Jangan menambahkan kesimpulan yang tidak diucapkan
 <table>
 <tr><th>Department</th><th>Participants</th><th>Use case</th><th>Do these exercises</th></tr>
 <tr><td><b>Engineering</b></td><td>Agus Prakoso<br/>Tirta Sanjaya</td><td>Mill production loss analysis</td><td>3 Analyst &middot; 5 Excel &middot; 8 Agent Builder</td></tr>
-<tr><td><b>Agronomi EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Estate production loss analysis</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy EPR</b></td><td>Tantra Mahendra<br/>Abdul Rasyid<br/>Farhan Wijaya Kusuma</td><td>Estate production loss analysis</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
 <tr><td><b>SQA</b></td><td>Tri Wibisono</td><td>Harvest quality analysis</td><td>3 Analyst &middot; 7 Word &middot; 8 Agent Builder</td></tr>
 <tr><td><b>SQA</b></td><td>Yanuar Santika</td><td>Mill loss analysis</td><td>5 Excel (+ Skills) &middot; 6 PowerPoint</td></tr>
-<tr><td><b>R&amp;D (RND)</b></td><td>Sadewa Kusuma Putra</td><td>Fertiliser recommendation</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
-<tr><td><b>Agronomi MDO</b></td><td>Erza Bagas Alkhairi</td><td><i>Not yet defined</i> &mdash; suggested: harvester productivity and work quality</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
-<tr><td><b>Agronomi ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td><i>Not yet defined</i> &mdash; suggested: centralised field visit reporting</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
+<tr><td><b>R&amp;D</b></td><td>Sadewa Kusuma Putra</td><td>Fertiliser recommendation</td><td>2 Researcher &middot; 5 Excel &middot; 4 Cowork</td></tr>
+<tr><td><b>Agronomy MDO</b></td><td>Erza Bagas Alkhairi</td><td><i>Not yet defined</i> &mdash; suggested: harvester productivity and work quality</td><td>3 Analyst &middot; 9 SharePoint</td></tr>
+<tr><td><b>Agronomy ADV</b></td><td>Shelly Anindita Sirait<br/>Hadi Ismawan</td><td><i>Not yet defined</i> &mdash; suggested: centralised field visit reporting</td><td>8 Agent Builder &middot; 9 SharePoint &middot; 1 Copilot Chat</td></tr>
 </table>
 <div class="callout"><b>The two undefined use cases already have data waiting.</b> For Agronomy MDO there is productivity and work quality data on 970 harvesters. For Agronomy ADV there are 10 field visit reports ready to become an agent's knowledge source.</div>
 </div>
