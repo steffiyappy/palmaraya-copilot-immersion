@@ -295,8 +295,6 @@ body.ihh-active .activity h4{text-transform:none;letter-spacing:0;font-size:16.5
 body.ihh-active .card>h3{letter-spacing:0}
 body.ihh-active .prompt .copy{background:#ca8a04!important}
 body.ihh-active .prompt .copy:hover{background:#a16207!important}
-.prompt.json{font-family:Consolas,"Cascadia Mono",Menlo,monospace;font-size:12.5px;line-height:1.55;letter-spacing:0}
-body.ihh-active .prompt.json{background:#0b1f16;color:#bbf7d0}
 .persona{display:inline-flex;align-items:center;gap:7px;background:var(--badge-bg);border:1px solid var(--border);border-radius:999px;padding:3px 11px;font-size:12px;color:var(--muted);margin:0 6px 6px 0}
 .persona b{color:var(--ink);font-weight:600}
 .usecase-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:12px}
@@ -1495,12 +1493,12 @@ Selalu tutup jawaban dengan satu kalimat tindakan praktis yang bisa dikerjakan p
 <h3>Bagian A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Sepuluh laporan kunjungan berubah menjadi satu tabel yang bisa difilter</small></h3>
 <p class="lead">Sepuluh laporan kunjungan kebun tersimpan sebagai dokumen Word. Untuk mengetahui estate mana yang temuannya paling mendesak, seseorang harus membuka kesepuluh dokumen tersebut satu per satu. Autofill columns membaca isi setiap dokumen dan menuliskan hasilnya ke kolom library, sehingga daftar dokumen berubah menjadi tabel yang bisa difilter dan diurutkan.</p>
 <span class="persona">Cocok untuk <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Waktu <b>28 menit</b></span>
+<span class="persona">Waktu <b>26 menit</b></span>
 
 <div class="callout warn"><b>Perlu dikonfirmasi sebelum sesi.</b> Autofill columns merupakan layanan document processing berbayar sesuai pemakaian. Tenant Anda perlu langganan Azure di tenant yang sama dengan pay-as-you-go yang sudah tersambung. Tarifnya USD 0,005 per transaksi, dan satu halaman Word dihitung satu transaksi, sehingga biaya untuk sepuluh laporan pendek ini sangat kecil. Bila belum tersambung, bagian ini cukup dijalankan sebagai demo oleh fasilitator.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Tugas 9.1</span><span class="file">&#128193; Folder Field Visit Reports</span><span class="time">13 menit</span></div>
+<div class="head"><span class="num">Tugas 9.1</span><span class="file">&#128193; Folder Field Visit Reports</span><span class="time">11 menit</span></div>
 <h4>Minta Copilot membuat seluruh kolomnya sekaligus</h4>
 <p>Kolomnya tidak perlu dibuat satu per satu. Buka folder <b>Field Visit Reports</b>, klik <b>Copilot</b> di bilah perintah kanan atas, lalu tempel prompt berikut.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Salin</button>Library ini berisi laporan kunjungan kebun dan pabrik dalam format Word. Saya ingin isinya bisa dibaca sebagai tabel tanpa harus membuka setiap dokumen.
@@ -1526,25 +1524,9 @@ Proses seluruh dokumen sekaligus dalam satu kali jalan, jangan dipecah menjadi b
 <p>Setelah terisi, Urgency masih tampil sebagai teks biasa, sehingga <b>Kritis</b> dan <b>Normal</b> terlihat sama saja. Padahal justru kolom inilah yang paling dulu dicari orang ketika membuka library. Pengaturan warnanya ada di kolomnya sendiri, bukan di Copilot.</p>
 <div class="task-step"><div class="step-label">1</div>Klik panah kecil di sebelah judul kolom <b>Urgency</b>.</div>
 <div class="task-step"><div class="step-label">2</div>Pilih <b>Column settings</b>, lalu <b>Format this column</b>.</div>
-<div class="task-step"><div class="step-label">3</div>Bila Urgency dibuat sebagai kolom <b>Choice</b>, panel akan langsung menampilkan pilihan warna untuk setiap nilai. Pilih merah untuk Kritis, kuning untuk Perhatian, dan hijau untuk Normal, lalu tekan <b>Save</b>. Selesai, tidak perlu langkah berikutnya.</div>
-<div class="task-step"><div class="step-label">4</div>Bila Urgency ternyata dibuat sebagai kolom teks, atau Anda ingin warnanya persis seperti contoh, klik <b>Advanced mode</b> di bagian bawah panel. Kosongkan isi kotaknya, lalu tempel kode berikut.</div>
-<div class="prompt json"><button class="copy" onclick="cp(this)">Salin</button>{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "txtContent": "@currentField",
-  "style": {
-    "display": "inline-block",
-    "padding": "3px 12px",
-    "border-radius": "12px",
-    "font-size": "12px",
-    "font-weight": "600",
-    "color": "=if(@currentField == 'Kritis', '#A4262C', if(@currentField == 'Perhatian', '#8A5300', '#0B6A0B'))",
-    "background-color": "=if(@currentField == 'Kritis', '#FDE7E9', if(@currentField == 'Perhatian', '#FFF4CE', '#DFF6DD'))"
-  }
-}</div>
-<div class="task-step"><div class="step-label">5</div>Klik <b>Preview</b> untuk melihat hasilnya, lalu <b>Save</b>. Kolom Urgency kini tampil sebagai label berwarna: merah untuk Kritis, kuning untuk Perhatian, hijau untuk Normal.</div>
-<div class="callout good"><b>Kode yang sama bisa dipakai ulang.</b> Untuk memberi warna pada kolom lain, cukup ganti kata <b>Kritis</b> dan <b>Perhatian</b> pada kode di atas dengan nilai yang ada di kolom tersebut. Nilai yang tidak disebutkan akan memakai warna terakhir, yaitu hijau.</div>
-<div class="callout"><b>Referensi resmi:</b> <a href="https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting" target="_blank">Use column formatting to customize SharePoint</a> di Microsoft Learn.</div>
+<div class="task-step"><div class="step-label">3</div>Panel akan menampilkan pilihan warna untuk setiap nilai, karena Urgency dibuat sebagai kolom <b>Choice</b> pada Tugas 9.1. Pilih merah untuk Kritis, kuning untuk Perhatian, dan hijau untuk Normal, lalu tekan <b>Save</b>.</div>
+<div class="task-step"><div class="step-label">4</div>Muat ulang halaman library. Kolom Urgency kini tampil sebagai label berwarna, sehingga baris yang berstatus Kritis langsung terlihat tanpa perlu dibaca satu per satu.</div>
+<div class="callout good"><b>Warnanya melekat pada kolom, bukan pada tampilan.</b> Siapa pun yang membuka library ini akan melihat warna yang sama, termasuk dokumen yang diunggah bulan depan. Tidak ada kode yang perlu ditulis dan tidak ada yang perlu diatur ulang.</div>
 
 <div class="callout"><b>Untuk dokumen yang sudah ada, prosesnya perlu dijalankan sekali.</b> Bila Anda memakai Autofill, pilih seluruh dokumen, lalu klik <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Dokumen yang diunggah setelah ini akan diproses otomatis. Microsoft menyarankan maksimal 10 kolom Autofill per library dan dokumen tidak lebih dari 65 halaman.</div>
 </div>
@@ -2854,12 +2836,12 @@ Always close with one practical action the user could take that same day, where 
 <h3>Part A &middot; Autofill columns <span class="badge green">Generally available</span><small style="display:block;color:var(--muted);font-size:12px;text-transform:none;letter-spacing:0;font-weight:400;margin-top:4px">Ten field visit reports become one filterable table</small></h3>
 <p class="lead">Ten field visit reports sit there as Word documents. To find out which estate has the most urgent findings, somebody has to open all ten. Autofill columns reads each document and writes the answers into library columns, turning a list of files into a table you can filter and sort.</p>
 <span class="persona">Best for <b>Agronomy ADV</b> &middot; <b>SQA</b> &middot; <b>IT</b></span>
-<span class="persona">Time <b>28 minutes</b></span>
+<span class="persona">Time <b>26 minutes</b></span>
 
 <div class="callout warn"><b>Check this before the session.</b> Autofill columns is a pay-as-you-go document processing service. Your tenant needs an Azure subscription in the same tenant with pay-as-you-go connected. It costs USD 0.005 per transaction and one Word page counts as one transaction, so ten short reports cost very little. If it is not connected, run this part as a facilitator demo.</div>
 
 <div class="activity">
-<div class="head"><span class="num">Task 9.1</span><span class="file">&#128193; Field Visit Reports folder</span><span class="time">13 minutes</span></div>
+<div class="head"><span class="num">Task 9.1</span><span class="file">&#128193; Field Visit Reports folder</span><span class="time">11 minutes</span></div>
 <h4>Ask Copilot to build every column at once</h4>
 <p>You do not need to create the columns one by one. Open the <b>Field Visit Reports</b> folder, select <b>Copilot</b> on the command bar, and paste the prompt below.</p>
 <div class="prompt"><button class="copy" onclick="cp(this)">Copy</button>This library holds estate and mill visit reports as Word documents. I want their contents readable as a table without having to open every document.
@@ -2885,25 +2867,9 @@ Process every document in a single pass rather than splitting the work into stag
 <p>Once populated, Urgency still shows as plain text, so <b>Kritis</b> and <b>Normal</b> look identical. Yet this is the column people scan first when they open the library. The colour setting lives on the column itself, not in Copilot.</p>
 <div class="task-step"><div class="step-label">1</div>Click the small arrow next to the <b>Urgency</b> column heading.</div>
 <div class="task-step"><div class="step-label">2</div>Choose <b>Column settings</b>, then <b>Format this column</b>.</div>
-<div class="task-step"><div class="step-label">3</div>If Urgency was created as a <b>Choice</b> column, the panel offers a colour picker for each value straight away. Pick red for Kritis, yellow for Perhatian, green for Normal, then <b>Save</b>. Done, no further steps needed.</div>
-<div class="task-step"><div class="step-label">4</div>If Urgency turned out to be a text column, or you want exactly the colours shown here, click <b>Advanced mode</b> at the bottom of the panel. Clear the box, then paste the code below.</div>
-<div class="prompt json"><button class="copy" onclick="cp(this)">Copy</button>{
-  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
-  "elmType": "div",
-  "txtContent": "@currentField",
-  "style": {
-    "display": "inline-block",
-    "padding": "3px 12px",
-    "border-radius": "12px",
-    "font-size": "12px",
-    "font-weight": "600",
-    "color": "=if(@currentField == 'Kritis', '#A4262C', if(@currentField == 'Perhatian', '#8A5300', '#0B6A0B'))",
-    "background-color": "=if(@currentField == 'Kritis', '#FDE7E9', if(@currentField == 'Perhatian', '#FFF4CE', '#DFF6DD'))"
-  }
-}</div>
-<div class="task-step"><div class="step-label">5</div>Click <b>Preview</b> to check it, then <b>Save</b>. Urgency now renders as a coloured pill: red for Kritis, yellow for Perhatian, green for Normal.</div>
-<div class="callout good"><b>The same code works elsewhere.</b> To colour another column, just swap <b>Kritis</b> and <b>Perhatian</b> in the code above for the values in that column. Anything not named falls through to the last colour, green.</div>
-<div class="callout"><b>Official reference:</b> <a href="https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting" target="_blank">Use column formatting to customize SharePoint</a> on Microsoft Learn.</div>
+<div class="task-step"><div class="step-label">3</div>The panel offers a colour picker for each value, because Task 9.1 created Urgency as a <b>Choice</b> column. Pick red for Kritis, yellow for Perhatian, green for Normal, then <b>Save</b>.</div>
+<div class="task-step"><div class="step-label">4</div>Reload the library page. Urgency now renders as a coloured pill, so the Kritis rows stand out without anyone having to read down the list.</div>
+<div class="callout good"><b>The colour lives on the column, not on the view.</b> Everyone who opens this library sees the same colours, including on documents uploaded next month. No code to write, nothing to set up again.</div>
 
 <div class="callout"><b>Existing documents need one manual run.</b> If you are using Autofill, select all the documents, then <b>More options</b> (<b>&hellip;</b>) <b>&rarr; Autofill</b>. Anything uploaded after this is processed automatically. Microsoft recommends a maximum of 10 Autofill columns per library and documents of no more than 65 pages.</div>
 </div>
